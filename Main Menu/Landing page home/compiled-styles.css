@@ -1,0 +1,1376 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700");
+@import url("https://api.fontshare.com/css?f[]=inter@400,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open Sans:wght@400;600;700");
+@import url("https://api.fontshare.com/css?f[]=open sans@400,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700");
+@import url("https://api.fontshare.com/css?f[]=poppins@400,500,700&display=swap");
+
+p,
+ol,
+ul {
+  margin: 0px;
+}
+
+button {
+  padding: 0px;
+}
+
+ol,
+ul {
+  padding-inline-start: 1.5em;
+}
+
+input {
+  background-image: none;
+  background-color: transparent;
+}
+
+.common-46,
+.landing-page-ellipse,
+.landing-page-ellipse-1 {
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+}
+
+.common-47,
+.landing-page-rectangle-8,
+.landing-page-rectangle-11,
+.landing-page-rectangle-14,
+.landing-page-rectangle-17,
+.landing-page-rectangle-20 {
+  top: 16px;
+  left: 8.4e-7px;
+}
+
+.common-48,
+.landing-page-rectangle-22,
+.landing-page-rectangle-23 {
+  position: relative;
+  z-index: 0;
+}
+
+.common-45,
+.landing-page-rectangle-8,
+.landing-page-rectangle-11,
+.landing-page-rectangle-14,
+.landing-page-rectangle-17,
+.landing-page-rectangle-20 {
+  transform: rotate(-90deg);
+  transform-origin: top left;
+}
+
+.common-44,
+.landing-page-t-bg-vector-vector,
+.landing-page-pexels-picjumbocom,
+.landing-page-pexels-pixabay {
+  background-position: center;
+  background-size: cover;
+}
+
+.common-43,
+.landing-page-rectangle-5,
+.landing-page-rectangle-7,
+.landing-page-rectangle-8,
+.landing-page-rectangle-10,
+.landing-page-rectangle-11,
+.landing-page-rectangle-13,
+.landing-page-rectangle-14,
+.landing-page-rectangle-16,
+.landing-page-rectangle-17,
+.landing-page-rectangle-19,
+.landing-page-rectangle-20 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 1);
+}
+
+.common-29,
+.landing-page-t-project-design-work-opportunities-trectangle,
+.landing-page-t-how-does-switchkey-match-collaborators-to-my-project-trectangle,
+.landing-page-t-what-types-of-projects-can-ipost-on-switchkey-ttrectangle-32trectangle,
+.landing-page-t-is-there-acost-to-post-aproject-on-switchkey-ttrectangle-32trectangle,
+.landing-page-t-how-do-ihandle-intellectual-property-rights-and-agreements-ttrectangle-32trectangle,
+.landing-page-t-how-do-ifind-projects-that-match-my-skills-ttrectangle-32trectangle,
+.landing-page-t-how-am-icompensated-for-my-work-ttrectangle-32trectangle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.common-30,
+.landing-page-t-pexels-photo{
+  display: flex;
+  flex-direction: column;
+  padding-top: 28px;
+  width: 100%;
+}
+.landing-page-ttt-our-mission-innovation-connection-success-tat-switchkey-we-pledge-to-empower-every-step-of-your-project-slifecycle-from-the-spark-of-an-idea-to-the-final-touches-of-execution-we-are-committed-to-fostering-innovation-enabling-seamless-connections-with-skilled-collaborator-and-ensuring-the-success-of-your-venture-our-platform-is-built-on-the-cornerstone-of-trust-offering-acomprehensive-suite-of-tools-designed-for-efficiency-and-excellence-in-project-management-manufacturing-development-and-distribution-join-switchkey-where-every-project-is-ajourney-toward-remarkable-achievement-trectangle-126rectangle {
+  display: flex;
+  flex-direction: column;
+}
+.common-31,
+.landing-page-tttt-bg-vector-vector-vector,
+.landing-page-t-work-opportunities-find-aproject-that-perfectly-matches-your-specialization-no-more-applying-for-irrelevant-jobs,
+.landing-page-t-image,
+.landing-page-t-image-1,
+.landing-page-t-rectangle-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.common-32,
+.landing-page-t-who-we-are-we-help-you-empower-your-projects-with-switchkey-tswitchkey-is-the-ultimate-platform-for-turning-your-visionary-projects-into-reality-we-connect-project-owners-with-the-collaborators-provide-state-of-the-art-project-management-tools-and-offer-comprehensive-solutions-for-distribution-procurement-and-ad-management-whether-you-re-starting-asmall-project-or-managing-alarge-scale-operation-switchkey-streamlines-the-process-from-inception-to-completion-ensuring-your-projects-succeed-with-efficiency-and-ease,
+.landing-page-t-company-tabout-us-contact,
+.landing-page-t-support-thelp-centre-privacy-policy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.common-33,
+.landing-page-ttt-who-we-are-we-help-you-empower-your-projects-with-switchkey-tswitchkey-is-the-ultimate-platform-for-turning-your-visionary-projects-into-reality-we-connect-project-owners-with-the-collaborators-provide-state-of-the-art-project-management-tools-and-offer-comprehensive-solutions-for-distribution-procurement-and-ad-management-whether-you-re-starting-asmall-project-or-managing-alarge-scale-operation-switchkey-streamlines-the-process-from-inception-to-completion-ensuring-your-projects-succeed-with-efficiency-and-ease-pexels-fauxels,
+.landing-page-t-image-23timage-24timage-25image {
+  display: flex;
+  align-items: center;
+}
+
+.common-34,
+.landing-page-involves-outlining-goals-timelines-and-the-resources-needed-ensuring-your-project-has-asolid-foundation-from-the-start,
+.landing-page-find-aproject-that-perfectly-matches-your-specialization-no-more-applying-for-irrelevant-jobs,
+.landing-page-work-opportunities-1,
+.landing-page-harness-our-network-tools-and-support-to-take-your-projects-from-concept-to-completion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.common-35,
+.landing-page-tt-how-does-switchkey-match-collaborators-to-my-project-trectangle,
+.landing-page-tt-what-types-of-projects-can-ipost-on-switchkey-ttrectangle-32trectangle,
+.landing-page-tt-is-there-acost-to-post-aproject-on-switchkey-ttrectangle-32trectangle,
+.landing-page-tt-how-do-ihandle-intellectual-property-rights-and-agreements-ttrectangle-32trectangle,
+.landing-page-tt-how-do-ifind-projects-that-match-my-skills-ttrectangle-32trectangle,
+.landing-page-tt-how-am-icompensated-for-my-work-ttrectangle-32trectangle {
+  display: flex;
+  justify-content: center;
+}
+
+.common-36,
+.landing-page-tt-our-mission-innovation-connection-success-tat-switchkey-we-pledge-to-empower-every-step-of-your-project-slifecycle-from-the-spark-of-an-idea-to-the-final-touches-of-execution-we-are-committed-to-fostering-innovation-enabling-seamless-connections-with-skilled-collaborator-and-ensuring-the-success-of-your-venture-our-platform-is-built-on-the-cornerstone-of-trust-offering-acomprehensive-suite-of-tools-designed-for-efficiency-and-excellence-in-project-management-manufacturing-development-and-distribution-join-switchkey-where-every-project-is-ajourney-toward-remarkable-achievement-trectangle-126rectangle,
+.landing-page-t-rectangle-207rectangle {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.common-37,
+.landing-page-rectangle-3,
+.landing-page-rectangle-4 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.common-38,
+.landing-page-ttttt-bg-vector-vector-vector-tproject-design-work-opportunities-trectangle,
+.landing-page-ttt-bg-vector-vector {
+  display: flex;
+  justify-content: center;
+}
+
+.common-39,
+.landing-page-we-help-you-empower-your-projects-with-switchkey,
+.landing-page-innovation-connection-success,
+.landing-page-how-does-switchkey-match-collaborators-to-my-project,
+.landing-page-lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry-lorem-ipsum-has-been-the-industry-sstandard-dummy-text-ever-since-the-1500s-when-an-unknown-printer-took-agalley-of-type-and-scrambled-it-to-make-atype-specimen-book-it-is-along-established-fact-that-areader-will-be-distracted-by-the-readable-content-of-apage-when-looking-at-its-layout,
+.landing-page-what-types-of-projects-can-ipost-on-switchkey {
+  display: flex;
+  align-items: center;
+}
+
+.common-40,
+.landing-page-rectangle-1,
+.landing-page-rectangle-22,
+.landing-page-rectangle-23 {
+  flex-direction: column;
+}
+
+.common-41,
+.landing-page-rectangle,
+.landing-page-learn-more-about-switchkey,
+.landing-page-tt-rectangle-32trectangle,
+.landing-page-tt-rectangle-32trectangle-1,
+.landing-page-tt-rectangle-32trectangle-2,
+.landing-page-tt-rectangle-32trectangle-3,
+.landing-page-tt-rectangle-32trectangle-4 {
+  justify-content: center;
+  align-items: center;
+}
+
+.common-42,
+.landing-page-t-rectangle-2,
+.landing-page-t-rectangle-5,
+.landing-page-t-rectangle-8,
+.landing-page-t-rectangle-11,
+.landing-page-t-rectangle-14,
+.landing-page-t-rectangle-17 {
+  justify-content: center;
+}
+
+.common-21,
+.landing-page-learn-more-about-switchkey {
+  color: rgba(255, 255, 255, 1);
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.common-22,
+.landing-page-services-we-offer,
+.landing-page-in-collaboration-with,
+.landing-page-frequently-asked-questions {
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+}
+
+.common-23,
+.landing-page-how-does-switchkey-match-collaborators-to-my-project,
+.landing-page-what-types-of-projects-can-ipost-on-switchkey,
+.landing-page-is-there-acost-to-post-aproject-on-switchkey,
+.landing-page-how-do-ihandle-intellectual-property-rights-and-agreements,
+.landing-page-how-do-ifind-projects-that-match-my-skills,
+.landing-page-how-am-icompensated-for-my-work {
+  font-size: 18px;
+  font-family: Open Sans;
+  font-weight: 600;
+}
+
+.common-24,
+.landing-page-t-who-we-are-we-help-you-empower-your-projects-with-switchkey-tswitchkey-is-the-ultimate-platform-for-turning-your-visionary-projects-into-reality-we-connect-project-owners-with-the-collaborators-provide-state-of-the-art-project-management-tools-and-offer-comprehensive-solutions-for-distribution-procurement-and-ad-management-whether-you-re-starting-asmall-project-or-managing-alarge-scale-operation-switchkey-streamlines-the-process-from-inception-to-completion-ensuring-your-projects-succeed-with-efficiency-and-ease,
+.landing-page-tt-our-mission-innovation-connection-success-tat-switchkey-we-pledge-to-empower-every-step-of-your-project-slifecycle-from-the-spark-of-an-idea-to-the-final-touches-of-execution-we-are-committed-to-fostering-innovation-enabling-seamless-connections-with-skilled-collaborator-and-ensuring-the-success-of-your-venture-our-platform-is-built-on-the-cornerstone-of-trust-offering-acomprehensive-suite-of-tools-designed-for-efficiency-and-excellence-in-project-management-manufacturing-development-and-distribution-join-switchkey-where-every-project-is-ajourney-toward-remarkable-achievement-trectangle-126rectangle {
+  font-size: 15px;
+  font-family: Inter;
+}
+
+.common-25,
+.landing-page-pexels-photo,
+.landing-page-bob-jeffway,
+.landing-page-christopher-tse {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.common-26,
+.landing-page-we-help-you-empower-your-projects-with-switchkey,
+.landing-page-innovation-connection-success {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.common-27,
+.landing-page-project-design-1,
+.landing-page-work-opportunities-1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.common-28,
+.landing-page-embrace-the-switchkey-advantage,
+.landing-page-discover-how-we-elevate-projects {
+  font-weight: 700;
+  text-align: center;
+}
+
+.common-1,
+.landing-page-tt-rectangle-32trectangle,
+.landing-page-tt-rectangle-32trectangle-1,
+.landing-page-tt-rectangle-32trectangle-2,
+.landing-page-tt-rectangle-32trectangle-3,
+.landing-page-tt-rectangle-32trectangle-4 {
+  display: flex;
+  width: 19px;
+  height: 17px;
+}
+
+.common-2,
+.landing-page-rectangle-3,
+.landing-page-rectangle-4 {
+  display: flex;
+  width: 295px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.common-3,
+.landing-page-rectangle-22,
+.landing-page-rectangle-23 {
+  display: flex;
+  width: 507px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.common-4,
+.landing-page-rectangle-6,
+.landing-page-rectangle-9,
+.landing-page-rectangle-12,
+.landing-page-rectangle-15,
+.landing-page-rectangle-18,
+.landing-page-rectangle-21 {
+  width: 1240px;
+  height: 3px;
+  background-color: rgba(217, 217, 217, 1);
+}
+
+.common-5,
+.landing-page-rectangle-8,
+.landing-page-rectangle-11,
+.landing-page-rectangle-14,
+.landing-page-rectangle-17,
+.landing-page-rectangle-20 {
+  width: 16px;
+  height: 4.8px;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.common-6,
+.landing-page-wrapper,
+.landing-page-landing-page {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.common-7,
+.landing-page-tt-who-we-are-we-help-you-empower-your-projects-with-switchkey-tswitchkey-is-the-ultimate-platform-for-turning-your-visionary-projects-into-reality-we-connect-project-owners-with-the-collaborators-provide-state-of-the-art-project-management-tools-and-offer-comprehensive-solutions-for-distribution-procurement-and-ad-management-whether-you-re-starting-asmall-project-or-managing-alarge-scale-operation-switchkey-streamlines-the-process-from-inception-to-completion-ensuring-your-projects-succeed-with-efficiency-and-ease,
+.landing-page-t-our-mission-innovation-connection-success-tat-switchkey-we-pledge-to-empower-every-step-of-your-project-slifecycle-from-the-spark-of-an-idea-to-the-final-touches-of-execution-we-are-committed-to-fostering-innovation-enabling-seamless-connections-with-skilled-collaborator-and-ensuring-the-success-of-your-venture-our-platform-is-built-on-the-cornerstone-of-trust-offering-acomprehensive-suite-of-tools-designed-for-efficiency-and-excellence-in-project-management-manufacturing-development-and-distribution-join-switchkey-where-every-project-is-ajourney-toward-remarkable-achievement {
+  display: flex;
+  width: 505px;
+}
+
+.common-8,
+.landing-page-pexels-picjumbocom,
+.landing-page-pexels-pixabay,
+.landing-page-t-rectangle-126rectangle {
+  display: flex;
+  width: 610px;
+}
+
+.common-9,
+.landing-page-t-rectangle-4,
+.landing-page-t-rectangle-7,
+.landing-page-t-rectangle-10,
+.landing-page-t-rectangle-13,
+.landing-page-t-rectangle-16 {
+  display: flex;
+  width: 0px;
+}
+
+.common-10,
+.landing-page-is-there-acost-to-post-aproject-on-switchkey,
+.landing-page-how-do-ihandle-intellectual-property-rights-and-agreements,
+.landing-page-how-do-ifind-projects-that-match-my-skills,
+.landing-page-how-am-icompensated-for-my-work {
+  display: flex;
+  width: 984px;
+}
+
+.common-11,
+.landing-page-t-rectangle-2,
+.landing-page-t-rectangle-5,
+.landing-page-t-rectangle-8,
+.landing-page-t-rectangle-11,
+.landing-page-t-rectangle-14,
+.landing-page-t-rectangle-17 {
+  display: flex;
+  height: 59px;
+}
+
+.common-12,
+.landing-page-t-rectangle-3,
+.landing-page-t-rectangle-6,
+.landing-page-t-rectangle-9,
+.landing-page-t-rectangle-12,
+.landing-page-t-rectangle-15 {
+  display: flex;
+  height: 4px;
+}
+
+.common-13,
+.landing-page-rectangle,
+.landing-page-learn-more-about-switchkey {
+  display: flex;
+  background-color: rgba(100, 60, 228, 1);
+}
+
+.common-14,
+.landing-page-rectangle-1,
+.landing-page-rectangle-2 {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.common-15,
+.landing-page-t-pexels-picjumbocom-19664411pexels-pixabay,
+.landing-page-tt-company-tabout-us-contact-tsupport-thelp-centre-privacy-policy {
+  display: flex;
+  color: rgba(255, 255, 255, 1);
+}
+
+.common-16,
+.landing-page-image-2,
+.landing-page-image-5 {
+  width: 189px;
+  height: 175px;
+}
+
+.common-17,
+.landing-page-t-image,
+.landing-page-image-3 {
+  width: 190px;
+  height: 103px;
+}
+
+.common-18,
+.landing-page-t-image-1,
+.landing-page-image-4 {
+  width: 189px;
+  height: 190px;
+}
+
+.common-19,
+.landing-page-wrapper-1,
+.landing-page-wrapper-2,
+.landing-page-wrapper-3,
+.landing-page-wrapper-4,
+.landing-page-wrapper-5 {
+  width: 4.8px;
+  height: 16px;
+}
+
+.common-20,
+.landing-page-ellipse,
+.landing-page-ellipse-1 {
+  width: 44px;
+  height: 47px;
+}
+
+.landing-page-landing-page {
+  flex-shrink: 0;
+  height: 100%;
+  padding-top: 29px;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+  overflow: clip;
+  line-height: normal;
+  letter-spacing: 0em;
+}
+
+.landing-page-ttttt-bg-vector-vector-vector-tproject-design-work-opportunities-trectangle {
+  padding-right: 100px;
+  padding-left: 100px;
+  column-gap: 683px;
+  row-gap: 24px;
+  flex-wrap: wrap;
+}
+
+.landing-page-tttt-bg-vector-vector-vector {
+  row-gap: 7px;
+}
+
+.landing-page-ttt-bg-vector-vector {
+  padding-right: 23px;
+  padding-left: 23px;
+  align-self: stretch;
+}
+
+.landing-page-tt-bg-vector-vector {
+  display: flex;
+  padding-right: 9.1px;
+}
+
+.landing-page-t-bg-vector-vector {
+  display: flex;
+  z-index: 0;
+  justify-content: flex-end;
+  flex-grow: 1;
+  align-items: flex-end;
+  background-image: url(public/assets/Vector.svg);
+}
+
+.landing-page-vector {
+  flex-shrink: 0;
+  z-index: 1;
+  height: 6.7px;
+  width: 7.3px;
+}
+
+.landing-page-vector-1 {
+  flex-shrink: 0;
+  height: 12px;
+  width: 90px;
+}
+
+.landing-page-t-project-design-work-opportunities-trectangle {
+  column-gap: 48px;
+  row-gap: 8.5px;
+  font-family: Inter;
+  font-size: 14px;
+}
+
+.landing-page-rectangle {
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-right: 28px;
+  padding-left: 29px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+
+.landing-page-pexels-photo {
+  padding-top: 153px;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-bottom: 260px;
+  flex-grow: 1;
+  max-height: 100%;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-position: 0px -100.47px;
+  background-size: 100% 156%;
+  background-image: url(public/assets/pexels-photo.jpeg);
+  font-family: Inter;
+  color: rgba(255, 255, 255, 1);
+  line-height: 28px;
+}
+
+.landing-page-switch-key {
+  font-size: 48px;
+  line-height: normal;
+}
+
+.landing-page-start-here {
+  background-color: rgba(100, 60, 228, 1);
+  color: white;
+  text-align: center;
+  line-height: normal;
+  font-size: 15px;
+}
+
+.landing-page-unlock-your-project-spotential-from-idea-to-launch-with-switchkey {
+  padding-top: 19px;
+}
+
+.landing-page-tttt-who-we-are-we-help-you-empower-your-projects-with-switchkey-tswitchkey-is-the-ultimate-platform-for-turning-your-visionary-projects-into-reality-we-connect-project-owners-with-the-collaborators-provide-state-of-the-art-project-management-tools-and-offer-comprehensive-solutions-for-distribution-procurement-and-ad-management-whether-you-re-starting-asmall-project-or-managing-alarge-scale-operation-switchkey-streamlines-the-process-from-inception-to-completion-ensuring-your-projects-succeed-with-efficiency-and-ease-pexels-fauxels {
+  flex-shrink: 0;
+  display: flex;
+  padding-top: 58px;
+  height: 419px;
+}
+
+.landing-page-ttt-who-we-are-we-help-you-empower-your-projects-with-switchkey-tswitchkey-is-the-ultimate-platform-for-turning-your-visionary-projects-into-reality-we-connect-project-owners-with-the-collaborators-provide-state-of-the-art-project-management-tools-and-offer-comprehensive-solutions-for-distribution-procurement-and-ad-management-whether-you-re-starting-asmall-project-or-managing-alarge-scale-operation-switchkey-streamlines-the-process-from-inception-to-completion-ensuring-your-projects-succeed-with-efficiency-and-ease-pexels-fauxels {
+  flex-grow: 1;
+  column-gap: 125px;
+}
+
+.landing-page-tt-who-we-are-we-help-you-empower-your-projects-with-switchkey-tswitchkey-is-the-ultimate-platform-for-turning-your-visionary-projects-into-reality-we-connect-project-owners-with-the-collaborators-provide-state-of-the-art-project-management-tools-and-offer-comprehensive-solutions-for-distribution-procurement-and-ad-management-whether-you-re-starting-asmall-project-or-managing-alarge-scale-operation-switchkey-streamlines-the-process-from-inception-to-completion-ensuring-your-projects-succeed-with-efficiency-and-ease {
+  flex-shrink: 0;
+  padding-bottom: 18px;
+  flex-direction: column;
+}
+
+.landing-page-t-who-we-are-we-help-you-empower-your-projects-with-switchkey-tswitchkey-is-the-ultimate-platform-for-turning-your-visionary-projects-into-reality-we-connect-project-owners-with-the-collaborators-provide-state-of-the-art-project-management-tools-and-offer-comprehensive-solutions-for-distribution-procurement-and-ad-management-whether-you-re-starting-asmall-project-or-managing-alarge-scale-operation-switchkey-streamlines-the-process-from-inception-to-completion-ensuring-your-projects-succeed-with-efficiency-and-ease {
+  flex-grow: 1;
+  row-gap: 8px;
+}
+
+.landing-page-who-we-are {
+  font-weight: 700;
+}
+
+.landing-page-we-help-you-empower-your-projects-with-switchkey {
+  align-self: stretch;
+}
+
+.landing-page-switch-key-is-the-ultimate-platform-for-turning-your-visionary-projects-into-reality-we-connect-project-owners-with-the-collaborators-provide-state-of-the-art-project-management-tools-and-offer-comprehensive-solutions-for-distribution-procurement-and-ad-management-whether-you-re-starting-asmall-project-or-managing-alarge-scale-operation-switchkey-streamlines-the-process-from-inception-to-completion-ensuring-your-projects-succeed-with-efficiency-and-ease {
+  align-self: stretch;
+  padding-top: 49px;
+  color: rgba(71, 71, 71, 1);
+}
+
+.landing-page-spacer {
+  height: 18px;
+}
+
+.landing-page-pexels-fauxels {
+  flex-shrink: 0;
+  height: 361px;
+  width: 610px;
+  object-position: center;
+  object-fit: cover;
+}
+
+.landing-page-services-we-offer {
+  padding-top: 70px;
+  text-align: center;
+}
+
+.landing-page-t-pexels-picjumbocom-19664411pexels-pixabay {
+  padding-top: 28px;
+  padding-right: 100px;
+  padding-left: 100px;
+  justify-content: flex-end;
+  column-gap: 20px;
+  row-gap: 20px;
+  flex-wrap: wrap;
+  text-align: center;
+  font-family: Inter;
+}
+
+.landing-page-pexels-picjumbocom {
+  flex-shrink: 0;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+  flex-direction: column;
+  background-image: url(public/assets/pexels-picjumbocom.jpeg);
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.landing-page-rectangle-1 {
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+  padding-top: 140px;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-bottom: 140px;
+  flex-grow: 1;
+  row-gap: 24px;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.landing-page-project-design-1 {
+  text-align: center;
+}
+
+.landing-page-pexels-pixabay {
+  flex-shrink: 0;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+  flex-direction: column;
+  background-image: url(public/assets/pexels-pixabay.jpeg);
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.landing-page-rectangle-2 {
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+  justify-content: center;
+  padding-top: 169px;
+  padding-right: 60px;
+  padding-left: 59px;
+  padding-bottom: 169px;
+  flex-grow: 1;
+  flex-direction: column;
+  margin-bottom: -2px;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.landing-page-t-work-opportunities-find-aproject-that-perfectly-matches-your-specialization-no-more-applying-for-irrelevant-jobs {
+  position: relative;
+  justify-content: center;
+  padding-bottom: 24px;
+}
+
+.landing-page-find-aproject-that-perfectly-matches-your-specialization-no-more-applying-for-irrelevant-jobs {
+  flex-grow: 1;
+  align-self: stretch;
+}
+
+.landing-page-work-opportunities-1 {
+  flex-shrink: 0;
+  position: absolute;
+  right: 129px;
+  left: 130px;
+  bottom: -29px;
+  height: 29px;
+}
+
+.landing-page-ttt-our-mission-innovation-connection-success-tat-switchkey-we-pledge-to-empower-every-step-of-your-project-slifecycle-from-the-spark-of-an-idea-to-the-final-touches-of-execution-we-are-committed-to-fostering-innovation-enabling-seamless-connections-with-skilled-collaborator-and-ensuring-the-success-of-your-venture-our-platform-is-built-on-the-cornerstone-of-trust-offering-acomprehensive-suite-of-tools-designed-for-efficiency-and-excellence-in-project-management-manufacturing-development-and-distribution-join-switchkey-where-every-project-is-ajourney-toward-remarkable-achievement-trectangle-126rectangle {
+  padding-top: 158px;
+}
+
+.landing-page-tt-our-mission-innovation-connection-success-tat-switchkey-we-pledge-to-empower-every-step-of-your-project-slifecycle-from-the-spark-of-an-idea-to-the-final-touches-of-execution-we-are-committed-to-fostering-innovation-enabling-seamless-connections-with-skilled-collaborator-and-ensuring-the-success-of-your-venture-our-platform-is-built-on-the-cornerstone-of-trust-offering-acomprehensive-suite-of-tools-designed-for-efficiency-and-excellence-in-project-management-manufacturing-development-and-distribution-join-switchkey-where-every-project-is-ajourney-toward-remarkable-achievement-trectangle-126rectangle {
+  column-gap: 125px;
+  row-gap: 125px;
+  align-items: flex-start;
+}
+
+.landing-page-t-our-mission-innovation-connection-success-tat-switchkey-we-pledge-to-empower-every-step-of-your-project-slifecycle-from-the-spark-of-an-idea-to-the-final-touches-of-execution-we-are-committed-to-fostering-innovation-enabling-seamless-connections-with-skilled-collaborator-and-ensuring-the-success-of-your-venture-our-platform-is-built-on-the-cornerstone-of-trust-offering-acomprehensive-suite-of-tools-designed-for-efficiency-and-excellence-in-project-management-manufacturing-development-and-distribution-join-switchkey-where-every-project-is-ajourney-toward-remarkable-achievement {
+  flex-shrink: 0;
+  flex-direction: column;
+  row-gap: 8px;
+  align-items: flex-start;
+}
+
+.landing-page-our-mission {
+  font-weight: 700;
+}
+
+.landing-page-innovation-connection-success {
+  align-self: stretch;
+}
+
+.landing-page-at-switchkey-we-pledge-to-empower-every-step-of-your-project-slifecycle-from-the-spark-of-an-idea-to-the-final-touches-of-execution-we-are-committed-to-fostering-innovation-enabling-seamless-connections-with-skilled-collaborator-and-ensuring-the-success-of-your-venture-our-platform-is-built-on-the-cornerstone-of-trust-offering-acomprehensive-suite-of-tools-designed-for-efficiency-and-excellence-in-project-management-manufacturing-development-and-distribution-join-switchkey-where-every-project-is-ajourney-toward-remarkable-achievement {
+  align-self: stretch;
+  padding-top: 22px;
+  color: rgba(71, 71, 71, 1);
+}
+
+.landing-page-spacer-1 {
+  height: 18px;
+}
+
+.landing-page-t-rectangle-126rectangle {
+  flex-shrink: 0;
+  justify-content: center;
+  align-self: stretch;
+  column-gap: 20px;
+  text-align: center;
+}
+
+.landing-page-rectangle-3 {
+  flex-shrink: 0;
+  filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.25));
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding-top: 11px;
+  padding-right: 11px;
+  padding-left: 11px;
+  padding-bottom: 19px;
+  row-gap: 16px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.landing-page-image {
+  flex-shrink: 0;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  height: 180px;
+  width: 258px;
+  object-position: center;
+  object-fit: cover;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.landing-page-embrace-the-switchkey-advantage {
+  align-self: stretch;
+  padding-top: 26px;
+}
+
+.landing-page-harness-our-network-tools-and-support-to-take-your-projects-from-concept-to-completion {
+  align-self: stretch;
+}
+
+.landing-page-rectangle-4 {
+  flex-shrink: 0;
+  filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.25));
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding-bottom: 8px;
+  row-gap: 12px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.landing-page-image-1 {
+  flex-shrink: 0;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  height: 180px;
+  width: 257px;
+  object-position: center;
+  object-fit: cover;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.landing-page-discover-how-we-elevate-projects {
+  width: 309px;
+  padding-top: 34px;
+}
+
+.landing-page-para-9 {
+  width: 295px;
+  text-align: center;
+}
+
+.landing-page-t-rectangle {
+  display: flex;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.landing-page-learn-more-about-switchkey {
+  padding-bottom: 19px;
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-left: 29px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-family: Inter;
+}
+
+.landing-page-in-collaboration-with {
+  padding-top: 110px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.landing-page-tt-image-23timage-24timage-25image {
+  flex-shrink: 0;
+  display: flex;
+  padding-top: 40px;
+  height: 230px;
+}
+
+.landing-page-t-image-23timage-24timage-25image {
+  flex-grow: 1;
+  column-gap: 92px;
+}
+
+.landing-page-image-2 {
+  flex-shrink: 0;
+  object-position: center;
+  object-fit: cover;
+}
+
+.landing-page-t-image {
+  flex-shrink: 0;
+}
+
+.landing-page-image-3 {
+  flex-shrink: 0;
+  object-position: center;
+  object-fit: cover;
+}
+
+.landing-page-t-image-1 {
+  flex-shrink: 0;
+}
+
+.landing-page-image-4 {
+  flex-shrink: 0;
+  object-position: center;
+  object-fit: cover;
+}
+
+.landing-page-image-5 {
+  flex-shrink: 0;
+  object-position: center;
+  object-fit: cover;
+}
+
+.landing-page-frequently-asked-questions {
+  padding-top: 98px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.landing-page-tt-how-does-switchkey-match-collaborators-to-my-project-trectangle {
+  padding-top: 28px;
+  padding-right: 105px;
+  padding-left: 100px;
+}
+
+.landing-page-t-how-does-switchkey-match-collaborators-to-my-project-trectangle {
+  flex-grow: 1;
+  column-gap: 118px;
+  row-gap: 7.6px;
+}
+
+.landing-page-how-does-switchkey-match-collaborators-to-my-project {
+  flex-shrink: 0;
+  align-self: stretch;
+  width: 1100px;
+}
+
+.landing-page-t-rectangle-1 {
+  flex-shrink: 0;
+  padding-top: 1px;
+  height: 15px;
+  width: 17px;
+}
+
+.landing-page-rectangle-5 {
+  flex-shrink: 0;
+  height: 14px;
+  width: 17px;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.landing-page-lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry-lorem-ipsum-has-been-the-industry-sstandard-dummy-text-ever-since-the-1500s-when-an-unknown-printer-took-agalley-of-type-and-scrambled-it-to-make-atype-specimen-book-it-is-along-established-fact-that-areader-will-be-distracted-by-the-readable-content-of-apage-when-looking-at-its-layout {
+  padding-top: 34px;
+  width: 1240px;
+  font-family: Open Sans;
+}
+
+.landing-page-t-rectangle-2 {
+  flex-shrink: 0;
+}
+
+.landing-page-rectangle-6 {
+  flex-shrink: 0;
+}
+
+.landing-page-tt-what-types-of-projects-can-ipost-on-switchkey-ttrectangle-32trectangle {
+  padding-top: 34px;
+  padding-right: 104px;
+  padding-left: 100px;
+}
+
+.landing-page-t-what-types-of-projects-can-ipost-on-switchkey-ttrectangle-32trectangle {
+  flex-grow: 1;
+  column-gap: 253px;
+  row-gap: 8.5px;
+}
+
+.landing-page-what-types-of-projects-can-ipost-on-switchkey {
+  flex-shrink: 0;
+  align-self: stretch;
+  width: 964px;
+}
+
+.landing-page-tt-rectangle-32trectangle {
+  flex-shrink: 0;
+  padding-top: 1px;
+}
+
+.landing-page-t-rectangle-3 {
+  padding-top: 1.7e-7px;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.landing-page-rectangle-7 {
+  flex-grow: 1;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.landing-page-t-rectangle-4 {
+  flex-shrink: 0;
+  align-self: stretch;
+  align-items: center;
+}
+
+.landing-page-wrapper-1 {
+  flex-shrink: 0;
+  position: relative;
+  margin-left: -23.2px;
+}
+
+.landing-page-t-rectangle-5 {
+  flex-shrink: 0;
+}
+
+.landing-page-rectangle-9 {
+  flex-shrink: 0;
+}
+
+.landing-page-tt-is-there-acost-to-post-aproject-on-switchkey-ttrectangle-32trectangle {
+  padding-top: 34px;
+  padding-right: 104px;
+  padding-left: 100px;
+}
+
+.landing-page-t-is-there-acost-to-post-aproject-on-switchkey-ttrectangle-32trectangle {
+  flex-grow: 1;
+  column-gap: 233px;
+  row-gap: 8.5px;
+}
+
+.landing-page-is-there-acost-to-post-aproject-on-switchkey {
+  flex-shrink: 0;
+  align-items: center;
+  align-self: stretch;
+}
+
+.landing-page-tt-rectangle-32trectangle-1 {
+  flex-shrink: 0;
+  padding-top: 1px;
+}
+
+.landing-page-t-rectangle-6 {
+  padding-top: 1.7e-7px;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.landing-page-rectangle-10 {
+  flex-grow: 1;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.landing-page-t-rectangle-7 {
+  flex-shrink: 0;
+  align-self: stretch;
+  align-items: center;
+}
+
+.landing-page-wrapper-2 {
+  flex-shrink: 0;
+  position: relative;
+  margin-left: -23.2px;
+}
+
+.landing-page-t-rectangle-8 {
+  flex-shrink: 0;
+}
+
+.landing-page-rectangle-12 {
+  flex-shrink: 0;
+}
+
+.landing-page-tt-how-do-ihandle-intellectual-property-rights-and-agreements-ttrectangle-32trectangle {
+  padding-top: 34px;
+  padding-right: 104px;
+  padding-left: 100px;
+}
+
+.landing-page-t-how-do-ihandle-intellectual-property-rights-and-agreements-ttrectangle-32trectangle {
+  flex-grow: 1;
+  column-gap: 233px;
+  row-gap: 8.5px;
+}
+
+.landing-page-how-do-ihandle-intellectual-property-rights-and-agreements {
+  flex-shrink: 0;
+  align-items: center;
+  align-self: stretch;
+}
+
+.landing-page-tt-rectangle-32trectangle-2 {
+  flex-shrink: 0;
+  padding-top: 1px;
+}
+
+.landing-page-t-rectangle-9 {
+  padding-top: 1.7e-7px;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.landing-page-rectangle-13 {
+  flex-grow: 1;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.landing-page-t-rectangle-10 {
+  flex-shrink: 0;
+  align-self: stretch;
+  align-items: center;
+}
+
+.landing-page-wrapper-3 {
+  flex-shrink: 0;
+  position: relative;
+  margin-left: -23.2px;
+}
+
+.landing-page-t-rectangle-11 {
+  flex-shrink: 0;
+}
+
+.landing-page-rectangle-15 {
+  flex-shrink: 0;
+}
+
+.landing-page-tt-how-do-ifind-projects-that-match-my-skills-ttrectangle-32trectangle {
+  padding-top: 34px;
+  padding-right: 104px;
+  padding-left: 100px;
+}
+
+.landing-page-t-how-do-ifind-projects-that-match-my-skills-ttrectangle-32trectangle {
+  flex-grow: 1;
+  column-gap: 233px;
+  row-gap: 8.5px;
+}
+
+.landing-page-how-do-ifind-projects-that-match-my-skills {
+  flex-shrink: 0;
+  align-items: center;
+  align-self: stretch;
+}
+
+.landing-page-tt-rectangle-32trectangle-3 {
+  flex-shrink: 0;
+  padding-top: 1px;
+}
+
+.landing-page-t-rectangle-12 {
+  padding-top: 1.7e-7px;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.landing-page-rectangle-16 {
+  flex-grow: 1;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.landing-page-t-rectangle-13 {
+  flex-shrink: 0;
+  align-self: stretch;
+  align-items: center;
+}
+
+.landing-page-wrapper-4 {
+  flex-shrink: 0;
+  position: relative;
+  margin-left: -23.2px;
+}
+
+.landing-page-t-rectangle-14 {
+  flex-shrink: 0;
+}
+
+.landing-page-rectangle-18 {
+  flex-shrink: 0;
+}
+
+.landing-page-tt-how-am-icompensated-for-my-work-ttrectangle-32trectangle {
+  padding-top: 34px;
+  padding-right: 104px;
+  padding-left: 100px;
+}
+
+.landing-page-t-how-am-icompensated-for-my-work-ttrectangle-32trectangle {
+  flex-grow: 1;
+  column-gap: 233px;
+  row-gap: 8.5px;
+}
+
+.landing-page-how-am-icompensated-for-my-work {
+  flex-shrink: 0;
+  align-items: center;
+  align-self: stretch;
+}
+
+.landing-page-tt-rectangle-32trectangle-4 {
+  flex-shrink: 0;
+  padding-top: 1px;
+}
+
+.landing-page-t-rectangle-15 {
+  padding-top: 1.7e-7px;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.landing-page-rectangle-19 {
+  flex-grow: 1;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.landing-page-t-rectangle-16 {
+  flex-shrink: 0;
+  align-self: stretch;
+  align-items: center;
+}
+
+.landing-page-wrapper-5 {
+  flex-shrink: 0;
+  position: relative;
+  margin-left: -23.2px;
+}
+
+.landing-page-t-rectangle-17 {
+  flex-shrink: 0;
+}
+
+.landing-page-rectangle-21 {
+  flex-shrink: 0;
+}
+
+.landing-page-t-rectangle-207rectangle {
+  padding-top: 76px;
+  padding-right: 158px;
+  padding-left: 145px;
+  column-gap: 123px;
+  row-gap: 123px;
+  line-height: 32px;
+  font-weight: 500;
+  font-family: Poppins;
+  color: rgba(94, 98, 130, 1);
+}
+
+.landing-page-rectangle-22 {
+  flex-shrink: 0;
+  filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.25));
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding-top: 19px;
+  padding-right: 47px;
+  padding-left: 39px;
+  padding-bottom: 19px;
+  row-gap: 4px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.landing-page-ellipse {
+  flex-shrink: 0;
+}
+
+.landing-page-with-forty-years-experience-in-the-toy-industry-and-holder-of-fourteen-us-and-foreign-patents-for-innovative-solutions-for-both-mechanical-and-electronic-problems-bob-has-proven-abilities-to-create-asolution-where-it-might-not-currently-exist {
+  z-index: 1;
+}
+
+.landing-page-bob-jeffway {
+  padding-top: 44px;
+}
+
+.landing-page-mattel-hasbro {
+  width: 401px;
+}
+
+.landing-page-rectangle-23 {
+  flex-shrink: 0;
+  filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.25));
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding-top: 19px;
+  padding-right: 47px;
+  padding-left: 39px;
+  padding-bottom: 19px;
+  row-gap: 4px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.landing-page-ellipse-1 {
+  flex-shrink: 0;
+}
+
+.landing-page-the-chairman-and-ceo-of-musical-electronic-ltd-is-aprominent-figure-in-the-electronics-industry-holding-key-positions-in-industry-associations-including-vice-chairman-at-the-hong-kong-electronics-industry-association-and-chairman-at-the-hong-kong-opto-mechatronics-industry-association {
+  z-index: 1;
+}
+
+.landing-page-christopher-tse {
+  padding-top: 12px;
+}
+
+.landing-page-musical-electronics {
+  width: 401px;
+}
+
+.landing-page-rectangle-24 {
+  margin-top: 115px;
+  padding-bottom: 80px;
+  padding-top: 35px;
+  padding-right: 80px;
+  padding-left: 80px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 1);
+  row-gap: 88px;
+  flex-direction: column;
+  display: flex;
+}
+
+.landing-page-tt-company-tabout-us-contact-tsupport-thelp-centre-privacy-policy {
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-right: 503px;
+  padding-left: 503px;
+  column-gap: 120px;
+  row-gap: 42px;
+  font-family: Open Sans;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.landing-page-t-company-tabout-us-contact {
+  row-gap: 7.8px;
+}
+
+.landing-page-company {
+  align-self: stretch;
+  font-weight: 700;
+}
+
+.landing-page-about-us {
+  align-self: stretch;
+  padding-top: 3.9px;
+}
+
+.landing-page-t-support-thelp-centre-privacy-policy {
+  row-gap: 7.8px;
+}
+
+.landing-page-support {
+  font-weight: 700;
+}
+
+.landing-page-help-centre {
+  align-self: stretch;
+  padding-top: 3.9px;
+}
+
+.landing-page-privacy-policy {
+  align-self: stretch;
+}
+
+.landing-page-line {
+  flex-shrink: 0;
+  height: 1px;
+}
+@media (min-width: 1430px) {
+  .landing-page-ttttt-bg-vector-vector-vector-tproject-design-work-opportunities-trectangle {
+    flex-wrap: nowrap;
+  }
+  .landing-page-t-project-design-work-opportunities-trectangle {
+    flex-wrap: nowrap;
+  }
+  .landing-page-t-pexels-picjumbocom-19664411pexels-pixabay {
+    flex-wrap: nowrap;
+  }
+  .landing-page-tt-our-mission-innovation-connection-success-tat-switchkey-we-pledge-to-empower-every-step-of-your-project-slifecycle-from-the-spark-of-an-idea-to-the-final-touches-of-execution-we-are-committed-to-fostering-innovation-enabling-seamless-connections-with-skilled-collaborator-and-ensuring-the-success-of-your-venture-our-platform-is-built-on-the-cornerstone-of-trust-offering-acomprehensive-suite-of-tools-designed-for-efficiency-and-excellence-in-project-management-manufacturing-development-and-distribution-join-switchkey-where-every-project-is-ajourney-toward-remarkable-achievement-trectangle-126rectangle {
+    flex-wrap: nowrap;
+  }
+  .landing-page-t-how-does-switchkey-match-collaborators-to-my-project-trectangle {
+    flex-wrap: nowrap;
+  }
+  .landing-page-t-what-types-of-projects-can-ipost-on-switchkey-ttrectangle-32trectangle {
+    flex-wrap: nowrap;
+  }
+  .landing-page-t-is-there-acost-to-post-aproject-on-switchkey-ttrectangle-32trectangle {
+    flex-wrap: nowrap;
+  }
+  .landing-page-t-how-do-ihandle-intellectual-property-rights-and-agreements-ttrectangle-32trectangle {
+    flex-wrap: nowrap;
+  }
+  .landing-page-t-how-do-ifind-projects-that-match-my-skills-ttrectangle-32trectangle {
+    flex-wrap: nowrap;
+  }
+  .landing-page-t-how-am-icompensated-for-my-work-ttrectangle-32trectangle {
+    flex-wrap: nowrap;
+  }
+  .landing-page-t-rectangle-207rectangle {
+    flex-wrap: nowrap;
+  }
+  .landing-page-tt-company-tabout-us-contact-tsupport-thelp-centre-privacy-policy {
+    flex-wrap: nowrap;
+  }
+}

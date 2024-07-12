@@ -1,0 +1,34 @@
+<svg width="100%" height="100%" style="overflow:visible;" preserveAspectRatio="none" viewBox="0 0 95 102.22" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g filter="url(#filter0_i_304_1134)">
+<path d="M0 16.8887C0 8.05213 7.16344 0.888672 16 0.888672H79C87.8366 0.888672 95 8.05212 95 16.8887V87.1038C95 95.9404 87.8366 103.104 79 103.104H16C7.16344 103.104 0 95.9404 0 87.1039V16.8887Z" fill="#7E69FF"/>
+</g>
+<g filter="url(#filter1_d_304_1134)">
+<rect x="5.4082" y="6.89648" width="84.1772" height="90.5704" rx="16" fill="url(#pattern0_304_1134)" shape-rendering="crispEdges"/>
+</g>
+<defs>
+<filter id="filter0_i_304_1134" x="0" y="0.888672" width="95" height="106.215" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_304_1134"/>
+</filter>
+<filter id="filter1_d_304_1134" x="1.4082" y="6.89648" width="92.1772" height="98.5703" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_304_1134"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_304_1134" result="shape"/>
+</filter>
+<pattern id="pattern0_304_1134" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_304_1134" transform="matrix(0.000265143 0 0 0.000246427 -0.037444 0)"/>
+</pattern>
+<image id="image0_304_1134" width="4054" height="4058" xlink:href="/assets/group-3.png"/>
+</defs>
+</svg>
