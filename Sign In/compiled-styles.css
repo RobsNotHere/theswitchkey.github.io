@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700");
+@import url("https://api.fontshare.com/css?f[]=inter@400,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto Flex:wght@400;700");
+@import url("https://api.fontshare.com/css?f[]=roboto flex@400,700&display=swap");
+
+p,
+ol,
+ul {
+  margin: 0px;
+}
+
+button {
+  padding: 0px;
+}
+
+ol,
+ul {
+  padding-inline-start: 1.5em;
+}
+
+input {
+  background-image: none;
+  background-color: transparent;
+}
+
+.common-6,
+.login-flow-sign-in-page-rectangle-1,
+.login-flow-sign-in-page-rectangle-2,
+.login-flow-sign-in-page-rectangle-3,
+.login-flow-sign-in-page-rectangle-4 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 1);
+}
+
+.common-2,
+.login-flow-sign-in-page-t-rectangle,
+.login-flow-sign-in-page-t-rectangle-1,
+.login-flow-sign-in-page-tt-line-69or-line,
+.login-flow-sign-in-page-t-rectangle-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.login-flow-sign-in-page-t-rectangle-33ttsign-in-new-to-switchkey-join-now-temail-trectangle-112tpassword-trectangle-113tttrectangle-114tremember-me-tforgot-password-trectangle-36ttline-69or-line-68trectangle{
+  display: flex;
+  align-items: center;
+}
+.common-3,
+.login-flow-sign-in-page-rectangle-1,
+.login-flow-sign-in-page-rectangle-2,
+.login-flow-sign-in-page-t-rectangle-114tremember-me,
+.login-flow-sign-in-page-t-line-69or-line,
+.login-flow-sign-in-page-rectangle-4,
+.login-flow-sign-in-page-login-with-linkedin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.common-4,
+.login-flow-sign-in-page-rectangle,
+.login-flow-sign-in-page-tt-sign-in-new-to-switchkey-join-now-temail-trectangle-112tpassword-trectangle-113tttrectangle-114tremember-me-tforgot-password-trectangle-36ttline-69or-line-68trectangle,
+.login-flow-sign-in-page-t-remember-me,
+.login-flow-sign-in-page-t-login-with-linkedin {
+  display: flex;
+  flex-direction: column;
+}
+
+.common-5,
+.login-flow-sign-in-page-switchlink,
+.login-flow-sign-in-page-sign-in-1,
+.login-flow-sign-in-page-or {
+  display: flex;
+  align-items: center;
+}
+
+.common-1,
+.login-flow-sign-in-page-let-it-click,
+.login-flow-sign-in-page-sign-in-1 {
+  font-weight: 700;
+  text-align: center;
+}
+
+.login-flow-sign-in-page-login-flow-sign-in-page {
+  width: 100%;
+  display: flex;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.login-flow-sign-in-page-t-rectangle-33ttsign-in-new-to-switchkey-join-now-temail-trectangle-112tpassword-trectangle-113tttrectangle-114tremember-me-tforgot-password-trectangle-36ttline-69or-line-68trectangle {
+  flex-wrap: wrap;
+  font-family: Inter;
+  letter-spacing: 0em;
+}
+
+.login-flow-sign-in-page-rectangle {
+  position: relative;
+  padding-right: 130px;
+  padding-left: 130px;
+  height: 100vh;
+  justify-content: center;
+  background-color: rgba(217, 217, 217, 0.4);
+  align-items: center;
+}
+
+.login-flow-sign-in-page-switchlink {
+  flex-shrink: 0;
+  position: absolute;
+  left: calc(50% + -8.5px + -138px);
+  bottom: 80px;
+  height: 17px;
+  width: 123px;
+  font-size: 14px;
+  color: rgba(158, 158, 158, 1);
+}
+
+.login-flow-sign-in-page-switch-key-logo {
+  flex-shrink: 0;
+  height: 157px;
+  width: 263px;
+}
+
+.login-flow-sign-in-page-let-it-click {
+  font-family: Roboto Flex;
+  font-size: 24px;
+  color: rgba(114, 114, 114, 1);
+}
+
+.login-flow-sign-in-page-tt-sign-in-new-to-switchkey-join-now-temail-trectangle-112tpassword-trectangle-113tttrectangle-114tremember-me-tforgot-password-trectangle-36ttline-69or-line-68trectangle {
+  flex-shrink: 0;
+  padding-bottom: 19px;
+  width: 521px;
+}
+
+.login-flow-sign-in-page-t-sign-in-new-to-switchkey-join-now-temail-trectangle-112tpassword-trectangle-113tttrectangle-114tremember-me-tforgot-password-trectangle-36ttline-69or-line-68trectangle {
+  flex-grow: 1;
+}
+
+.login-flow-sign-in-page-sign-in {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.login-flow-sign-in-page-new-to-switchkey-join-now {
+  display: flex;
+  line-height: 28px;
+  margin-bottom: 56px;
+}
+
+.login-flow-sign-in-page-text {
+  color: rgba(114, 114, 114, 1);
+}
+
+.login-flow-sign-in-page-text-1 {
+  color: rgba(117, 180, 255, 1);
+  font-weight: 700;
+}
+
+.login-flow-sign-in-page-email {
+  padding-top: 52px;
+}
+
+.login-flow-sign-in-page-t-rectangle {
+  padding-top: 8px;
+  padding-bottom: 30px;
+}
+
+.login-flow-sign-in-page-rectangle-1 {
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  padding-top: 13px;
+  padding-right: 8px;
+  padding-left: 15px;
+  padding-bottom: 13px;
+  flex-grow: 1;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.login-flow-sign-in-page-enter-your-email {
+  flex-grow: 1;
+  color: rgba(155, 155, 155, 1);
+  outline: none;
+  min-width: 0;
+}
+
+.login-flow-sign-in-page-password {
+  padding-top: 30px;
+}
+
+.login-flow-sign-in-page-t-rectangle-1 {
+  padding-top: 8px;
+}
+
+.login-flow-sign-in-page-rectangle-2 {
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  padding-top: 13px;
+  padding-right: 8px;
+  padding-left: 15px;
+  padding-bottom: 13px;
+  flex-grow: 1;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.login-flow-sign-in-page-enter-your-password {
+  flex-grow: 1;
+  color: rgba(155, 155, 155, 1);
+  outline: none;
+  min-width: 0;
+}
+
+.login-flow-sign-in-page-tt-rectangle-114tremember-me-tforgot-password {
+  padding-top: 10px;
+  justify-content: center;
+  column-gap: 230px;
+  row-gap: 10px;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.login-flow-sign-in-page-t-rectangle-114tremember-me {
+  column-gap: 12px;
+}
+
+.login-flow-sign-in-page-rectangle-3 {
+  flex-shrink: 0;
+  border-top-right-radius: 2px;
+  border-top-left-radius: 2px;
+  height: 25px;
+  width: 25px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+.login-flow-sign-in-page-t-remember-me {
+  padding-top: 2px;
+  align-self: stretch;
+  flex-grow: 1;
+}
+
+.login-flow-sign-in-page-remember-me {
+  color: rgba(114, 114, 114, 1);
+}
+
+.login-flow-sign-in-page-forgot-password {
+  color: rgba(0, 143, 255, 1);
+  font-weight: 700;
+}
+
+.login-flow-sign-in-page-t-login {
+  flex-shrink: 0;
+  z-index: 1;
+  justify-content: center;
+  width: 165px;
+}
+
+.login-flow-sign-in-page-login{
+  text-align: center;
+  flex-grow: 1;
+}
+
+
+.login-flow-sign-in-page-tt-line-69or-line {
+  padding-top: 18px;
+  padding-right: 1px;
+}
+
+.login-flow-sign-in-page-t-line-69or-line {
+  column-gap: 10px;
+}
+
+.login-flow-sign-in-page-line {
+  height: 1px;
+  flex-grow: 1;
+}
+
+.login-flow-sign-in-page-or {
+  flex-shrink: 0;
+  height: 19px;
+  width: 19px;
+  color: rgba(155, 155, 155, 1);
+}
+
+.login-flow-sign-in-page-line-1 {
+  height: 1px;
+  flex-grow: 1;
+}
+
+.login-flow-sign-in-page-t-rectangle-2 {
+  padding-top: 30px;
+  padding-right: 1px;
+}
+
+.login-flow-sign-in-page-rectangle-4 {
+  z-index: 0;
+  padding-top: 13px;
+  padding-right: 13px;
+  padding-left: 21px;
+  padding-bottom: 13px;
+}
+
+.login-flow-sign-in-page-vector {
+  flex-shrink: 0;
+  z-index: 2;
+  height: 20px;
+  width: 19px;
+}
+
+.login-flow-sign-in-page-t-login-with-linkedin {
+  flex-shrink: 0;
+  z-index: 1;
+  justify-content: center;
+  width: 165px;
+}
+
+.login-flow-sign-in-page-login-with-linkedin {
+  text-align: center;
+  flex-grow: 1;
+}
+
+.login-flow-sign-in-page-rectangle-1:focus-within {
+  box-shadow: 0 0 4px #1e40af;
+}
+
+.login-flow-sign-in-page-enter-your-email:placeholder {
+  color: rgba(155, 155, 155, 1);
+}
+
+.login-flow-sign-in-page-rectangle-2:focus-within {
+  box-shadow: 0 0 4px #1e40af;
+}
+
+.login-flow-sign-in-page-enter-your-password:placeholder {
+  color: rgba(155, 155, 155, 1);
+}
+@media (min-width: 1430px) {
+  .login-flow-sign-in-page-t-rectangle-33ttsign-in-new-to-switchkey-join-now-temail-trectangle-112tpassword-trectangle-113tttrectangle-114tremember-me-tforgot-password-trectangle-36ttline-69or-line-68trectangle {
+    flex-wrap: nowrap;
+  }
+  .login-flow-sign-in-page-tt-rectangle-114tremember-me-tforgot-password {
+    flex-wrap: nowrap;
+  }
+}
