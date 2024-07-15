@@ -81,6 +81,19 @@ main{
   flex-direction: inherit;
   
 }
+
+.overview-nav {
+  display: flex;
+  margin-top: 42px;
+  z-index: 1;
+  justify-content: center;
+  column-gap: 115px;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
 .footer-user-info{
   display: flex;;
   column-gap: 12px;
