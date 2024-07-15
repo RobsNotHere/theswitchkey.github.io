@@ -545,7 +545,6 @@
       align-items: flex-start;
       justify-content: center;
       column-gap: 100px;
-      row-gap: 100px;
       flex-wrap: wrap;
       display: flex;
       line-height: 1.5;
@@ -564,7 +563,6 @@
       align-items: flex-end;
       justify-content: center;
       column-gap: 282px;
-      row-gap: 9px;
       flex-wrap: wrap;
       display: flex;
       font-weight: 600;
@@ -612,10 +610,10 @@
     }
     
     .dashboard-portfolio-flow-user-portfolio-tt-email-tedit {
-      padding-top: 56px;
+      margin-top: 56px;
       justify-content: center;
       column-gap: 336px;
-      row-gap: 10px;
+      
       flex-wrap: wrap;
       display: flex;
       font-weight: 600;
@@ -770,16 +768,15 @@
     }
     
     .dashboard-portfolio-flow-user-portfolio-frame-1 {
-      display: flex;
+      display: inherit;
       position: relative;
       filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.25));
       justify-content: center;
       padding-top: 26px;
-      padding-right: 129px;
       padding-left: 35px;
       padding-bottom: 26px;
       flex-direction: column;
-      row-gap: 10px;
+      row-gap: 12px;
       background-color: rgba(255, 255, 255, 1);
       align-items: flex-start;
     }
@@ -838,19 +835,15 @@
     }
     
     .dashboard-portfolio-flow-user-portfolio-tt-location-rectangle {
-      z-index: 0;
-      align-self: stretch;
-    }
-    
-    .dashboard-portfolio-flow-user-portfolio-t-location {
+      margin-top: 56px;
+      flex-wrap: wrap;
       display: flex;
-      z-index: 2;
-      align-items: center;
+      font-weight: 600;
+      font-size: 14px;
     }
     
     .dashboard-portfolio-flow-user-portfolio-location {
-      flex-grow: 1;
-      line-height: 1.5;
+      display: flex;
     }
     
     .dashboard-portfolio-flow-user-portfolio-rectangle-5 {
@@ -883,7 +876,7 @@
       width: 348px;
       column-gap: 314px;
       margin-left: -349px;
-      row-gap: 10px;
+      
       align-items: center;
     }
     
@@ -909,17 +902,11 @@
     }
     
     .dashboard-portfolio-flow-user-portfolio-ttt-timezone-rectangle-149tttedit {
+      margin-top: 56px;  
+      flex-wrap: wrap;
       display: flex;
-      z-index: 0;
-      padding-right: 509px;
-      align-items: flex-start;
+      font-weight: 600;
       font-size: 14px;
-      line-height: normal;
-    }
-    
-    .dashboard-portfolio-flow-user-portfolio-tt-timezone-rectangle {
-      z-index: 2;
-      align-self: stretch;
     }
     
     .dashboard-portfolio-flow-user-portfolio-timezone {
@@ -942,36 +929,13 @@
     }
     
     .dashboard-portfolio-flow-user-portfolio-ttt-edit-1 {
-      flex-shrink: 0;
-      display: flex;
-      z-index: 1;
-      width: 0px;
+      color: rgba(0, 71, 255, 1);
     }
     
-    .dashboard-portfolio-flow-user-portfolio-tt-edit-1 {
-      flex-shrink: 0;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      width: 342px;
-      column-gap: 308px;
-      margin-left: -343px;
-      row-gap: 9.5px;
-      align-items: center;
-    }
     
     .dashboard-portfolio-flow-user-portfolio-component-4 {
       color: rgba(240, 62, 62, 1);
       line-height: 1.5;
-    }
-    
-    .dashboard-portfolio-flow-user-portfolio-t-edit-2 {
-      padding-top: 1.2px;
-      align-self: stretch;
-    }
-    
-    .dashboard-portfolio-flow-user-portfolio-edit-3 {
-      color: rgba(0, 71, 255, 1);
     }
     
     .dashboard-portfolio-flow-user-portfolio-t-line-78tyour-background {
@@ -1018,7 +982,7 @@
       flex-wrap: wrap;
       justify-content: center;
       column-gap: 307px;
-      row-gap: 10px;
+      
       font-size: 14px;
       font-weight: 600;
     }
@@ -1070,21 +1034,6 @@
       outline: none;
       flex-grow: 1;
       min-width: 0;
-    }
-    
-    .dashboard-portfolio-flow-user-portfolio-t-polygon {
-      flex-shrink: 0;
-      display: flex;
-      height: 18px;
-      width: 18px;
-      flex-direction: column;
-      align-items: center;
-    }
-    
-    .dashboard-portfolio-flow-user-portfolio-polygon {
-      flex-shrink: 0;
-      height: 18px;
-      width: 18px;
     }
     
     .dashboard-portfolio-flow-user-portfolio-tttt-bio-tedit {
@@ -1440,9 +1389,6 @@
       .dashboard-portfolio-flow-user-portfolio-tt-edit {
         flex-wrap: nowrap;
       }
-      .dashboard-portfolio-flow-user-portfolio-tt-edit-1 {
-        flex-wrap: nowrap;
-      }
       .dashboard-portfolio-flow-user-portfolio-tttt-speciality-tedit-trectangle-149ttttbio-tedit-trectangle-149ttyour-website-tedit-rectangle-149ttupload-your-resume-rectangle {
         flex-wrap: nowrap;
       }
@@ -1542,6 +1488,12 @@
                     <heading class="dashboard-portfolio-flow-user-portfolio-my-portfolio">My Portfolio</heading
                     >
                   </div>
+                  <nav class= "overview-nav"  style="justify-content: start; color:black; font-size: 16px; column-gap: 22px; ">
+                      <a href= "user-profolio.html">User Profolio</a>
+                      <a href= "company-settings.html">Company</a>
+                      <a href= "job-tags.html">Tags and Availability</a>
+                      <a href= "account-settings.html">Settings</a>
+                  </nav>
                   <div class="dashboard-portfolio-flow-user-portfolio-t-line-78ttyour-vacancy-status-rectangle" >
                     <object
                       data="public/assets2/Line2.svg"
@@ -1558,12 +1510,12 @@
                     </div>
                   </div>
                 </div>
-                <div class="dashboard-portfolio-flow-user-portfolio-tt-line-78ttttttdisplay-name-tedit-trectangle-149tttemail-tedit-rectangle-149tframe-10565tpreview-frame-10553tttlocation-rectangle-149tttedit" >
-                  <div class="dashboard-portfolio-flow-user-portfolio-t-line-78ttttttdisplay-name-tedit-trectangle-149tttemail-tedit-rectangle-149tframe-10565tpreview-frame" >
-                    <object
+                <object
                       data="public/assets2/Line2.svg"
                       class="dashboard-portfolio-flow-user-portfolio-line-3"
                     ></object>
+                <div class="dashboard-portfolio-flow-user-portfolio-tt-line-78ttttttdisplay-name-tedit-trectangle-149tttemail-tedit-rectangle-149tframe-10565tpreview-frame-10553tttlocation-rectangle-149tttedit" >
+                  <div class="dashboard-portfolio-flow-user-portfolio-t-line-78ttttttdisplay-name-tedit-trectangle-149tttemail-tedit-rectangle-149tframe-10565tpreview-frame" >
                     <div class="dashboard-portfolio-flow-user-portfolio-ttttt-display-name-tedit-trectangle-149tttemail-tedit-rectangle-149tframe-10565tpreview-frame" >
                       <div class="dashboard-portfolio-flow-user-portfolio-tttt-display-name-tedit-trectangle-149tttemail-tedit-rectangle-149tframe" >
                         <div class="dashboard-portfolio-flow-user-portfolio-tt-display-name-tedit" >
@@ -1576,15 +1528,15 @@
                           <div class="dashboard-portfolio-flow-user-portfolio-edit" >
                             Edit
                           </div>
-                        </div>
-                        <div class="dashboard-portfolio-flow-user-portfolio-t-rectangle-1" >
-                          <div class="dashboard-portfolio-flow-user-portfolio-rectangle-2" >
-                            <input
-                              placeholder="Julian Cho"
-                              id="display-name"
-                              type="text"
-                              class="dashboard-portfolio-flow-user-portfolio-julian-cho"
-                            />
+                          <div class="dashboard-portfolio-flow-user-portfolio-t-rectangle-1" >
+                            <div class="dashboard-portfolio-flow-user-portfolio-rectangle-2" >
+                              <input
+                                placeholder="Julian Cho"
+                                id="display-name"
+                                type="text"
+                                class="dashboard-portfolio-flow-user-portfolio-julian-cho"
+                              />
+                            </div>
                           </div>
                         </div>
                         <div class="dashboard-portfolio-flow-user-portfolio-tt-email-tedit" >
@@ -1599,15 +1551,16 @@
                               Edit
                             </div>
                           </div>
+                          <div class="dashboard-portfolio-flow-user-portfolio-rectangle-3" >
+                            <input
+                              placeholder="juliancho123@outlook.com"
+                              id="user-email"
+                              type="email"
+                              class="dashboard-portfolio-flow-user-portfolio-juliancho-123outlook-com"
+                            />
+                          </div>
                         </div>
-                        <div class="dashboard-portfolio-flow-user-portfolio-rectangle-3" >
-                          <input
-                            placeholder="juliancho123@outlook.com"
-                            id="user-email"
-                            type="email"
-                            class="dashboard-portfolio-flow-user-portfolio-juliancho-123outlook-com"
-                          />
-                        </div>
+                        
                         <div class="dashboard-portfolio-flow-user-portfolio-t-frame" >
                           <div class="dashboard-portfolio-flow-user-portfolio-frame" >
                             <div class="dashboard-portfolio-flow-user-portfolio-t-avatar" >
@@ -1646,44 +1599,38 @@
                             </div>
                           </div>
                         </div>
-                        <div class="dashboard-portfolio-flow-user-portfolio-ttt-location-rectangle-149tttedit" >
                           <div class="dashboard-portfolio-flow-user-portfolio-tt-location-rectangle" >
-                            <div class="dashboard-portfolio-flow-user-portfolio-t-location" >
-                              <label
-                                for="user-location"
-                                class="dashboard-portfolio-flow-user-portfolio-location"
-                                >Location</label
-                              >
-                            </div>
-                            <div class="dashboard-portfolio-flow-user-portfolio-rectangle-5" >
-                              <input
-                                placeholder="Vancouver, BC"
-                                id="user-location"
-                                type="text"
-                                class="dashboard-portfolio-flow-user-portfolio-vancouver-bc"
-                              />
-                            </div>
-                          </div>
-                          <div class="dashboard-portfolio-flow-user-portfolio-ttt-edit" >
-                            <div class="dashboard-portfolio-flow-user-portfolio-tt-edit" >
-                              <div class="dashboard-portfolio-flow-user-portfolio-component-3" >
+                            <div class="dashboard-portfolio-flow-user-portfolio-location">
+                            <label for="user-location"
+                                  >Location</label>
+                              <div class="dashboard-portfolio-flow-user-portfolio-component-1" >
                                 *
                               </div>
-                              <div class="dashboard-portfolio-flow-user-portfolio-t-edit-1" >
-                                <div class="dashboard-portfolio-flow-user-portfolio-edit-2" >
-                                  Edit
-                                </div>
+                            </div>  
+                              <div class="dashboard-portfolio-flow-user-portfolio-edit-1" >
+                                Edit
                               </div>
-                            </div>
+                              <div class="dashboard-portfolio-flow-user-portfolio-rectangle-5" >
+                                <input
+                                  placeholder="Vancouver, BC"
+                                  id="user-location"
+                                  type="text"
+                                  class="dashboard-portfolio-flow-user-portfolio-vancouver-bc"
+                                />
+                              </div>
                           </div>
-                        </div>
+                          
                         <div class="dashboard-portfolio-flow-user-portfolio-ttt-timezone-rectangle-149tttedit" >
-                          <div class="dashboard-portfolio-flow-user-portfolio-tt-timezone-rectangle" >
-                            <label
-                              for="user-timezone"
-                              class="dashboard-portfolio-flow-user-portfolio-timezone"
-                              >Timezone</label
-                            >
+                          <div class="dashboard-portfolio-flow-user-portfolio-timezone">
+                            <label for="user-timezone"
+                              >Timezone</label>
+                          </div>
+                          <div class="dashboard-portfolio-flow-user-portfolio-component-4" >
+                            *
+                          </div>
+                          <div class="dashboard-portfolio-flow-user-portfolio-ttt-edit-1" >
+                                  Edit
+                          </div>
                             <div class="dashboard-portfolio-flow-user-portfolio-rectangle-6" >
                               <input
                                 placeholder="Pacific Time - 8:00 UTC−07:00"
@@ -1692,19 +1639,6 @@
                                 class="dashboard-portfolio-flow-user-portfolio-pacific-time-800utc"
                               />
                             </div>
-                          </div>
-                          <div class="dashboard-portfolio-flow-user-portfolio-ttt-edit-1" >
-                            <div class="dashboard-portfolio-flow-user-portfolio-tt-edit-1" >
-                              <div class="dashboard-portfolio-flow-user-portfolio-component-4" >
-                                *
-                              </div>
-                              <div class="dashboard-portfolio-flow-user-portfolio-t-edit-2" >
-                                <div class="dashboard-portfolio-flow-user-portfolio-edit-3" >
-                                  Edit
-                                </div>
-                              </div>
-                            </div>
-                          </div>
                         </div>
                       </div>
                       <div class="dashboard-portfolio-flow-user-portfolio-t-preview-frame" >
@@ -1726,9 +1660,6 @@
                               </div>
                             </div>
                           </div>
-                          <div class="dashboard-portfolio-flow-user-portfolio-www-website-com" >
-                            www.website.com
-                          </div>
                           <div class="dashboard-portfolio-flow-user-portfolio-lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry-lorem-ipsum-has-been-the-industry-sstandard-dummy-text-ever-since-the-1500s-lorem-ipsum-has-been-the-industry-sstandard-dummy-text-ever-since-the-1500s" >
                             <p>
                               Lorem Ipsum is simply dummy text of the printing
@@ -1737,6 +1668,9 @@
                               1500s. Lorem Ipsum has been the industry&apos;s
                               standard dummy text ever since the 1500s.
                             </p>
+                          </div>
+                          <div class="dashboard-portfolio-flow-user-portfolio-www-website-com" >
+                            <a herf="www.website.com">www.webite.com</a>
                           </div>
                         </div>
                       </div>
@@ -1773,12 +1707,12 @@
                 <div class="dashboard-portfolio-flow-user-portfolio-t-rectangle-2" >
                   <div class="dashboard-portfolio-flow-user-portfolio-rectangle-7" >
                     <div class="dashboard-portfolio-flow-user-portfolio-t-electrical-engineer-tpolygon" >
-                      <input
-                        placeholder="Electrical Engineer"
+                      <select
                         id="user-speciality"
                         type="text"
-                        class="dashboard-portfolio-flow-user-portfolio-electrical-engineer"
-                      />
+                        class="dashboard-portfolio-flow-user-portfolio-electrical-engineer">
+                        <option>Electrical Engineer</option>
+                      </select>
                     </div>
                   </div>
                 </div>
@@ -1891,15 +1825,4 @@
   </div>
   </body>
 </html>
-
-<!--
-  This component was generated from Figma with FireJet. 
-  Learn more at https://www.firejet.io
-  
-  README:
-  The output code may look slightly different when copied to your codebase. To fix this:
-  1. Include the necessary fonts. The required fonts are imported from index.html
-  2. Include the global styles. They can be found in styles.css
-  
-  Note: Step 2 is not required for tailwind.css output
 -->
