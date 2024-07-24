@@ -884,7 +884,7 @@ input {
 
 .landing-page-frequently-asked-questions-faq-app {
   display: flex;
-  align-items: center;
+  justify-items: center;
   text-align: right;
 }
 .landing-page-frequently-asked-questions {
