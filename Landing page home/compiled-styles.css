@@ -468,8 +468,8 @@ input {
 }
 
 .landing-page-ttttt-bg-vector-vector-vector-tproject-design-work-opportunities-trectangle {
-  padding-right: 100px;
-  padding-left: 100px;
+  
+  
   column-gap: 683px;
   row-gap: 24px;
   flex-wrap: wrap;
@@ -533,8 +533,8 @@ input {
 
 .landing-page-pexels-photo {
   padding-top: 153px;
-  padding-right: 100px;
-  padding-left: 100px;
+  
+  
   padding-bottom: 260px;
   flex-grow: 1;
   max-height: 100%;
@@ -621,8 +621,8 @@ input {
 
 .landing-page-t-pexels-picjumbocom-19664411pexels-pixabay {
   padding-top: 28px;
-  padding-right: 100px;
-  padding-left: 100px;
+  
+  
   justify-content: flex-end;
   column-gap: 20px;
   row-gap: 20px;
@@ -816,8 +816,8 @@ input {
 
 .landing-page-t-rectangle {
   display: flex;
-  padding-right: 100px;
-  padding-left: 100px;
+  
+  
 }
 
 .landing-page-learn-more-about-switchkey {
@@ -834,8 +834,8 @@ input {
 
 .landing-page-in-collaboration-with {
   padding-top: 110px;
-  padding-right: 100px;
-  padding-left: 100px;
+  
+  
 }
 
 .landing-page-tt-image-23timage-24timage-25image {
@@ -882,16 +882,18 @@ input {
   object-fit: cover;
 }
 
+.landing-page-frequently-asked-questions-faq-app {
+  display: flex;
+  align-items: start;
+}
 .landing-page-frequently-asked-questions {
   padding-top: 98px;
-  padding-right: 100px;
-  padding-left: 100px;
 }
 
 .landing-page-tt-how-does-switchkey-match-collaborators-to-my-project-trectangle {
   padding-top: 28px;
-  padding-right: 105px;
-  padding-left: 100px;
+  
+  
 }
 
 .landing-page-t-how-does-switchkey-match-collaborators-to-my-project-trectangle {
@@ -899,10 +901,7 @@ input {
   column-gap: 118px;
   row-gap: 7.6px;
 }
-.landing-page-frequently-asked-questions-faq-app {
-  display: flex;
-  align-items: start;
-}
+
 
 .landing-page-how-does-switchkey-match-collaborators-to-my-project {
   flex-shrink: 0;
@@ -940,8 +939,8 @@ input {
 
 .landing-page-tt-what-types-of-projects-can-ipost-on-switchkey-ttrectangle-32trectangle {
   padding-top: 34px;
-  padding-right: 104px;
-  padding-left: 100px;
+  
+  
 }
 
 .landing-page-t-what-types-of-projects-can-ipost-on-switchkey-ttrectangle-32trectangle {
@@ -994,8 +993,8 @@ input {
 
 .landing-page-tt-is-there-acost-to-post-aproject-on-switchkey-ttrectangle-32trectangle {
   padding-top: 34px;
-  padding-right: 104px;
-  padding-left: 100px;
+  
+  
 }
 
 .landing-page-t-is-there-acost-to-post-aproject-on-switchkey-ttrectangle-32trectangle {
@@ -1048,8 +1047,8 @@ input {
 
 .landing-page-tt-how-do-ihandle-intellectual-property-rights-and-agreements-ttrectangle-32trectangle {
   padding-top: 34px;
-  padding-right: 104px;
-  padding-left: 100px;
+  
+  
 }
 
 .landing-page-t-how-do-ihandle-intellectual-property-rights-and-agreements-ttrectangle-32trectangle {
@@ -1102,8 +1101,8 @@ input {
 
 .landing-page-tt-how-do-ifind-projects-that-match-my-skills-ttrectangle-32trectangle {
   padding-top: 34px;
-  padding-right: 104px;
-  padding-left: 100px;
+  
+  
 }
 
 .landing-page-t-how-do-ifind-projects-that-match-my-skills-ttrectangle-32trectangle {
@@ -1156,8 +1155,8 @@ input {
 
 .landing-page-tt-how-am-icompensated-for-my-work-ttrectangle-32trectangle {
   padding-top: 34px;
-  padding-right: 104px;
-  padding-left: 100px;
+  
+  
 }
 
 .landing-page-t-how-am-icompensated-for-my-work-ttrectangle-32trectangle {
