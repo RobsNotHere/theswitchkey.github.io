@@ -899,6 +899,10 @@ input {
   column-gap: 118px;
   row-gap: 7.6px;
 }
+.landing-page-frequently-asked-questions-faq-app {
+  display: flex;
+  align-items: start;
+}
 
 .landing-page-how-does-switchkey-match-collaborators-to-my-project {
   flex-shrink: 0;
