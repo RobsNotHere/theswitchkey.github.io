@@ -348,16 +348,6 @@ input {
   width: 610px;
 }
 
-.common-9,
-.landing-page-t-rectangle-4,
-.landing-page-t-rectangle-7,
-.landing-page-t-rectangle-10,
-.landing-page-t-rectangle-13,
-.landing-page-t-rectangle-16 {
-  display: flex;
-  width: 0px;
-}
-
 .common-10,
 .landing-page-is-there-acost-to-post-aproject-on-switchkey,
 .landing-page-how-do-ihandle-intellectual-property-rights-and-agreements,
@@ -366,16 +356,6 @@ input {
   display: flex;
 }
 
-
-.common-12,
-.landing-page-t-rectangle-3,
-.landing-page-t-rectangle-6,
-.landing-page-t-rectangle-9,
-.landing-page-t-rectangle-12,
-.landing-page-t-rectangle-15 {
-  display: flex;
-  height: 4px;
-}
 
 .common-13,
 .landing-page-rectangle,
@@ -889,19 +869,7 @@ input {
   align-self: stretch;
 }
 
-.landing-page-t-rectangle-1 {
-  flex-shrink: 0;
-  padding-top: 1px;
-  height: 15px;
-  width: 17px;
-}
 
-.landing-page-rectangle-5 {
-  flex-shrink: 0;
-  height: 14px;
-  width: 17px;
-  background-color: rgba(0, 0, 0, 1);
-}
 
 .landing-page-lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry-lorem-ipsum-has-been-the-industry-sstandard-dummy-text-ever-since-the-1500s-when-an-unknown-printer-took-agalley-of-type-and-scrambled-it-to-make-atype-specimen-book-it-is-along-established-fact-that-areader-will-be-distracted-by-the-readable-content-of-apage-when-looking-at-its-layout {
   padding-top: 34px;
@@ -935,22 +903,12 @@ input {
   padding-top: 1px;
 }
 
-.landing-page-t-rectangle-3 {
-  padding-top: 1.7e-7px;
-  flex-grow: 1;
-  flex-direction: column;
-}
 
 .landing-page-rectangle-7 {
   flex-grow: 1;
   background-color: rgba(0, 0, 0, 1);
 }
 
-.landing-page-t-rectangle-4 {
-  flex-shrink: 0;
-  align-self: stretch;
-  align-items: center;
-}
 
 .landing-page-wrapper-1 {
   flex-shrink: 0;
@@ -958,9 +916,6 @@ input {
   margin-left: -23.2px;
 }
 
-.landing-page-t-rectangle-5 {
-  flex-shrink: 0;
-}
 
 .landing-page-rectangle-9 {
   flex-shrink: 0;
@@ -989,21 +944,10 @@ input {
   padding-top: 1px;
 }
 
-.landing-page-t-rectangle-6 {
-  padding-top: 1.7e-7px;
-  flex-grow: 1;
-  flex-direction: column;
-}
 
 .landing-page-rectangle-10 {
   flex-grow: 1;
   background-color: rgba(0, 0, 0, 1);
-}
-
-.landing-page-t-rectangle-7 {
-  flex-shrink: 0;
-  align-self: stretch;
-  align-items: center;
 }
 
 .landing-page-wrapper-2 {
@@ -1012,9 +956,6 @@ input {
   margin-left: -23.2px;
 }
 
-.landing-page-t-rectangle-8 {
-  flex-shrink: 0;
-}
 
 .landing-page-rectangle-12 {
   flex-shrink: 0;
@@ -1043,22 +984,12 @@ input {
   padding-top: 1px;
 }
 
-.landing-page-t-rectangle-9 {
-  padding-top: 1.7e-7px;
-  flex-grow: 1;
-  flex-direction: column;
-}
 
 .landing-page-rectangle-13 {
   flex-grow: 1;
   background-color: rgba(0, 0, 0, 1);
 }
 
-.landing-page-t-rectangle-10 {
-  flex-shrink: 0;
-  align-self: stretch;
-  align-items: center;
-}
 
 .landing-page-wrapper-3 {
   flex-shrink: 0;
