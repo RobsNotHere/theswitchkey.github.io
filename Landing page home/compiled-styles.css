@@ -33,31 +33,11 @@ input {
   z-index: 0;
 }
 
-.common-47,
-.landing-page-rectangle-8,
-.landing-page-rectangle-11,
-.landing-page-rectangle-14,
-.landing-page-rectangle-17,
-.landing-page-rectangle-20 {
-  top: 16px;
-  left: 8.4e-7px;
-}
-
 .common-48,
 .landing-page-rectangle-22,
 .landing-page-rectangle-23 {
   position: relative;
   z-index: 0;
-}
-
-.common-45,
-.landing-page-rectangle-8,
-.landing-page-rectangle-11,
-.landing-page-rectangle-14,
-.landing-page-rectangle-17,
-.landing-page-rectangle-20 {
-  transform: rotate(-90deg);
-  transform-origin: top left;
 }
 
 .common-44,
@@ -68,22 +48,6 @@ input {
   background-size: cover;
 }
 
-.common-43,
-.landing-page-rectangle-5,
-.landing-page-rectangle-7,
-.landing-page-rectangle-8,
-.landing-page-rectangle-10,
-.landing-page-rectangle-11,
-.landing-page-rectangle-13,
-.landing-page-rectangle-14,
-.landing-page-rectangle-16,
-.landing-page-rectangle-17,
-.landing-page-rectangle-19,
-.landing-page-rectangle-20 {
-  border-width: 1px;
-  border-style: solid;
-  border-color: rgba(0, 0, 0, 1);
-}
 
 .common-29,
 .landing-page-t-project-design-work-opportunities-trectangle,
@@ -164,13 +128,6 @@ input {
   flex-wrap: wrap;
 }
 
-.common-37,
-.landing-page-rectangle-3,
-.landing-page-rectangle-4 {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
 .common-38,
 .landing-page-ttttt-bg-vector-vector-vector-tproject-design-work-opportunities-trectangle,
@@ -189,12 +146,6 @@ input {
   align-items: center;
 }
 
-.common-40,
-.landing-page-rectangle-1,
-.landing-page-rectangle-22,
-.landing-page-rectangle-23 {
-  flex-direction: column;
-}
 
 .common-41,
 .landing-page-rectangle,
@@ -286,14 +237,6 @@ input {
   height: 17px;
 }
 
-.common-2,
-.landing-page-rectangle-3,
-.landing-page-rectangle-4 {
-  display: flex;
-  width: 295px;
-  background-color: rgba(255, 255, 255, 1);
-}
-
 .common-3,
 .landing-page-rectangle-22,
 .landing-page-rectangle-23 {
@@ -364,12 +307,6 @@ input {
   background-color: rgba(100, 60, 228, 1);
 }
 
-.common-14,
-.landing-page-rectangle-1,
-.landing-page-rectangle-2 {
-  display: flex;
-  background-color: rgba(0, 0, 0, 0.6);
-}
 
 .common-15,
 .landing-page-t-pexels-picjumbocom-19664411pexels-pixabay,
@@ -877,9 +814,7 @@ input {
 }
 
 
-.landing-page-rectangle-6 {
-  flex-shrink: 0;
-}
+
 
 .landing-page-tt-what-types-of-projects-can-ipost-on-switchkey-ttrectangle-32trectangle {
   padding-top: 34px;
