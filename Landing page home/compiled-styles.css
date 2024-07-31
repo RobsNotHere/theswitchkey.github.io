@@ -884,7 +884,6 @@ input {
   display: flex;
   flex-direction: column;
   justify-items: center;
-  text-align: right;
 }
 .landing-page-frequently-asked-questions {
   padding-top: 98px;
