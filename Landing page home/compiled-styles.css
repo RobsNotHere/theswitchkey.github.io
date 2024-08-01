@@ -652,8 +652,7 @@ input {
   padding-right: 11px;
   padding-left: 11px;
   padding-bottom: 19px;
-  align-self: center;
-  row-gap: 16px;
+  justify-self: center;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
 }
@@ -685,7 +684,7 @@ input {
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
   padding-bottom: 8px;
-  row-gap: 12px;
+  justify-self: center;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
 }
