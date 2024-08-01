@@ -250,7 +250,6 @@ input {
 .landing-page-rectangle-9,
 .landing-page-rectangle-12,
 .landing-page-rectangle-15,
-.landing-page-rectangle-18,
 .landing-page-rectangle-21 {
   width: 1240px;
   height: 3px;
@@ -987,10 +986,6 @@ input {
 }
 
 .landing-page-t-rectangle-14 {
-  flex-shrink: 0;
-}
-
-.landing-page-rectangle-18 {
   flex-shrink: 0;
 }
 
