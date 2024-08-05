@@ -408,6 +408,7 @@ input {
 }
 
 .landing-page-t-project-design-work-opportunities-trectangle {
+  display: flex;
   column-gap: 48px;
   row-gap: 8.5px;
   font-family: Inter;
