@@ -57,9 +57,6 @@ input {
 .landing-page-t-how-do-ihandle-intellectual-property-rights-and-agreements-ttrectangle-32trectangle,
 .landing-page-t-how-do-ifind-projects-that-match-my-skills-ttrectangle-32trectangle,
 .landing-page-t-how-am-icompensated-for-my-work-ttrectangle-32trectangle {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
 }
 
