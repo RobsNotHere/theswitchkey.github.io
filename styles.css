@@ -355,7 +355,6 @@ input[type="search"]{
   display: flex;
   flex-direction: row;
   margin-right:50px;
-  margin-top: 4px;
   border:none;
   justify-content: flex-start;
   background-image: url(assets/search.svg);
