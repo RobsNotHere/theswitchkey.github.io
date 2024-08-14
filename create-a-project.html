@@ -45,6 +45,20 @@
   font-size:14px;
   font-weight: 460;
 }
+.dashboard-design-aproject-checkbox-input-app-container{
+  display:inherit;
+  width: 100%;
+  padding: 20px 0px;
+  font-size:14px;
+  font-weight: 460;
+  color: #797979;
+}
+.dashboard-design-aproject-checkbox-input-box-sup-app-container{
+  display:inherit;
+  font-size:14px;
+  font-weight: 400;
+  color: #797979;
+}
 /* Mark input boxes that gets an error on validation: */
 input.invalid {
   background-color: #ffebeb;
@@ -325,8 +339,8 @@ button:hover {
       </div>
       <div class="dashboard-design-aproject-how-would-you-describe-your-project-container">
         <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
-          <label>Electrical Designer</label>
-      <p><input placeholder="Contact name..." oninput="this.className = ''" name="edesignername"></p>
+          <label>Electrical Engineer</label>
+      <p><input placeholder="Contact name..." oninput="this.className = ''" name="eengineername"></p>
         </div>  
         <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
           <label>Package Designer</label>
@@ -340,10 +354,47 @@ button:hover {
       <div class="dashboard-design-aproject-ttttttt-project-info-dx">
         <h3>Key word questions for each specialty</h3>
         <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
-      
+        <label>Mechanical Designer:</label>
+        <div class="dashboard-design-aproject-checkbox-input-app-container">
+          <label>What types of buttons on the housing?</label>
+          <div class="dashboard-design-aproject-checkbox-input-box-sup-app-container">
+          <input type="checkbox" oninput="this.className = ''" name="#"><label>Switch Buttons</label>
+        </div>
+        <div class="dashboard-design-aproject-checkbox-input-box-sup-app-container">
+          <input type="checkbox" oninput="this.className = ''" name="#"><label>Touch Buttons</label>
+        </div>
+        <div class="dashboard-design-aproject-checkbox-input-box-sup-app-container">
+          <input type="checkbox" oninput="this.className = ''" name="#"><label>Metal Touch Sensor</label>
+        </div>
+        <div class="dashboard-design-aproject-checkbox-input-box-sup-app-container">
+          <input type="checkbox" oninput="this.className = ''" name="#"><label>Plastic Touch Sensor</label>
+        </div>
       </div>
-
-     
+      <div class="dashboard-design-aproject-checkbox-input-app-container">
+        <label>What are the materials of the housing?</label>
+        <div class="dashboard-design-aproject-checkbox-input-box-sup-app-container">
+        <input type="checkbox" oninput="this.className = ''" name="#"><label>Plastic</label>
+      </div>
+      <div class="dashboard-design-aproject-checkbox-input-box-sup-app-container">
+        <input type="checkbox" oninput="this.className = ''" name="#"><label>Metal</label>
+      </div>
+      <div class="dashboard-design-aproject-checkbox-input-box-sup-app-container">
+        <input type="checkbox" oninput="this.className = ''" name="#"><label>Wood</label>
+      </div>
+       </div>
+      </div>
+      <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+        <label>Electrical Engineer:</label>
+        <div class="dashboard-design-aproject-checkbox-input-app-container">
+          <label>Does this project use a remote control?</label>
+          <div class="dashboard-design-aproject-checkbox-input-box-sup-app-container">
+          <input type="radio" oninput="this.className = ''" name="#"><label>Yes</label>
+        </div>
+        <div class="dashboard-design-aproject-checkbox-input-box-sup-app-container">
+          <input type="radio" oninput="this.className = ''" name="#"><label>No</label>
+        </div>
+      </div>
+      </div>
   </div>  
   </div>
 </div>
