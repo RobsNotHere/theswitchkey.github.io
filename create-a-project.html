@@ -399,15 +399,146 @@ button:hover {
       </div>
   </div>  
   </div>
-</div>
   <div class="tab" name="project-payment">
     <p><input placeholder="dd" oninput="this.className = ''" name="dd"></p>
     <p><input placeholder="mm" oninput="this.className = ''" name="nn"></p>
     <p><input placeholder="yyyy" oninput="this.className = ''" name="yyyy"></p>
   </div>
   <div class="tab" name="vendor-form1">
-    <p><input placeholder="Username..." oninput="this.className = ''" name="uname"></p>
-    <p><input placeholder="Password..." oninput="this.className = ''" name="pword" type="password"></p>
+    <div class="dashboard-design-aproject-header">
+      <h3>Matching and basic requirements</h3></div>
+      <hr></hr>
+      <div class= "dashboard-design-aproject-how-would-you-describe-your-project">
+        <label style="font-size: 16px; font-weight: 500;">How would you describe your project</label>
+      <div class="dashboard-design-aproject-how-would-you-describe-your-project-container">
+        <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+          <label>Industrial Designer</label>
+          <input list="n-industrial-designer" name="n-industrial-designer" id="n-industrial-designer">
+          <datalist id="n-industrial-designer">
+              <option value="1">1
+              <option value="2">2
+              <option value="3">3
+              <option value="4">4
+              <option value="5">5
+          </datalist>
+        </div>  
+        <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+          <label>Mechanical Designer</label>
+          <input list="n-mechanical-designer" name="n-mechanical-designer" id="n-mechanical-designer">
+          <datalist id="n-mechanical-designer">
+              <option value="1">
+              <option value="2">
+              <option value="3">
+              <option value="4">
+              <option value="5">
+          </datalist>
+        </div>  
+      </div>
+      <div class="dashboard-design-aproject-how-would-you-describe-your-project-container">
+        <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+          <label>Electrical Engineer</label>
+          <input list="n-electrical-engineer" name="n-electrical-engineer" id="n-electrical-engineer">
+          <datalist id="n-electrical-engineer">
+              <option value="1">
+              <option value="2">
+              <option value="3">
+              <option value="4">
+              <option value="5">
+          </datalist>
+        </div>  
+        <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+          <label>Package Designer</label>
+          <input list="n-package-designer" name="n-package-designer" id="n-package-designer">
+          <datalist id="n-package-designer">
+              <option value="1">
+              <option value="2">
+              <option value="3">
+              <option value="4">
+              <option value="5">
+          </datalist>
+        </div>   
+      </div>
+      </div>
+      <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+        <label style="font-size: 16px;">Matching Costs</label>
+        <ul style="padding-inline-start: 0%; color: #838383; font-size: 12px;" >
+          <li class="c">Industrial Designer</li>
+          <li class="c">Mechanical Designer</li>
+          <li class="c">Electrical Engineer</li>
+        </ul>
+      </div>
+      <div class="dashboard-design-aproject-ttttttt-project-info-dx">
+        <label style="font-size: 16px; font-weight: 500;">Enter your preferred vendor’s name and email. They will be notified to join SWK and make an account.</label>
+        <div class="dashboard-design-aproject-how-would-you-describe-your-project-container">
+          <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+            <label>Industrial Designer</label>
+        <p><input placeholder="Contact name..." oninput="this.className = ''" name="idesignername"></p>
+          </div>  
+          <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+            <label>Mechanical Designer</label>
+            <p><input placeholder="Contact name..." oninput="this.className = ''" name="mdesignername"></p>
+          </div>  
+        </div>
+        <div class="dashboard-design-aproject-how-would-you-describe-your-project-container">
+          <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+            <label>Electrical Engineer</label>
+        <p><input placeholder="Contact name..." oninput="this.className = ''" name="eengineername"></p>
+          </div>  
+          <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+            <label>Package Designer</label>
+            <p><input placeholder="Contact name..." oninput="this.className = ''" name="pdesignername"></p>
+          </div>  
+        </div>
+        <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+          <button class="btn" style="border: none; color: #1804FF; padding: none;" id="add-more-designer">Add New Vendor +</button>
+        </div>
+        </div>
+        <div class="dashboard-design-aproject-ttttttt-project-info-dx">
+          <h3>Key word questions for each specialty</h3>
+          <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+          <label>Mechanical Designer:</label>
+          <div class="dashboard-design-aproject-checkbox-input-app-container">
+            <label>What types of buttons on the housing?</label>
+            <div class="dashboard-design-aproject-checkbox-input-box-sup-app-container">
+            <input type="checkbox" oninput="this.className = ''" name="#"><label>Switch Buttons</label>
+          </div>
+          <div class="dashboard-design-aproject-checkbox-input-box-sup-app-container">
+            <input type="checkbox" oninput="this.className = ''" name="#"><label>Touch Buttons</label>
+          </div>
+          <div class="dashboard-design-aproject-checkbox-input-box-sup-app-container">
+            <input type="checkbox" oninput="this.className = ''" name="#"><label>Metal Touch Sensor</label>
+          </div>
+          <div class="dashboard-design-aproject-checkbox-input-box-sup-app-container">
+            <input type="checkbox" oninput="this.className = ''" name="#"><label>Plastic Touch Sensor</label>
+          </div>
+        </div>
+        <div class="dashboard-design-aproject-checkbox-input-app-container">
+          <label>What are the materials of the housing?</label>
+          <div class="dashboard-design-aproject-checkbox-input-box-sup-app-container">
+          <input type="checkbox" oninput="this.className = ''" name="#"><label>Plastic</label>
+        </div>
+        <div class="dashboard-design-aproject-checkbox-input-box-sup-app-container">
+          <input type="checkbox" oninput="this.className = ''" name="#"><label>Metal</label>
+        </div>
+        <div class="dashboard-design-aproject-checkbox-input-box-sup-app-container">
+          <input type="checkbox" oninput="this.className = ''" name="#"><label>Wood</label>
+        </div>
+         </div>
+        </div>
+        <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+          <label>Electrical Engineer:</label>
+          <div class="dashboard-design-aproject-checkbox-input-app-container">
+            <label>Does this project use a remote control?</label>
+            <div class="dashboard-design-aproject-checkbox-input-box-sup-app-container">
+            <input type="radio" oninput="this.className = ''" name="#"><label>Yes</label>
+          </div>
+          <div class="dashboard-design-aproject-checkbox-input-box-sup-app-container">
+            <input type="radio" oninput="this.className = ''" name="#"><label>No</label>
+          </div>
+        </div>
+        </div>
+    </div>  
+    </div>
   </div>
   <div class="tab" name="vendor-form2">
     <p><input placeholder="Username..." oninput="this.className = ''" name="uname"></p>
@@ -425,6 +556,7 @@ button:hover {
   </div>
   <!-- Circles which indicates the steps of the form: -->
 </form>
+</div>
   </div>
   </div>
 </div>
