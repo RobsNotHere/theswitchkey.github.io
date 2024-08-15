@@ -242,7 +242,7 @@ table {
   max-height: 100%;
   max-width: 100%;
   border:none;
-  background: url(/assets/swk-temp-logo.png) no-repeat center/contain;
+  background: url("../assets/swk-temp-logo.png") no-repeat center/contain;
 }
 
 button,
