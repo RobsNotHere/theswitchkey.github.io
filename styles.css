@@ -53,11 +53,12 @@ main{
   
 }
 
-.dashboard-page-app-display{
+.dashboard-page-app-display,.dashboard-portfolio-flow-user-portfolio-dashboard-portfolio-flow-user-portfolio{
   flex-direction: inherit;
-  margin: 0 auto;
-  padding: var(--content-v-padding) var(--content-h-padding);
-  width: calc(var(--content-width) + var(--content-h-padding)* 2);
+  margin: auto;
+  padding: 0px 70px;
+  min-width: 40%;
+  max-width: 100%;
 }
 
 .global-page-nav-swk{
@@ -114,7 +115,7 @@ main{
   }
  
 }
-@media  (max-width:1020px) {
+@media screen and (max-width:1020px) {
   .page-content{
     width: 100%;
     
