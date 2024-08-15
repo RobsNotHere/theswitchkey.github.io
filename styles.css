@@ -117,13 +117,16 @@ main{
     transition: width .15s cubic-bezier(0,.57,.21,.99), box-shadow .15s cubic-bezier(0,.57,.21,.99);
     font-size: 14vh;
   }
-.page-content{
-  flex: 9;
-  margin:0 auto;
-  height: 100vh;
-  overflow: auto;
-  
+ 
 }
+@media  (max-width:1020px) {
+  .page-content{
+    flex: 9;
+    margin:0 auto;
+    height: 100vh;
+    overflow: auto;
+    
+  }
 }
 
 blockquote,
