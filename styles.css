@@ -76,7 +76,7 @@ main{
   visibility: hidden;
   overflow: hidden;
   transition: width .15s cubic-bezier(0,.57,.21,.99), box-shadow .15s cubic-bezier(0,.57,.21,.99);
-  box-shadow: 2px 2px 4px 0px #AAAAAA;
+  box-shadow: 1px 1px 2px 0px #AAAAAA;
 }
 
 @media (min-width: 1080px){
