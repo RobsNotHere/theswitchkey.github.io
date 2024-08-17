@@ -52,6 +52,12 @@ main{
   overflow: auto;
   
 }
+@media (min-width:1020px) {
+  .page-content{
+    width: 100%;
+    
+  }
+}
 
 .dashboard-page-app-display,.dashboard-portfolio-flow-user-portfolio-dashboard-portfolio-flow-user-portfolio{
   flex-direction: inherit;
@@ -123,12 +129,6 @@ main{
   
 }
 
-@media (min-width:1020px) {
-  .page-content{
-    width: 100%;
-    
-  }
-}
 
 blockquote,
 dl,
