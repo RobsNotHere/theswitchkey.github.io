@@ -113,7 +113,7 @@ main{
   
 }
 
-@media screen and (min-width:1020px) {
+@media (min-width:1020px) {
   .page-content{
     width: 100%;
     
