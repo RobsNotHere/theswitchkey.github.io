@@ -52,7 +52,7 @@ main{
   overflow: auto;
   
 }
-@media (min-width:1080px) {
+@media (min-width:1020px) {
   .page-content{
     width: 100%;
     
@@ -78,7 +78,7 @@ main{
   box-shadow: 1px 1px 2px 0px #AAAAAA;
 }
 
-@media (min-width: 1080px){
+@media (min-width: 1020px){
   .global-page-nav-swk{
     width: 100%; 
     height: 100vh;
