@@ -79,11 +79,11 @@ main{
   box-shadow: 2px 2px 4px 0px #AAAAAA;
 }
 
-@media (min-width: 420px){
+@media (min-width: 1080px){
   .global-page-nav-swk{
     width: 100%; 
     height: 100vh;
-    min-width: 420px;
+    min-width: 360px;
     visibility: visible;
   }
  
@@ -108,7 +108,7 @@ main{
   letter-spacing: -0.01em;
 }
 
-@media (min-width:320px){
+@media (min-width:420px){
   .overview-nav {
     margin-top: 5%;
     z-index: 1;
