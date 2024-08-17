@@ -414,6 +414,18 @@ hr{
   font-family: inherit;
   color: inherit;
 }
+@media (min-width:760px){
+  blockquote,
+dl,
+dd,
+h1,
+h5,
+h6,
+hr{
+  padding: 0px;
+  font-size: 20px;
+}
+}
 
 h2 {
   font-size: 32px;

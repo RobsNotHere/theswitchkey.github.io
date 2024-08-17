@@ -7,13 +7,13 @@
 .home-display-top-header{
   text-align: start;
   margin: auto;
+  max-width: 1020px;
 }
 .home-display-grad {
   display: flex;
   text-align: center;
   flex-direction: column;
   padding: 4.5rem;
-  margin-top: 18px;
   background-image: linear-gradient(to bottom right, #DAA9A9 0%,#643CE4 65%, #B6AAFF 100%);
   background-size: cover;
   background-position: center;
