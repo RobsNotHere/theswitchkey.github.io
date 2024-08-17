@@ -52,7 +52,7 @@ main{
   overflow: auto;
   
 }
-@media (min-width:1020px) {
+@media (min-width:1080px) {
   .page-content{
     width: 100%;
     
