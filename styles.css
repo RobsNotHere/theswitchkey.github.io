@@ -62,7 +62,6 @@ main{
 .dashboard-page-app-display,.dashboard-portfolio-flow-user-portfolio-dashboard-portfolio-flow-user-portfolio{
   flex-direction: inherit;
   margin: auto;
-  padding: 0px 70px;
   min-width: 40%;
   max-width: 100%;
 }
