@@ -68,7 +68,6 @@ input {
 }
 
 .common-5,
-.login-flow-sign-in-page-switchlink,
 .login-flow-sign-in-page-sign-in-1,
 .login-flow-sign-in-page-or {
   display: flex;
@@ -106,13 +105,10 @@ input {
 
 .login-flow-sign-in-page-switchlink {
   flex-shrink: 0;
-  position: absolute;
-  left: calc(50% + -8.5px + -138px);
-  bottom: 80px;
-  height: 17px;
-  width: 123px;
   font-size: 14px;
   color: rgba(158, 158, 158, 1);
+  align-self: start;
+  justify-items: last baseline;
 }
 
 .login-flow-sign-in-page-switch-key-logo {
@@ -129,8 +125,6 @@ input {
 
 .login-flow-sign-in-page-tt-sign-in-new-to-switchkey-join-now-temail-trectangle-112tpassword-trectangle-113tttrectangle-114tremember-me-tforgot-password-trectangle-36ttline-69or-line-68trectangle {
   flex-shrink: 0;
-  padding-bottom: 19px;
-  width: 521px;
 }
 
 .login-flow-sign-in-page-t-sign-in-new-to-switchkey-join-now-temail-trectangle-112tpassword-trectangle-113tttrectangle-114tremember-me-tforgot-password-trectangle-36ttline-69or-line-68trectangle {
