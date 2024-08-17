@@ -138,15 +138,7 @@
 .dashboard-new-user-join-aproject-to-view-recent-activities {
   display: grid;
   margin-right:auto;
-  padding-left: 1.8em;
-  
 }
-@media (min-width: 1430px) {
-  .dashboard-new-user-tttt-recent-projects-this-is-where-your-recent-projects-would-show-up-trectangle-35bg-rectangle-31tbg-rectangle-35to-do-list-trectangle-1068complete-your-profile-trectangle-1069setup-your-portfolio-trectangle-1070create-your-first-project-frame {
-    flex-wrap: nowrap;
-  }
-}
-
 
 .pnav{
   display: flex;
