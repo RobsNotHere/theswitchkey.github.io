@@ -67,8 +67,6 @@ main{
   flex-direction: column;
   flex: 1;
   height: 100vh;
-  max-width: 420px; 
-  min-width: 300px;
   visibility: hidden;
   overflow: hidden;
   transition: width .15s cubic-bezier(0,.57,.21,.99), box-shadow .15s cubic-bezier(0,.57,.21,.99);
