@@ -96,10 +96,10 @@ main{
 
 .overview-nav {
   display: flex;
-  margin-top: 15%;
+  margin-top: 5%;
   z-index: 1;
   justify-content: center;
-  column-gap: 20%;
+  column-gap: 16%;
   letter-spacing: -0.01em;
 }
 
@@ -288,7 +288,7 @@ input[type="submit"] {
   width: 100%;
 
 }
-@media (min-width: 1020px){
+@media (min-width: 760px){
 .onv-button a{
   display: inherit;
   flex-shrink: 0;
