@@ -58,11 +58,11 @@ main{
 
 .dashboard-page-app-display,.dashboard-portfolio-flow-user-portfolio-dashboard-portfolio-flow-user-portfolio{
   margin: auto;
-
+  padding: 0 12px;
 }
 @media (min-width:1020px){
 .dashboard-page-app-display,.dashboard-portfolio-flow-user-portfolio-dashboard-portfolio-flow-user-portfolio{
-  padding: 0 12px;
+  padding: 0 14px;
   margin: auto;
 }
 }
@@ -411,7 +411,6 @@ h6,
 hr{
   font-size: 20px;
   font-weight: 500;
-  margin: 0;
   font-family: inherit;
   color: inherit;
 }
@@ -423,10 +422,9 @@ h1,
 h5,
 h6,
 hr{
-  margin: 35px;
+  margin-top: 35px;
   font-size: 22px;
   font-weight: 500;
-  margin: 0;
   font-family: inherit;
   color: inherit;
 }
