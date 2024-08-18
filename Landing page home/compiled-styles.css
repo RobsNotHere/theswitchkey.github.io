@@ -50,7 +50,6 @@ input {
 
 
 .common-29,
-.landing-page-t-project-design-work-opportunities-trectangle,
 .landing-page-t-how-does-switchkey-match-collaborators-to-my-project-trectangle,
 .landing-page-t-what-types-of-projects-can-ipost-on-switchkey-ttrectangle-32trectangle,
 .landing-page-t-is-there-acost-to-post-aproject-on-switchkey-ttrectangle-32trectangle,
@@ -60,12 +59,14 @@ input {
   flex-wrap: wrap;
 }
 
-.common-30,
 .landing-page-t-pexels-photo{
-  display: flex;
-  flex-direction: column;
-  padding-top: 28px;
-  width: 100%;
+    flex-grow: 1;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(public/assets/pexels-photo.jpeg);
+    font-family: Inter;
+    color: rgba(255, 255, 255, 1);
 }
 .landing-page-ttt-our-mission-innovation-connection-success-tat-switchkey-we-pledge-to-empower-every-step-of-your-project-slifecycle-from-the-spark-of-an-idea-to-the-final-touches-of-execution-we-are-committed-to-fostering-innovation-enabling-seamless-connections-with-skilled-collaborator-and-ensuring-the-success-of-your-venture-our-platform-is-built-on-the-cornerstone-of-trust-offering-acomprehensive-suite-of-tools-designed-for-efficiency-and-excellence-in-project-management-manufacturing-development-and-distribution-join-switchkey-where-every-project-is-ajourney-toward-remarkable-achievement-trectangle-126rectangle {
   display: flex;
@@ -196,7 +197,6 @@ input {
 }
 
 .common-25,
-.landing-page-pexels-photo,
 .landing-page-bob-jeffway,
 .landing-page-christopher-tse {
   font-size: 20px;
@@ -412,6 +412,7 @@ input {
   column-gap: 48px;
   row-gap: 8.5px;
   font-family: Inter;
+  align-items: center;
 }
 
 .landing-page-rectangle {
@@ -427,20 +428,7 @@ input {
 
 
 .landing-page-pexels-photo {
-  padding-top: 153px;
-  
-  
-  padding-bottom: 260px;
-  flex-grow: 1;
-  max-height: 100%;
-  max-width: 100%;
-  background-repeat: no-repeat;
-  background-position: 0px -100.47px;
-  background-size: 100% 156%;
-  background-image: url(public/assets/pexels-photo.jpeg);
-  font-family: Inter;
-  color: rgba(255, 255, 255, 1);
-  line-height: 28px;
+ display: flex;
 }
 
 .landing-page-switch-key {
