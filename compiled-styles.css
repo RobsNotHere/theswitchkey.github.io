@@ -15,7 +15,7 @@
   flex-direction: column;
   padding: 1.2rem;
   background-image: linear-gradient(to bottom right, #DAA9A9 0%,#643CE4 65%, #B6AAFF 100%);
-  border-radius: 10px;
+  border-radius: 18px;
 }
 @media (min-width:1020px){
 .home-display-grad {
