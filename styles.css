@@ -456,7 +456,7 @@ h2{
 
 h3{
   font-size: 18px;  
-  font-weight: 550;
+  font-weight: 500;
   margin: 0;
   font-family: inherit;
   color: rgb(0, 0, 0);
@@ -466,7 +466,7 @@ h3{
 @media (min-width:760px){
 h3{
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   margin: 0;
   font-family: inherit;
   color: rgb(0, 0, 0);
