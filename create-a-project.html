@@ -17,7 +17,6 @@
   
 }
 .dashboard-design-aproject-ttttttt-project-info-dx{
-  display: flex;
   padding-top: 25px;
   flex-direction: column;
   
@@ -28,7 +27,6 @@
 
 }
 .dashboard-design-aproject-how-would-you-describe-your-project-container{
-  display: flex;
   flex-direction: row;
   column-gap: 100px;
   
@@ -65,6 +63,17 @@ input.invalid {
   min-width: 50%;
   max-width: 100%;
   position: relative;
+}
+.dashboard-design-aproject-how-would-you-describe-your-project-container{
+  display: flex;
+  flex-direction: row;
+  column-gap: 100px;
+}
+.dashboard-design-aproject-ttttttt-project-info-dx{
+  
+  padding-top: 25px;
+  flex-direction: column;
+  
 }
 }
 
@@ -559,7 +568,7 @@ button:hover {
     <p><input placeholder="Username..." oninput="this.className = ''" name="uname"></p>
     <p><input placeholder="Password..." oninput="this.className = ''" name="pword" type="password"></p>
   </div>
-  <div style="overflow:auto;">
+  <div style="overflow:auto; margin-bottom: 30px;">
     <div style="float:right;">
       <button class="btn" style= "background-color: #0029FF; color: white;border: none;"type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
       <button class="btn" style= "background-color: #0029FF; color: white;border: none;"type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
