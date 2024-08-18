@@ -409,7 +409,8 @@ h1,
 h5,
 h6,
 hr{
-  font-size: 20px;
+  margin-top: 30px;
+  font-size: 22px;
   font-weight: 500;
   font-family: inherit;
   color: inherit;
@@ -423,7 +424,7 @@ h5,
 h6,
 hr{
   margin-top: 35px;
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 500;
   font-family: inherit;
   color: inherit;
@@ -431,8 +432,8 @@ hr{
 }
 
 h2 {
-  font-size: 24px;
-  font-weight: 410;
+  font-size: 28px;
+  font-weight: 400;
   margin: 0;
   font-family: inherit;
   color: white;
@@ -441,7 +442,7 @@ h2 {
 @media (min-width:760px){
 h2{
   font-size: 32px;
-  font-weight: 410;
+  font-weight: 400;
   margin: 0;
   font-family: inherit;
   color: white;
@@ -450,7 +451,7 @@ h2{
 
 h3{
   font-size: 18px;  
-  font-weight: 510;
+  font-weight: 500;
   margin: 0;
   font-family: inherit;
   color: rgb(0, 0, 0);
@@ -460,7 +461,7 @@ h3{
 @media (min-width:760px){
 h3{
   font-size: 20px;
-  font-weight: 510;
+  font-weight: 500;
   margin: 0;
   font-family: inherit;
   color: rgb(0, 0, 0);
@@ -470,7 +471,7 @@ h3{
 
 h4{
   font-size: 16px;
-  font-weight: 480;
+  font-weight: 400;
   margin: 0;
   font-family: inherit;
   color: rgb(0, 0, 0);
