@@ -407,8 +407,8 @@ h1,
 h5,
 h6,
 hr{
-  padding-top: 40px;
-  font-size: 24px;
+  padding: 2%;
+  font-size: 20px;
   font-weight: 500;
   font-family: inherit;
   color: inherit;
@@ -421,28 +421,39 @@ h1,
 h5,
 h6,
 hr{
-  padding: 0px;
-  font-size: 20px;
+  padding-top: 40px;
+  font-size: 24px;
 }
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 30px;
+}
+
+@media (min-width:760px){
+h2 {
+  font-size: 34px;
   font-weight: 410;
   margin: 0;
   font-family: inherit;
   color: white;
-  
+}
 }
 
 h3{
-  font-size: 20px;
+  font-size: 18px;  
+}
+
+@media (min-width:760px){
+h3{
+  font-size: 22px;
   font-weight: 510;
   margin: 0;
   font-family: inherit;
   color: rgb(0, 0, 0);
   justify-self: flex-start;
   
+}
 }
 
 h4{
