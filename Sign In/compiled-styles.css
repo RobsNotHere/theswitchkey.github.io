@@ -43,8 +43,7 @@ input {
   justify-content: flex-end;
 }
 .login-flow-sign-in-page-t-rectangle-33ttsign-in-new-to-switchkey-join-now-temail-trectangle-112tpassword-trectangle-113tttrectangle-114tremember-me-tforgot-password-trectangle-36ttline-69or-line-68trectangle{
-  display: flex;
-  align-items: center;
+  display: inherit;
 }
 .common-3,
 .login-flow-sign-in-page-rectangle-1,
@@ -83,29 +82,35 @@ input {
 
 .login-flow-sign-in-page-login-flow-sign-in-page {
   width: 100%;
+  height: 100%;
   display: flex;
   background-color: rgba(255, 255, 255, 1);
 }
 
 .login-flow-sign-in-page-t-rectangle-33ttsign-in-new-to-switchkey-join-now-temail-trectangle-112tpassword-trectangle-113tttrectangle-114tremember-me-tforgot-password-trectangle-36ttline-69or-line-68trectangle {
   flex-wrap: wrap;
-  font-family: Inter;
   letter-spacing: 0em;
 }
 
 .login-flow-sign-in-page-rectangle {
-  position: relative;
   padding-right: 130px;
   padding-left: 130px;
   height: 100vh;
   justify-content: center;
   background-color: rgba(217, 217, 217, 0.4);
-  align-items: center;
+}
+@media (min-width){
+.login-flow-sign-in-page-rectangle {
+  padding-right: 130px;
+  padding-left: 130px;
+  height: 100vh;
+  justify-content: center;
+  background-color: rgba(217, 217, 217, 0.4);
+}
 }
 
 .login-flow-sign-in-page-switchlink {
   flex-shrink: 0;
- 
   color: rgba(158, 158, 158, 1);
   align-self: start;
   justify-items: last baseline;
@@ -113,10 +118,14 @@ input {
 
 .login-flow-sign-in-page-switch-key-logo {
   flex-shrink: 0;
-  height: 157px;
-  width: 263px;
-}
 
+}
+@media (min-width:50%){
+.login-flow-sign-in-page-switch-key-logo {
+  flex-shrink: 0;
+  width: 100%;
+}
+}
 .login-flow-sign-in-page-let-it-click {
   font-family: Roboto Flex;
   font-size: 24px;
