@@ -101,7 +101,6 @@ main{
   z-index: 1;
   justify-content: center;
   column-gap: 10%;
-  font-size: 14px;
   text-align: center;
   font-weight: 600;
   letter-spacing: -0.01em;
@@ -120,7 +119,6 @@ main{
 .footer-user-info{
   display: flex;;
   column-gap: 12px;
-  font-size: 14px;
   padding: 20px 0px 20px 40px;
   border-top: 1px solid #000000;
   background-color: white;
@@ -186,11 +184,13 @@ abbr:where([title]) {
 a {
   color: inherit;
   text-decoration: inherit;
+  font-size: 14px; 
 }
 
 b,
 strong {
   font-weight: bold;
+  font-size: 14px; 
 }
 
 code,
