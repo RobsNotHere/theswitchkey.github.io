@@ -326,6 +326,7 @@ button:hover {
   padding: 18px 0px;
   text-align: left;
   color: #9197B3;
+  border:0;
 }
 
 .icon-button a{
