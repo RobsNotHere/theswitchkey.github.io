@@ -358,7 +358,7 @@ button:hover {
   line-height: 2.5;
 }
 
-ul .sub-menu-content li a{
+.sub-menu-content li a{
   display: block
 }
 
