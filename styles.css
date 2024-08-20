@@ -352,14 +352,15 @@ button:hover {
 
 .sub-menu-content {
   display: none;
-}
-
-.sub-menu-content a.open{
-  display: block; 
   position: relative;
   color: #9197B3;
   z-index: 1;
   line-height: 2.5;
+}
+
+.sub-menu-content a{
+  display: block; 
+  
 }
 
 
@@ -571,3 +572,6 @@ video {
   display: none;
 }
   
+[show]  {
+  display: block;
+}
