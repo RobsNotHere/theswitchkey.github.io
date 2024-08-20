@@ -354,11 +354,12 @@ button:hover {
   display: none;
   position: relative;
   color: #9197B3;
+  transition: background-color .1s ease-in-out;
   z-index: 1;
   line-height: 2.5;
 }
 
-.sub-menu-content li a{
+ul .sub-menu-content li a{
   display: block
 }
 
