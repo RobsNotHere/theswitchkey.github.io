@@ -288,6 +288,15 @@ input[type="submit"] {
   width: 100%;
 
 }
+.hamburger-button{
+  display: inherit;
+  flex-shrink: 0;
+  color: white;
+  border: none;
+  align-items: center;
+  padding: 0%;
+}
+
 @media (min-width: 760px){
 .onv-button a{
   display: inherit;
@@ -298,7 +307,11 @@ input[type="submit"] {
   align-items: center;
   padding: 0%;
 }
+.hamburger-button {
+  display: none;
 }
+}
+
 .btn {
   -webkit-appearance: button;
   border-color: #5932EA;
