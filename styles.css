@@ -358,11 +358,9 @@ button:hover {
   line-height: 2.5;
 }
 
-.sub-menu-content a{
-  display: block; 
-  
+ul .sub-menu-content li a{
+  display: block
 }
-
 
 input[type="search"]{
   -webkit-appearance: textfield;
