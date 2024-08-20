@@ -9,6 +9,10 @@
   margin: auto;
   max-width: 1121px;
 }
+.home-display-top-header-welcome-user-id{
+  display:none;
+}
+
 .home-display-grad {
   display: flex;
   text-align: center;
@@ -34,6 +38,9 @@
   letter-spacing: 0em;
 }
 @media (min-width:1020px){
+  .home-display-top-header-welcome-user-id{
+    display:flex;
+  }
   .home-display-grad {
     display: flex;
     text-align: center;
