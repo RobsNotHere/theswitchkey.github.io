@@ -251,6 +251,7 @@ table {
   flex-shrink: 0;
   display: flex;
   padding: 40% 0%;
+  justify-content: center;
 }
 .logo-icon {
   flex-shrink: 0;
