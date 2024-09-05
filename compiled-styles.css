@@ -255,7 +255,7 @@
   display:inherit;
   font-weight: 400;
   color: #797979;
-  flex-direction: column;
+  text-indent: 0.2em;
 }
 /* Mark input boxes that gets an error on validation: */
 input.invalid {
