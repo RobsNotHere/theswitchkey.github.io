@@ -8,109 +8,6 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" type="text/css" href="compiled-styles.css">
 <style>
-
-#regForm {
-  margin: auto;
-}
-.dashboard-design-aproject-header {
- margin: 0;
-  
-}
-.dashboard-design-aproject-ttttttt-project-info-dx{
-  padding-top: 25px;
-  flex-direction: column;
-  
-}
-.dashboard-design-aproject-how-would-you-describe-your-project {
- margin: 0;
- 
-
-}
-.dashboard-design-aproject-how-would-you-describe-your-project-container{
-  flex-direction: row;
-  column-gap: 100px;
-  
-}
-.dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container{
-  display:inherit;
-  flex-direction: column;
-  width: 100%;
-  padding: 20px 0px;
-  font-weight: 460;
-}
-.dashboard-design-aproject-checkbox-input-app-container{
-  display:flex;
-  width: 100%;
-  padding: 20px 0px;
-  font-weight: 460;
-  color: #797979;
-  column-gap: 45px;
-}
-.dashboard-design-aproject-checkbox-input-box-sup-app-container{
-  display:inherit;
-  font-weight: 400;
-  color: #797979;
-  flex-direction: column;
-}
-/* Mark input boxes that gets an error on validation: */
-input.invalid {
-  background-color: #ffebeb;
-}
-@media (min-width:1020px){
-  #regForm {
-  margin: auto;
-  padding: 0px 69px;
-  min-width: 50%;
-  max-width: 100%;
-  position: relative;
-}
-.dashboard-design-aproject-how-would-you-describe-your-project-container{
-  display: flex;
-  flex-direction: row;
-  column-gap: 100px;
-}
-.dashboard-design-aproject-ttttttt-project-info-dx{
-  
-  padding-top: 25px;
-  flex-direction: column;
-  
-}
-}
-
-/* Hide all steps by default: */
-.tab {
-  display: none;
-}
-
-button:hover {
-  opacity: 0.8;
-}
-
-#prevBtn {
-  background-color: #bbbbbb;
-}
-
-/* Make circles that indicate the steps of the form: */
-.step {
-  height: 30px;
-  width: 30px;
-  margin: 0 2px;
-  background-color: #bbbbbb;
-  border: none;  
-  border-radius: 50%;
-  display: inline-block;
-  opacity: 0.5;
-}
-
-.step.active {
-  opacity: 1;
-}
-
-/* Mark the steps that are finished and valid: */
-.step.finish {
-  background-color: #5932EA;
-  opacity: 100;
-}
 </style>
 <body>
   <div class="global-route-container">
@@ -192,7 +89,7 @@ button:hover {
     <div class="dashboard-design-aproject-header">
         <h3>Project Introduction</h3></div>
         <hr></hr>
-    <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+    <div class="dashboard-design-app-sub-container">
         <label style="font-weight: 460;">Project Name</label>
     <p style="width:45%"><input placeholder="Project..." oninput="this.className = ''" name="pname"></p>
     </div>
@@ -202,8 +99,8 @@ button:hover {
     <div class= "dashboard-design-aproject-how-would-you-describe-your-project">
         <h3>How would you describe your project</h3>
         <hr></hr>
-    <div class="dashboard-design-aproject-how-would-you-describe-your-project-container">
-    <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+    <div class="dashboard-design-container">
+    <div class="dashboard-design-app-sub-container">
       <label>Primary Catagory</label>
     <select id="#data-type-primary-catagory-of-your-project" onchange="this.className = ''" name="pcatagory">
         <option value="Industry1">Industry1</option>
@@ -212,7 +109,7 @@ button:hover {
         <option value="Industry4">Industry4</option>
     </select>
     </div>
-    <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+    <div class="dashboard-design-app-sub-container">
     <label>Secondary Catagory</label>
     <select id="#data-type-secondary-catagory-of-your-project" onchange="this.className = ''" name="scatagory">
         <option value="Industry1">Industry1</option>
@@ -222,8 +119,8 @@ button:hover {
     </select>
   </div>
   </div>
-  <div class="dashboard-design-aproject-how-would-you-describe-your-project-container">
-    <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+  <div class="dashboard-design-container">
+    <div class="dashboard-design-app-sub-container">
     <label>Product Tag</label>
     <select id="#data-type-primary-catagory-of-your-project" onchange="this.className = ''" name="pcatagory">
         <option value="Industry1">Industry1</option>
@@ -232,7 +129,7 @@ button:hover {
         <option value="Industry4">Industry4</option>
     </select>
   </div>
-  <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+  <div class="dashboard-design-app-sub-container">
     <label>Product Location/Timezone</label>
     <select id="#data-type-secondary-catagory-of-your-project" onchange="this.className = ''" name="scatagory">
         <option value="Industry1">Industry1</option>
@@ -242,8 +139,8 @@ button:hover {
     </select>
   </div>
   </div>
-  <div class="dashboard-design-aproject-how-would-you-describe-your-project-container">
-    <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+  <div class="dashboard-design-container">
+    <div class="dashboard-design-app-sub-container">
     <label>Do you have a manufacturing/development team?</label>
     <select id="#data-type-primary-catagory-of-your-project" onchange="this.className = ''" name="pcatagory">
         <option value="Industry1">Industry1</option>
@@ -252,7 +149,7 @@ button:hover {
         <option value="Industry4">Industry4</option>
     </select>
   </div>
-  <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+  <div class="dashboard-design-app-sub-container">
     <label>Is this a licensing or manufacturing project?</label>
     <select id="#data-type-secondary-catagory-of-your-project" onchange="this.className = ''" name="scatagory">
         <option value="Industry1">Industry1</option>
@@ -262,12 +159,12 @@ button:hover {
     </select>
   </div>
   </div>
-  <div class="dashboard-design-aproject-how-would-you-describe-your-project-container">
-    <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+  <div class="dashboard-design-container">
+    <div class="dashboard-design-app-sub-container">
       <label>Name of manufacturing contact</label>
       <p><input placeholder="Contact name..." oninput="this.className = ''" name="pname"></p>
   </div>
-  <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+  <div class="dashboard-design-app-sub-container">
     <label>Email of manufacturing contact</label>
       <p><input placeholder="Contact email..." oninput="this.className = ''" name="pname"></p>
   </div>
@@ -281,8 +178,8 @@ button:hover {
     <hr></hr>
     <div class= "dashboard-design-aproject-how-would-you-describe-your-project">
       <label style="font-size: 16px; font-weight: 500;">How would you describe your project</label>
-    <div class="dashboard-design-aproject-how-would-you-describe-your-project-container">
-      <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+    <div class="dashboard-design-container">
+      <div class="dashboard-design-app-sub-container">
         <label>Industrial Designer</label>
         <input list="n-industrial-designer" name="n-industrial-designer" id="n-industrial-designer">
         <datalist id="n-industrial-designer">
@@ -293,7 +190,7 @@ button:hover {
             <option value="5">5
         </datalist>
       </div>  
-      <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+      <div class="dashboard-design-app-sub-container">
         <label>Mechanical Designer</label>
         <input list="n-mechanical-designer" name="n-mechanical-designer" id="n-mechanical-designer">
         <datalist id="n-mechanical-designer">
@@ -305,8 +202,8 @@ button:hover {
         </datalist>
       </div>  
     </div>
-    <div class="dashboard-design-aproject-how-would-you-describe-your-project-container">
-      <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+    <div class="dashboard-design-container">
+      <div class="dashboard-design-app-sub-container">
         <label>Electrical Engineer</label>
         <input list="n-electrical-engineer" name="n-electrical-engineer" id="n-electrical-engineer">
         <datalist id="n-electrical-engineer">
@@ -317,7 +214,7 @@ button:hover {
             <option value="5">
         </datalist>
       </div>  
-      <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+      <div class="dashboard-design-app-sub-container">
         <label>Package Designer</label>
         <input list="n-package-designer" name="n-package-designer" id="n-package-designer">
         <datalist id="n-package-designer">
@@ -330,7 +227,7 @@ button:hover {
       </div>   
     </div>
     </div>
-    <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+    <div class="dashboard-design-app-sub-container">
       <label style="font-size: 16px;">Matching Costs</label>
       <ul style="padding-inline-start: 0%; color: #838383; font-size: 12px;" >
         <li class="c">Industrial Designer</li>
@@ -340,33 +237,33 @@ button:hover {
     </div>
     <div class="dashboard-design-aproject-ttttttt-project-info-dx">
       <label style="font-size: 16px; font-weight: 500;">Enter your preferred vendor’s name and email. They will be notified to join SWK and make an account.</label>
-      <div class="dashboard-design-aproject-how-would-you-describe-your-project-container">
-        <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+      <div class="dashboard-design-container">
+        <div class="dashboard-design-app-sub-container">
           <label>Industrial Designer</label>
       <p><input placeholder="Contact name..." oninput="this.className = ''" name="idesignername"></p>
         </div>  
-        <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+        <div class="dashboard-design-app-sub-container">
           <label>Mechanical Designer</label>
           <p><input placeholder="Contact name..." oninput="this.className = ''" name="mdesignername"></p>
         </div>  
       </div>
-      <div class="dashboard-design-aproject-how-would-you-describe-your-project-container">
-        <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+      <div class="dashboard-design-container">
+        <div class="dashboard-design-app-sub-container">
           <label>Electrical Engineer</label>
       <p><input placeholder="Contact name..." oninput="this.className = ''" name="eengineername"></p>
         </div>  
-        <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+        <div class="dashboard-design-app-sub-container">
           <label>Package Designer</label>
           <p><input placeholder="Contact name..." oninput="this.className = ''" name="pdesignername"></p>
         </div>  
       </div>
-      <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+      <div class="dashboard-design-app-sub-container">
         <button class="btn" style="border: none; color: #1804FF; padding: 0;" id="add-more-designer">Add New Vendor +</button>
       </div>
       </div>
       <div class="dashboard-design-aproject-ttttttt-project-info-dx">
         <h3>Key word questions for each specialty</h3>
-        <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+        <div class="dashboard-design-app-sub-container">
         <label>Mechanical Designer:</label>
         <div class="dashboard-design-aproject-checkbox-input-app-container">
           <label>What types of buttons on the housing?</label>
@@ -396,7 +293,7 @@ button:hover {
       </div>
        </div>
       </div>
-      <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+      <div class="dashboard-design-app-sub-container">
         <label>Electrical Engineer:</label>
         <div class="dashboard-design-aproject-checkbox-input-app-container">
           <label>Does this project use a remote control?</label>
@@ -430,8 +327,8 @@ button:hover {
       <hr></hr>
       <div class= "dashboard-design-aproject-how-would-you-describe-your-project">
         <label style="font-size: 16px; font-weight: 500;">How would you describe your project</label>
-      <div class="dashboard-design-aproject-how-would-you-describe-your-project-container">
-        <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+      <div class="dashboard-design-container">
+        <div class="dashboard-design-app-sub-container">
           <label>Industrial Designer</label>
           <input list="n-industrial-designer" name="n-industrial-designer" id="n-industrial-designer">
           <datalist id="n-industrial-designer">
@@ -442,7 +339,7 @@ button:hover {
               <option value="5">5
           </datalist>
         </div>  
-        <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+        <div class="dashboard-design-app-sub-container">
           <label>Mechanical Designer</label>
           <input list="n-mechanical-designer" name="n-mechanical-designer" id="n-mechanical-designer">
           <datalist id="n-mechanical-designer">
@@ -454,8 +351,8 @@ button:hover {
           </datalist>
         </div>  
       </div>
-      <div class="dashboard-design-aproject-how-would-you-describe-your-project-container">
-        <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+      <div class="dashboard-design-container">
+        <div class="dashboard-design-app-sub-container">
           <label>Electrical Engineer</label>
           <input list="n-electrical-engineer" name="n-electrical-engineer" id="n-electrical-engineer">
           <datalist id="n-electrical-engineer">
@@ -466,7 +363,7 @@ button:hover {
               <option value="5">
           </datalist>
         </div>  
-        <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+        <div class="dashboard-design-app-sub-container">
           <label>Package Designer</label>
           <input list="n-package-designer" name="n-package-designer" id="n-package-designer">
           <datalist id="n-package-designer">
@@ -479,7 +376,7 @@ button:hover {
         </div>   
       </div>
       </div>
-      <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+      <div class="dashboard-design-app-sub-container">
         <label style="font-size: 16px;">Matching Costs</label>
         <ul style="padding-inline-start: 0%; color: #838383; font-size: 12px;" >
           <li class="c">Industrial Designer</li>
@@ -489,33 +386,33 @@ button:hover {
       </div>
       <div class="dashboard-design-aproject-ttttttt-project-info-dx">
         <label style="font-size: 16px; font-weight: 500;">Enter your preferred vendor’s name and email. They will be notified to join SWK and make an account.</label>
-        <div class="dashboard-design-aproject-how-would-you-describe-your-project-container">
-          <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+        <div class="dashboard-design-container">
+          <div class="dashboard-design-app-sub-container">
             <label>Industrial Designer</label>
         <p><input placeholder="Contact name..." oninput="this.className = ''" name="idesignername"></p>
           </div>  
-          <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+          <div class="dashboard-design-app-sub-container">
             <label>Mechanical Designer</label>
             <p><input placeholder="Contact name..." oninput="this.className = ''" name="mdesignername"></p>
           </div>  
         </div>
-        <div class="dashboard-design-aproject-how-would-you-describe-your-project-container">
-          <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+        <div class="dashboard-design-container">
+          <div class="dashboard-design-app-sub-container">
             <label>Electrical Engineer</label>
         <p><input placeholder="Contact name..." oninput="this.className = ''" name="eengineername"></p>
           </div>  
-          <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+          <div class="dashboard-design-app-sub-container">
             <label>Package Designer</label>
             <p><input placeholder="Contact name..." oninput="this.className = ''" name="pdesignername"></p>
           </div>  
         </div>
-        <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+        <div class="dashboard-design-app-sub-container">
           <button class="btn" style="border: none; color: #1804FF; padding: none;" id="add-more-designer">Add New Vendor +</button>
         </div>
         </div>
         <div class="dashboard-design-aproject-ttttttt-project-info-dx">
           <h3>Key word questions for each specialty</h3>
-          <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+          <div class="dashboard-design-app-sub-container">
           <label>Mechanical Designer:</label>
           <div class="dashboard-design-aproject-checkbox-input-app-container">
             <label>What types of buttons on the housing?</label>
@@ -545,7 +442,7 @@ button:hover {
         </div>
          </div>
         </div>
-        <div class="dashboard-design-aproject-how-would-you-describe-your-project-app-sub-container">
+        <div class="dashboard-design-app-sub-container">
           <label>Electrical Engineer:</label>
           <div class="dashboard-design-aproject-checkbox-input-app-container">
             <label>Does this project use a remote control?</label>

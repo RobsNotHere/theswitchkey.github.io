@@ -219,6 +219,110 @@
  display: flex;
  flex-direction: column;
 
+ 
+}
+
+#regForm {
+  margin: auto;
+}
+.dashboard-design-aproject-header {
+ margin: 0;
+  
+}
+.dashboard-design-aproject-ttttttt-project-info-dx{
+  padding-top: 25px;
+  flex-direction: column;
+  
+}
+.dashboard-design-aproject-how-would-you-describe-your-project {
+ margin: 0;
+ 
+
+}
+.dashboard-design-container{
+  flex-direction: row;
+  column-gap: 100px;
+  
+}
+.dashboard-design-app-sub-container{
+  display:inherit;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px 0px;
+  font-weight: 460;
+}
+.dashboard-design-aproject-checkbox-input-app-container{
+  display:flex;
+  width: 100%;
+  padding: 20px 0px;
+  font-weight: 460;
+  color: #797979;
+  column-gap: 45px;
+}
+.dashboard-design-aproject-checkbox-input-box-sup-app-container{
+  display:inherit;
+  font-weight: 400;
+  color: #797979;
+  flex-direction: column;
+}
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffebeb;
+}
+@media (min-width:1020px){
+  #regForm {
+  margin: auto;
+  padding: 0px 69px;
+  min-width: 50%;
+  max-width: 100%;
+  position: relative;
+}
+.dashboard-design-container{
+  display: flex;
+  flex-direction: row;
+  column-gap: 100px;
+}
+.dashboard-design-aproject-ttttttt-project-info-dx{
+  
+  padding-top: 25px;
+  flex-direction: column;
+  
+}
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#prevBtn {
+  background-color: #bbbbbb;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 30px;
+  width: 30px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #5932EA;
+  opacity: 100;
 }
 
 ol,
