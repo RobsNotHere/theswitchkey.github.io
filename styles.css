@@ -297,6 +297,12 @@ input[type="submit"] {
   background-color: transparent;
   border-radius: 4px;
 }
+input[type="checkbox"]{
+  color: inherit;
+  width: auto;
+  margin: auto;
+}
+
   .onv-button{
     display: inherit;
     flex-shrink: 0;

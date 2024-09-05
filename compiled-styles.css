@@ -252,10 +252,10 @@
   column-gap: 45px;
 }
 .dashboard-design-aproject-checkbox-input-box-sup-app-container{
-  display:inherit;
+  display:flex;
   font-weight: normal;
   color: #797979;
-  text-indent: 0.2em;
+  text-indent: 0.4em;
 }
 /* Mark input boxes that gets an error on validation: */
 input.invalid {

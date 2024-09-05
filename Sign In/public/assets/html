@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500"
+    />
+    <title>HTML Preview</title>
+    <link rel="stylesheet" type="text/css" href="../styles.css" />
+    <link rel="stylesheet" type="text/css" href="../compiled-styles.css" />
+  </head>
+  <body style="margin: 0px">
+    <!-- This only removes default margins in our renderer iframe, you may remove -->
+    <div class="global-route-container">
+      <div class="app-route-style-container">
+        <div class="global-start-page-steps-swk">
+          <div class="logo-b"> 
+          <button class="logo-icon" onclick="location.href='Landing page home/landing-home.html';">
+          </button>
+         </div>
+      </div>
+    <div class="page-content" style="display: flex;">
+          <div class="dashboard-page-app-display">
+          <div class="login-flow-sign-in-page-tt-sign-in-new-to-switchkey-join-now-temail-trectangle-112tpassword-trectangle-113tttrectangle-114tremember-me-tforgot-password-trectangle-36ttline-69or-line-68trectangle" >
+          <form id ="signInForm" action="/action_page.php">
+          <div class="tab" name="sign-in">
+            <h1 style="font-size:34px; font-weight:bold; margin:0">Sign In:</h1>
+            <p>New to SwitchKey?<a href="#" style="font-weight:bold;color: #008FFF;opacity: 75%;">Join Now</a></p>
+            <div class="dashboard-design-app-sub-container">
+              <label style="font-weight: 460;">Email</label>
+          <p><input placeholder="Email..." oninput="this.className = ''" name="name"></p>
+          </div>
+          <div>
+          <label style="font-weight: 460;">Password</label>
+          <p><input placeholder="Password..." oninput="this.className = ''" name="swkaccpassword"></p>
+        </div>
+        <div class="dashboard-design-container">
+        <div class="dashboard-design-aproject-checkbox-input-box-sup-app-container">
+          <input type="checkbox" oninput="this.className = ''" name="#"><label>RememberMe</label>
+        </div>
+        <a href="#" style="font-weight:bold;color: #008FFF; text-align: left;">Forgot Password</a>
+        </div>
+          </div>
+          <div style="margin-top: 10%;">
+          <button class="btn-b1"type="button" id="nextBtn" onclick="nextPrev(1)"><a href="../index.html">Sign In</a></button>
+          <hr></hr>
+         <button class="btn-b244"type="button"><a href="#">Login with Linkedln</a></button>
+        </div>
+          </form>
+          <script src="../Js/formfield.js" async></script>
+          </div>
+        </div>   
+      </div>    
+      </div> 
+  </div>
+  </body>
+</html>
