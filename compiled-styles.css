@@ -204,6 +204,12 @@
   padding-right: 40px;
 }
 
+.login-flow-sign-in-page-tt-sign-in-new-to-switchkey-join-now-temail-trectangle-112tpassword-trectangle-113tttrectangle-114tremember-me-tforgot-password-trectangle-36ttline-69or-line-68trectangle{
+ display: flex;
+ flex-direction: column;
+
+}
+
 ol,
 ul {
   padding-inline-start: 2.9em;
