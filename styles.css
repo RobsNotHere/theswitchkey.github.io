@@ -319,7 +319,7 @@ input[type="submit"] {
 }
 .btn-b1{
   -webkit-appearance: button;
-  color: #000000;
+  color: white;
   background-color: #7E69FF;
   min-width: none;
   max-width: fit-content;
