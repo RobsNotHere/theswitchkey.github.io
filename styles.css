@@ -321,8 +321,8 @@ input[type="submit"] {
   -webkit-appearance: button;
   color: white;
   background-color: #7E69FF;
-  min-width: none;
-  max-width: fit-content;
+  min-width: min-content;
+  max-width: unset;
 
 }
 .btn-b244{
@@ -330,8 +330,8 @@ input[type="submit"] {
   border-color: black;
   border-width: 2px;
   color: #000000;
-  min-width: none;
-  max-width: fit-content;
+  min-width: min-content;
+  max-width: unset;
   border-radius: 0;
 
 }
