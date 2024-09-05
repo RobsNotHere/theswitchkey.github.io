@@ -316,7 +316,24 @@ input[type="submit"] {
   border-color: #5932EA;
   border-width: 2px;
   color: #000000;
-  border-radius: 4px;
+}
+.btn-b1{
+  -webkit-appearance: button;
+  color: #000000;
+  background-color: #7E69FF;
+  min-width: none;
+  max-width: fit-content;
+
+}
+.btn-b244{
+  -webkit-appearance: button;
+  border-color: black;
+  border-width: 2px;
+  color: #000000;
+  min-width: none;
+  max-width: fit-content;
+  border-radius: 0;
+
 }
 
 .btn-sm {
