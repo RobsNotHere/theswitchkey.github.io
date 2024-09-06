@@ -207,7 +207,19 @@
 #signInForm {
   margin: auto;
 }
+#signUpForm{
+  margin: auto;
+}
+:where([autocomplete=verticode]) {
+  --otp-digits: 6;
+  --otp-ls: 2ch;
+  --otp-gap: 1.25;
 
+  /* private consts */
+  --_otp-bgsz: calc(var(--otp-ls) + 1ch);
+  --_otp-digit: 0;
+
+}
 #regForm {
   margin: auto;
 }
