@@ -314,7 +314,7 @@ button:hover {
   margin: 0 2px;
   background-color: #bbbbbb;
   border: none;  
-  mask:url(assets/check-circle.svg);
+  mask: url(assets/check-circle.svg);
   border-radius: 50%;
   display: inline-block;
   opacity: 0.5;
@@ -338,25 +338,6 @@ ul {
 
 input {
   background-image: none;
-}
-
-.home-icon-button {
-  flex-shrink: 0;
-  display: flex;
-  height: 24px;
-  width: 24px;
-  align-items: center;
-  justify-content: center;
-  background-image: url(assets/3d-square\ 1.svg);
-}
-.project-create-icon {
-  flex-shrink: 0;
-  display: flex;
-  height: 24px;
-  width: 24px;
-  align-items: center;
-  justify-content: center;
-  background-image: url(assets/message-question\ 1.svg);
 }
 
 
