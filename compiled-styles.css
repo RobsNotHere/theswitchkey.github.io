@@ -246,9 +246,6 @@
 
 .dashboard-design-container-steps-row{
   flex-direction: row;
-  text-indent: 0.5em;
-  text-align: center;
-  display: flex;
 }
 .dashboard-design-container{
   flex-direction: row;
@@ -292,6 +289,12 @@ input.invalid {
   display: flex;
   flex-direction: row;
   column-gap: 100px;
+}
+.dashboard-design-container-steps-row{
+  flex-direction: row;
+  text-indent: 0.5em;
+  text-align: right;
+  display: flex;
 }
 .dashboard-design-aproject-ttttttt-project-info-dx{
   
