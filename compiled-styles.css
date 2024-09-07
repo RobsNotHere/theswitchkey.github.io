@@ -243,6 +243,12 @@
  
 
 }
+.dashboard-design-container-steps-row{
+  flex-direction: row;
+  text-indent: 0.5em;
+  text-align: center;
+  
+}
 .dashboard-design-container{
   flex-direction: row;
   column-gap: 100px;
