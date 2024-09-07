@@ -307,12 +307,23 @@ button:hover {
   background-color: #bbbbbb;
 }
 
+.steps-container-column {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0;
+  flex-grow: 1;
+}
+.steps-container-row {
+  margin: 40px 0;
+  flex-grow: 1;
+  row-gap: 20px;
+}
 /* Make circles that indicate the steps of the form: */
 .step {
   height: 30px;
   width: 30px;
   margin: 0 2px;
-  background-color: #bbbbbb;
+  background-color: #727272;
   border: none;  
   mask: url(assets/check-circle.svg);
   border-radius: 50%;
