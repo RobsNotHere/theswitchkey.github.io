@@ -293,7 +293,6 @@ input.invalid {
 .dashboard-design-container-steps-row{
   flex-direction: row;
   text-indent: 0.5em;
-  text-align: right;
   display: flex;
 }
 .dashboard-design-aproject-ttttttt-project-info-dx{
