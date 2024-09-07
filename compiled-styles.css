@@ -243,11 +243,12 @@
  
 
 }
+
 .dashboard-design-container-steps-row{
   flex-direction: row;
   text-indent: 0.5em;
   text-align: center;
-  
+  display: flex;
 }
 .dashboard-design-container{
   flex-direction: row;
