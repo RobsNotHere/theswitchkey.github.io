@@ -470,8 +470,8 @@ dl,
 dd,
 h1,
 h5,
-h6,
-hr{
+h6{
+  margin-top: 30px;
   font-size: 22px;
   font-weight: 500;
   font-family: inherit;
@@ -483,8 +483,7 @@ dl,
 dd,
 h1,
 h5,
-h6,
-hr{
+h6{
   margin-top: 35px;
   font-size: 24px;
   font-weight: 500;
