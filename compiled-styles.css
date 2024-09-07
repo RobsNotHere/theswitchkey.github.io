@@ -324,6 +324,7 @@ button:hover {
   width: 30px;
   margin: 0 2px;
   background-color: #727272;
+  color: #727272;
   border: none;  
   mask: url(assets/check-circle.svg);
   border-radius: 50%;
@@ -338,6 +339,7 @@ button:hover {
 /* Mark the steps that are finished and valid: */
 .step.finish {
   background-color: #5932EA;
+  color: #5932EA;
   opacity: 100;
 }
 
