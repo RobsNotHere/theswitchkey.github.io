@@ -250,7 +250,7 @@ table {
 .logo-b {
   flex-shrink: 0;
   display: flex;
-  padding: 40% 20%;
+  padding: 25% 15%;
   flex-direction: column;
   align-items: flex-start;
 }
