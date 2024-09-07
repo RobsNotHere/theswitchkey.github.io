@@ -314,7 +314,7 @@ button:hover {
   margin: 0 2px;
   background-color: #bbbbbb;
   border: none;  
-  mask:url(/assets/check-circle.svg);
+  mask:url(assets/check-circle.svg);
   border-radius: 50%;
   display: inline-block;
   opacity: 0.5;
