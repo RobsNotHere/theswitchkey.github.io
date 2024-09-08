@@ -245,7 +245,7 @@ table {
 .logo {
   flex-shrink: 0;
   display: flex;
-  padding: 30px 0px 70px 40px;
+  padding: 40px 0px 70px 40px;
 }
 .logo-b {
   flex-shrink: 0;
@@ -255,6 +255,7 @@ table {
   align-items: flex-start;
 }
 .logo-icon {
+  margin: 0 20px;
   flex-shrink: 0;
   height: 70px;
   width: 120px;
