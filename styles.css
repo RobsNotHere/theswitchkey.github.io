@@ -263,6 +263,15 @@ table {
   border:none;
   background: url("Sign In/public/assets/SwitchKeyLogo.svg") no-repeat center/contain;
 }
+.logo-big-icon {
+  flex-shrink: 0;
+  height: 270px;
+  width: 320px;
+  max-height: 100%;
+  max-width: 100%;
+  border:none;
+  background: url("Sign In/public/assets/SwitchKeyLogo.svg") no-repeat center/contain;
+}
 button,
 input,
 optgroup,
