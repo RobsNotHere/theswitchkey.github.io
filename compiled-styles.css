@@ -259,7 +259,10 @@
   flex-direction: column;
   width: 100%;
   padding: 20px 0px;
-  font-weight: 460;
+}
+.dashboard-design-app-sub-container-text-steps{
+  display:inherit;
+  flex-direction: column;
 }
 .dashboard-design-aproject-checkbox-input-app-container{
   display:flex;
