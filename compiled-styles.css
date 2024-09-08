@@ -206,9 +206,11 @@
 
 #signInForm {
   margin: auto;
+  min-width: 520px;
 }
 #signUpForm{
   margin: auto;
+  min-width: 520px;
 }
 :where([autocomplete=verticode]) {
   --otp-digits: 6;
