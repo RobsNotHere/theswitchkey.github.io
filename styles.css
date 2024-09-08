@@ -265,8 +265,8 @@ table {
 }
 .logo-big-icon {
   flex-shrink: 0;
-  height: 270px;
-  width: 320px;
+  height: 170px;
+  width: 220px;
   max-height: 100%;
   max-width: 100%;
   border:none;
