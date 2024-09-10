@@ -299,6 +299,7 @@ input.invalid {
   flex-direction: row;
   text-indent: 0.5em;
   display: flex;
+  margin: 18px 0;
 }
 .dashboard-design-aproject-ttttttt-project-info-dx{
   
