@@ -251,7 +251,8 @@
 }
 .dashboard-design-container{
   flex-direction: row;
-  column-gap: 100px;
+  margin: 4px 0;
+  
   
 }
 .dashboard-design-app-sub-container{
@@ -294,6 +295,7 @@ input.invalid {
   display: flex;
   flex-direction: row;
   column-gap: 100px;
+
 }
 .dashboard-design-container-steps-row{
   flex-direction: row;
