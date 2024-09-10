@@ -134,7 +134,10 @@ main{
   padding: 20px 40px;
   border-top: 1px solid #000000;
 }
-
+.footer-swk{
+  display: flex;;
+  padding: 20px 40px;
+}
 
 blockquote,
 dl,
