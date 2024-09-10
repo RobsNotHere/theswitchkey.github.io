@@ -136,7 +136,7 @@ main{
 }
 .footer-swk{
   display: flex;;
-  padding: 20px 40px;
+  padding: 20px 90px;
 }
 
 blockquote,
@@ -255,7 +255,7 @@ table {
 }
 .logo-a {
   display: flex;
-  padding: 25% 15%;
+  padding: 35% 15%;
   flex-direction: column;
   align-items: center;
 }
