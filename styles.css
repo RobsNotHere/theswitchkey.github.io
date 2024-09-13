@@ -95,7 +95,7 @@ main{
 
 @media (min-width: 1020px){
   .topnav{
-    position: none;
+    display: none;
   }
   
   .global-page-nav-swk{
