@@ -68,10 +68,11 @@ main{
 }
 
 .topnav{
-  position: relative;
   overflow: hidden;
   padding: 14px 16px;
   box-shadow: 0px 1px 0px #AAAAAA;
+  display: flex;
+  flex-direction: row;
 }
 .global-page-nav-swk{
   display:none;
@@ -462,7 +463,6 @@ input[type="search"]{
   background-color: transparent;
   display: flex;
   flex-direction: row;
-  margin-right:50px;
   border:none;
   justify-content: flex-start;
   background-image: url(assets/search.svg);
