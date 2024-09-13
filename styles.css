@@ -78,6 +78,16 @@ main{
   box-shadow: 1px 1px 2px 0px #AAAAAA;
 }
 
+.hamburger-page-nav{
+  display:none;
+  background-color: white;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  transition: width .15s cubic-bezier(0,.57,.21,.99), box-shadow .15s cubic-bezier(0,.57,.21,.99);
+}
+
+
 @media (min-width: 1020px){
   .global-page-nav-swk{
     display: flex;
@@ -86,6 +96,12 @@ main{
     min-width: 320px;
     visibility: visible;
   }
+  .hamburger-page-nav{
+    display:flex;
+    height: 100vh;
+    visibility: visible;
+  }
+  
 }
 .global-start-page-steps-swk{
   display:none;

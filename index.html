@@ -73,18 +73,70 @@
                                   <li><a href="#settings">Settings</a></li>
                                   <li><a href="#logout">Logout</a></li>
                               </ul>
-              <fieldset>
+                            </fieldset>
           </div> 
       </div>  
     <div class="page-content">
     <div class="dashboard-page-app-display">
       <div class="home-display-top-header">
       <div class="home-display-top-header-welcome-user-id" id="#welcomeuser"><h1>Welcome back, Nicolas</h1></div>
-      <div class="hamburger-button">
-        <svg focusable="false" viewBox="0 0 24px 24px"style="height:24px; width24px;">
-          <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z">
-          </path>
-        </svg>
+      <div class="hamburger-page-nav">
+        
+        <div class="pnav">
+          <a class="icon-button" href="index.html">
+              <img src="assets/3d-square 1.svg" class="home-icon">Home
+          </a>
+          <a class="icon-button" href="create-a-project.html">
+              <img src= "assets/message-question 1.svg" class="project-icon">Create new project
+          </a>
+          <button class="icon-button" onclick="myFunction()">
+            <img src ="assets/DSquare1.svg" class="menu-icon">VideoNow
+            <i class="sub-menu-icon"></i>
+        </button>
+            <ul class="sub-menu-content"id="myDropdown">
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#tasks">Tasks</a></li>
+                <li><a href="#reports">Reports</a></li>
+            </ul>
+        <button class="icon-button" onclick="myFunction()"">
+            <img src="assets/DSquare1.svg" class="menu-icon">Design Edge Asia
+                <i class="sub-menu-icon"></i>
+        </button>
+            <ul class="sub-menu-content"id= "myDropdown">
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#tasks">Tasks</a></li>
+                <li><a href="#reports">Reports</a></li>
+            </ul>
+        <button class="icon-button" onclick="myFunction()"">
+            <img src="assets/DSquare1.svg" class="menu-icon">ZoomBox
+                <i class="sub-menu-icon"></i>
+        </button>
+            <ul class="sub-menu-content" id= "myDropdown">
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#tasks">Tasks</a></li>
+                <li><a href="#reports">Reports</a></li>
+            </ul>
+      </div>
+      <div class="footer-user-info">
+              <fieldset>
+                  <div class id="user-avatar" loading="lazy"></div>
+                  <div class id="user-details"><b href= "#username">Nicolas</b>
+                      <p style= "margin:0" href="#email">swk@youremail.com</p></div>    
+                          <button class="button" style= "border:none">
+                              <a href="Sign In/sign-in.html"><i class="sub-menu-icon"></i></a>
+                          </button> 
+                              <ul class="u-content">
+                                  <li><a href="user-profolio.html">Profile</a></li>
+                                  <li><a href="#settings">Settings</a></li>
+                                  <li><a href="#logout">Logout</a></li>
+                              </ul>
+              </fieldset>
+              <div class="hamburger-button" onclick="myburgerLink()"><svg focusable="false" viewBox="0 0 24px 24px"style="height:24px; width24px;">
+                <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z">
+                </path>
+              </svg>
+            </div>
+          </div> 
         </div>
         <div class="home-display-grad" >
           <h2>Ready for a new project?</h2>
