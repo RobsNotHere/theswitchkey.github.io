@@ -10,7 +10,7 @@
   max-width: 1070px;
 }
 .home-display-top-header-welcome-user-id{
-  display:none;
+  display:flex;
 }
 
 .home-display-grad {

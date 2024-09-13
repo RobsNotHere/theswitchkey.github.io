@@ -67,6 +67,11 @@ main{
 }
 }
 
+.topnav{
+  position: relative;
+  overflow: hidden;
+  padding: 14px 16px;
+}
 .global-page-nav-swk{
   display:none;
   background-color: white;
@@ -87,6 +92,10 @@ main{
 }
 
 @media (min-width: 1020px){
+  .topnav{
+    position: none;
+  }
+  
   .global-page-nav-swk{
     display: flex;
     width: 100%; 
