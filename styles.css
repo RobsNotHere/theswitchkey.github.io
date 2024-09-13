@@ -69,7 +69,7 @@ main{
 
 .topnav{
   overflow: hidden;
-  padding: 14px 16px;
+  padding: 8px 16px;
   box-shadow: 0px 1px 0px #AAAAAA;
   display: flex;
   flex-direction: row;
