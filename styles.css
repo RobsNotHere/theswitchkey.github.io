@@ -77,10 +77,13 @@ main{
   transition: width .15s cubic-bezier(0,.57,.21,.99), box-shadow .15s cubic-bezier(0,.57,.21,.99);
   box-shadow: 1px 1px 2px 0px #AAAAAA;
 }
-.hamburger-page-nav{
+#hamburger-page-nav{
   display:none;
+  background-color: white;
+  flex-direction: column;
   height: 100vh;
-  visibility: visible;
+  overflow: hidden;
+  transition: width .15s cubic-bezier(0,.57,.21,.99), box-shadow .15s cubic-bezier(0,.57,.21,.99);
 }
 
 @media (min-width: 1020px){
@@ -91,13 +94,8 @@ main{
     min-width: 320px;
     visibility: visible;
   }
-  .hamburger-page-nav{
-    display:none;
-    background-color: white;
-    flex-direction: column;
-    height: 100vh;
-    overflow: hidden;
-    transition: width .15s cubic-bezier(0,.57,.21,.99), box-shadow .15s cubic-bezier(0,.57,.21,.99);
+  #hamburger-page-nav{
+    display: none;
   }
   
 }
