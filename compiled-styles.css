@@ -80,6 +80,7 @@
   column-gap: 4px;
   justify-items: center;
   text-align: center;
+  line-height: 2rem;
 }
 @media (min-width:1020px){
   .dashboard-new-user-tt-recent-projects-this-is-where-your-recent-projects-would-show-up-trectangle-35bg-rectangle {
@@ -150,7 +151,7 @@
 
 .dashboard-new-user-it-looks-like-you-have-not-set-up-your-portfolio {
   margin: 30px 0;
-  column-gap: 4px;
+  line-height: 2rem;
 
 }
 
