@@ -464,9 +464,6 @@ input[type="search"]{
   flex-direction: row;
   border:none;
   justify-content: flex-start;
-  background-image: url(assets/search.svg);
-  background-repeat: no-repeat;
-  background-size: 16px;
   background-position: right;
   padding: 8px 40px 8px 8px;
 }
