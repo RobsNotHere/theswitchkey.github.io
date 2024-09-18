@@ -268,11 +268,9 @@
 }
 .dashboard-design-aproject-checkbox-input-app-container{
   display:flex;
-  width: 100%;
   padding: 20px 0px;
   font-weight: 460;
-  color: #797979;
-  column-gap: 45px;
+  justify-content: space-between;
 }
 .dashboard-design-aproject-checkbox-input-box-sup-app-container{
   display:flex;
