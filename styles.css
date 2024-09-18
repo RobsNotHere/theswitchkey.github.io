@@ -142,7 +142,7 @@ main{
 .overview-nav12 {
   display: flex;
   justify-content: space-between;
-  padding-right: 60%;
+  padding-right: 50%;
 }
 
 @media (min-width:420px){
@@ -154,6 +154,7 @@ main{
   }
   .overview-nav12 {
     letter-spacing: -0.01em;
+    padding: 0;
   }
 }
 
