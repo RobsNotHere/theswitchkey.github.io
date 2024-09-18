@@ -71,7 +71,6 @@
   display: flex;
   z-index: 1;
   justify-content: flex-start;
-  column-gap: 115px;
   letter-spacing: -0.01em;
 }
 .dashboard-new-user-new-project-no-projects-has-been-made {
