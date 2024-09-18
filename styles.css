@@ -326,7 +326,7 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  padding: 4px 16px;
+  padding: 4px 18px;
   min-width: none;
   max-width: fit-content;
   -webkit-appearance: button;
