@@ -272,6 +272,10 @@
   font-weight: 460;
   justify-content: space-between;
 }
+.dash-basic{
+  display: inherit;
+}
+
 .dashboard-design-aproject-checkbox-input-box-sup-app-container{
   display:flex;
   font-weight: normal;
