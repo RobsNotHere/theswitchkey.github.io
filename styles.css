@@ -139,7 +139,7 @@ main{
   column-gap: 16%;
   letter-spacing: -0.01em;
 }
-.overview-nav1 {
+.overview-nav12 {
   display: flex;
   justify-content: flex-start;
   letter-spacing: -0.01em;
@@ -152,7 +152,7 @@ main{
     justify-content: center;
     letter-spacing: -0.01em;
   }
-  .overview-nav1 {
+  .overview-nav12 {
     letter-spacing: -0.01em;
   }
 }
@@ -356,7 +356,7 @@ input[type="checkbox"]{
     padding: 0%;
     line-height: 2;
 }
-.onv-button1{
+.onv-button12{
   display: inherit;
   flex-shrink: 0;
   border: none;
@@ -368,7 +368,7 @@ input[type="checkbox"]{
   width: 100%;
 
 }
-.onv-button1 a{
+.onv-button12 a{
   border: none;
   padding: 0%;
   line-height: 2;
@@ -392,7 +392,7 @@ input[type="checkbox"]{
   align-items: center;
   padding: 0%;
 }
-.onv-button1 a{
+.onv-button12 a{
   border: none;
   padding: 0%;
   line-height: 2;
