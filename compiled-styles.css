@@ -105,7 +105,6 @@
   display: grid;
   z-index: 1;
   color: rgba(0, 0, 0, 1);
-  font-weight: 600;
 }
 
 .dashboard-new-user-t-rectangle-1069setup-your-portfolio {
@@ -165,8 +164,6 @@
   padding-top: 7px;
   padding-right: 3px;
   letter-spacing: 0em;
-  font-weight: 600;
-  font-size: 20px;
 }
 
 .dashboard-new-user-join-aproject-to-view-recent-activities {
@@ -269,7 +266,6 @@
 .dashboard-design-aproject-checkbox-input-app-container{
   display:flex;
   padding: 10px 0px;
-  font-weight: 460;
   justify-content: space-between;
 }
 .dash-basic{
@@ -278,7 +274,6 @@
 
 .dashboard-design-aproject-checkbox-input-box-sup-app-container{
   display:flex;
-  font-weight: normal;
   color: #797979;
   text-indent: 0.4em;
 }

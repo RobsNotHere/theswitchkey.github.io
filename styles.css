@@ -655,6 +655,9 @@ legend {
   padding: 0;
 }
 
+label{
+  font-weight: 500;
+}
 
 ul,
 menu {
