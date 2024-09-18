@@ -248,14 +248,10 @@
   flex-direction: row;
 }
 .dashboard-design-container{
-  flex-direction: row;
   margin: 4px 0;
-  
-  
 }
 .dashboard-design-app-sub-container{
   display:inherit;
-  flex-direction: column;
   width: 100%;
   padding: 20px 0px;
 }
