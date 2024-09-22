@@ -68,12 +68,11 @@ main{
 }
 
 .topnav{
-  overflow: hidden;
-  padding: 8px 16px;
   box-shadow: 0px 1px 0px #AAAAAA;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-around;
 }
 .global-page-nav-swk{
   display:none;
@@ -89,8 +88,7 @@ main{
   display:none;
   background-color: white;
   flex-direction: column;
-  height: 100vh;
-  overflow: hidden;
+  height: 100%;
   transition: width .15s cubic-bezier(0,.57,.21,.99), box-shadow .15s cubic-bezier(0,.57,.21,.99);
 }
 
