@@ -73,7 +73,7 @@ main{
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 4px 12px;
+  padding: 4px 14px;
 }
 .global-page-nav-swk{
   display:none;
