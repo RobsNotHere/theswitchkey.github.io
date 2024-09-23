@@ -696,6 +696,7 @@ ol {
   list-style: circle;
   margin: 0;
   padding: 0;
+  line-height: 2.2;
 }
 
 dialog {
