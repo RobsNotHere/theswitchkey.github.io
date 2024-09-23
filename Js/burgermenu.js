@@ -3,12 +3,7 @@ function myburgerLink() {
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {
+    document.getElementById("logo-icon")
     x.style.display = "block";
   } 
-  var y = document.getElementById("logo-icon");
-  if (y.style.display === "none") {
-    y.style.display = "block";
-  } else {
-    y.style.display = "none";
-  }
 }
