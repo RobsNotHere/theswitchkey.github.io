@@ -497,12 +497,11 @@ button:hover {
 }
 
 .icon-button {
-  display: inherit;
+  display: flex;
   position: relative;
   align-items: center;
   column-gap: 16px;
   padding: 18px 0px;
-  text-align: left;
   color: #9197B3;
   border:0;
 }
