@@ -203,8 +203,6 @@
 }
 
 .inanav{
-  display: flex;
-  align-content: space-between;
   flex-direction: inherit;
   background-color:white;
  
