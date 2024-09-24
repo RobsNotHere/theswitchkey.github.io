@@ -510,6 +510,7 @@ button:hover {
   font-size: larger;
   padding: 18px 0px;
   color: #9197B3;
+  border: none;
 }
 .icon-button a{
   display: inherit;
