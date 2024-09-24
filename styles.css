@@ -94,7 +94,7 @@ main{
   .topnav{
     display: none;
   }
-  
+
   .global-page-nav-swk{
     display: flex;
     width: 100%; 
@@ -102,7 +102,6 @@ main{
     min-width: 320px;
     visibility: visible;
   }
-  
 }
 .global-start-page-steps-swk{
   display:none;
