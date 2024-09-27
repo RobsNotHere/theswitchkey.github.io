@@ -223,7 +223,7 @@
   background-color: rgb(251, 251, 251);
   border-radius: 8px;
   box-shadow:2px 2px 4px 0px #AAAAAA;
-  padding: 16px;
+  padding: 16px 22px;
 }
 :where([autocomplete=verticode]) {
   --otp-digits: 6;
