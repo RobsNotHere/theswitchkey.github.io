@@ -225,6 +225,7 @@
   border-radius: 8px;
   box-shadow:2px 2px 4px 0px #AAAAAA;
   padding: 16px 22px;
+  flex-wrap: wrap;
 }
 :where([autocomplete=verticode]) {
   --otp-digits: 6;
