@@ -280,6 +280,12 @@
   padding: 10px 0px;
   justify-content: space-between;
 }
+
+#dashboard-design-aproject-avatar-container{
+  display:flex;
+  justify-content: space-between;
+  float: inline-end;
+}
 .dash-basic{
   display: block;
 }
