@@ -164,13 +164,15 @@
           <hr></hr>
           <div class="dashboard-design-app-sub-container">
             <label>Avatar</label>
-            <div class ="dashboard-design-avatar-container">
+            <div class="dashboard-design-container">
+            <div class="dashboard-design-avatar-container">
               <div class id="user-avatar2"></div>
               <div class id="user-avatar1"></div>
               <div class id="user-avatar"></div>
               <div class="dash-basic">
                 <button class="btn-b1">Change Avatar</button>
                 <p>Image should be xx size of 200px X 200px</p>
+              </div>
             </div>
           </div>
           </div>
@@ -198,7 +200,41 @@
       </div>
       </div>
           <hr></hr>
-          <h3>My Profolio</h3>
+          <h3>Your background</h3>
+          <div class="dashboard-design-container"></div>
+            <div class="dashboard-design-app-sub-container">
+           <div class="dashboard-design-app-sub-container">
+            <label>Specialty</label>
+          <select id="dd" oninput="this.className = ''" name="userspeciality">
+            <option value="Speciality1">Electrical Engineer</option>
+            <option value="Speciality2">E2</option>
+            <option value="Speciality3">E3</option>
+            <option value="Speciality4">E4</option>
+            <option value="Speciality5">E5</option>
+          </div>
+          <div class="dash-basic">
+            <label>Bio</label>
+            <textarea id="dd" rows="4" cols="50" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."></textarea>
+          </div>
+          <div class="dashboard-design-app-sub-container">
+            <label>Your Website</label>
+        <p ><input placeholder="www.yourwebsite.com" oninput="this.className = ''" name="userwebsite"></p>
+        </div>
+        </div>
+        <div class="dashboard-design-frame-container">
+          <label>Preview</label>
+        <div class="dashboard-mini-portfolio-frame">
+          <fieldset>
+          <div class id="user-avatar" loading="lazy"></div>
+          <div class id="user-details"><b href= "#username">Nicolas</b>
+            <p style= "margin:0" href="#role">Electric Engineer</p></div>
+          </fieldset>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            <a href="www.website.com">www.website.com</a>
+        </div>
+      </div>
+      </div>
         </div>
         </div>
         </div>
