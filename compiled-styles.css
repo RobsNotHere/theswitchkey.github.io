@@ -268,8 +268,12 @@
 }
 .dashboard-design-app-sub-container{
   display:block;
-  width: 100%;
+  width: 45%;
   padding: 20px 0px;
+}
+.dashboard-design-frame-container{
+  display:block;
+  padding: 40px 0px;
 }
 .dashboard-design-app-sub-container-text-steps{
   display:inherit;
