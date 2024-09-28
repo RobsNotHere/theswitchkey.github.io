@@ -284,7 +284,8 @@
 #dashboard-design-aproject-avatar-container{
   display:flex;
   justify-content: space-between;
-  float: inline-end;
+  flex-direction: row;
+  align-items: flex-end;
 }
 .dash-basic{
   display: block;
