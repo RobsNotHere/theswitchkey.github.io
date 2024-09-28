@@ -274,8 +274,9 @@
   width: 100%;
   padding: 20px 0px;
 }
-.dashboard-design-app-sub-container p{ 
+.dashboard-design-app-sub-container-ea{ 
   width:45%;
+  padding: 20px 0px;
 }
 .dashboard-design-frame-container{
   display:block;
