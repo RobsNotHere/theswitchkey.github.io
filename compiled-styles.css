@@ -417,6 +417,29 @@ input {
   background-image:url(assets/square-sizing.png);
 }
 
+
+#user-avatar1 {
+  flex-shrink: 0;
+  height: 44px;
+  width: 44px;
+  background-size: 44px;
+  object-position: center;
+  object-fit: cover;
+  border-radius: 50%;
+  background-image:url(assets/square-sizing.png);
+}
+
+#user-avatar2 {
+  flex-shrink: 0;
+  height: 74px;
+  width: 74px;
+  background-size: 74px;
+  object-position: center;
+  object-fit: cover;
+  border-radius: 50%;
+  background-image:url(assets/square-sizing.png);
+}
+
 .u-content{
   display: none;
   position: absolute;
