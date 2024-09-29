@@ -11,6 +11,7 @@
 }
 .home-display-top-header-welcome-user-id{
   display:flex;
+  margin-bottom: 80px;
 }
 
 .home-display-grad {
@@ -40,6 +41,7 @@
 @media (min-width:1020px){
   .home-display-top-header-welcome-user-id{
     display:flex;
+    margin-bottom:120px;
   }
   .home-display-grad {
     display: flex;
