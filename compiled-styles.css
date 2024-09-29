@@ -301,6 +301,10 @@
   display: block;
   width:100%;
 }
+#account-red-link{
+  color: #b14e3a;
+  padding: 20px 0px;
+}
 
 .dashboard-design-aproject-checkbox-input-box-sup-app-container{
   display:flex;

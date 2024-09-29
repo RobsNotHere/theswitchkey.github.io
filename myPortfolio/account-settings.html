@@ -134,7 +134,7 @@
       <div class="dashboard-page-app-display">
         <div class="home-display-top-header">
         <div class="home-display-top-header-welcome-user-id" id="#welcomeuser"><h1>Welcome back, Nicolas</h1></div>
-          <h3>My Profolio</h3>
+          <h3>Settings</h3>
           <nav class="overview-nav12" >
             <button class="onv-button12">
             <a href= "user-profolio.html">User Portfolio</a></button>
@@ -146,44 +146,29 @@
                 <a href= "myPortfolio/user-profolio.html">Settings</a></button>
            </nav>
            <hr></hr>
-           <div class="dashboard-design-aproject-checkbox-input-app-container"><label>Your Vacancy Status</label><label class="btn-switch">
-            <input type="checkbox" checked>
-            <span class="btn-slider round"></span>
-           </label></div>
-           <hr></hr>
            <div class="dashboard-design-app-sub-container>">
-            <label>Enter your preferred company(ies) contacts and info</label>
+            <h3>Industrial Designer</h3>
            </div>
            <div class="dashboard-design-app-sub-container">
-            <label>Company Name</label>
-          <p><input placeholder="Enter company name..." oninput="this.className = ''" name="companyname"></p>
-          </div>
-          <div class="dash-basic">
-            <label>Registration Number</label>
-            <p><input placeholder="Enter..." oninput="this.className = ''" name="company-resgistration-number"></p>
-          </div>
-          
-          <div class="dashboard-design-container">
-             <div class="dashboard-design-app-sub-container">
-              <label>Company Address</label>
-          <p><input placeholder="Vancouver, BC" oninput="this.className = ''" name="company-address"></p>
+            <label>Password</label>
+          <p><input type="hidden" placeholder="" oninput="this.className = ''" name="userpassword"></p>
+          <a href="#" style="font-weight:bold;color: #008FFF;opacity: 75%;">Change Password</a>
           </div>
           <div class="dashboard-design-app-sub-container">
-            <label>Phone Number</label>
-        <p><input placeholder="Vancouver, BC" oninput="this.className = ''" name="company-address"></p>
-        </div>
-        </div>
-        <div class="dashboard-design-container">
-          <div class="dash-basic">
-          <label>Company Website</label>
-          <p><input placeholder="Pacific Time - 8:00 UTC−07:00" oninput="this.className = ''" name="timezone"></p>
+            <label>User Preferences</label>
+            <input type="radio"><label>Notifications via email</label>
+            <input type="radio"><label>Business related emails</label>
+            <input type="radio"><label>Feedback emails</label>
+            <input type="radio"><label>News and offers</label>
           </div>
-          <div class="dash-basic">
-            <label>EIN</label>
-            <p><input placeholder="Pacific Time - 8:00 UTC−07:00" oninput="this.className = ''" name="timezone"></p>
-            </div>
-        </div>
           <hr></hr>
+          <h3>Your deposit and payment information</h3>
+          <button class="btn" style="background-color: rgb(0, 41, 255); color: white; border: none; margin:30px 0;" type="button" id="prevBtn">Connect to Stripe</button>
+          <hr></hr>
+          <h3>Delete Account</h3>
+          <div class id="account-red-link">
+            <a href="#">Click here to delete your account</a>
+          </div>
         </div>
       </div>
     </div>
