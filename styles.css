@@ -137,6 +137,7 @@ main{
   display: flex;
   justify-content: space-between;
   margin-right: 40%;
+  margin-top: 12px;
 }
 
 @media (min-width:420px){
