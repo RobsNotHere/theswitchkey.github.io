@@ -430,6 +430,7 @@ input {
 .landing-page-pexels-photo {
  display: flex;
  flex-direction: column;
+ padding: 230px 69px;
 }
 
 .landing-page-switch-key {
