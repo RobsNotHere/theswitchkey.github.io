@@ -661,13 +661,17 @@ h4{
 }
 
 figure,
-pre,
 p {
   margin:0;
   font-family: inherit;
   color: #6D6D6D;
 }
-
+pre{
+  margin:0;
+  font-family: inherit;
+  color: #6D6D6D;
+  font-size: 10px;
+}
 fieldset {
   margin: 0;
   padding: 0;
