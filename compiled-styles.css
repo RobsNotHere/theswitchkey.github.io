@@ -294,7 +294,7 @@
 .dashboard-design-aproject-checkbox-input-app-container{
   display:flex;
   padding: 10px 0px;
-  justify-content: space-between;
+  column-gap: 24px;
 }
 
 .dashboard-design-avatar-container{
