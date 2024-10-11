@@ -161,6 +161,7 @@ main{
 .footer-swk{
   display: flex;;
   padding: 20px 90px;
+  align-items: center;
 }
 
 blockquote,
