@@ -86,7 +86,7 @@ main{
   display:none;
   background-color: white;
   margin: 20px;
-  height: 100%;
+  height: 100vh;
   transition: width .15s cubic-bezier(0,.57,.21,.99), box-shadow .15s cubic-bezier(0,.57,.21,.99);
 }
 
@@ -513,6 +513,7 @@ button:hover {
   padding: 18px 0px;
   color: #9197B3;
   border: none;
+  align-items: center;
 }
 .icon-button a{
   display: inherit;
