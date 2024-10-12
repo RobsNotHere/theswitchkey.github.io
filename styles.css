@@ -350,19 +350,21 @@ input[type="checkbox"]{
     color: white;
     border: none;
     align-items: center;
-    padding: 0%;
     line-height: 2;
+}
+.onv-border{
+  border-width: thin;
+    border-radius: 100%;
+    padding: 4px;
 }
 .onv-button12{
   display: inherit;
   flex-shrink: 0;
   border: none;
-  padding: 0%;
   line-height: 2;
 }
 .onv-button a{
-  display: none;
-  width: 100%;
+  font-size:12px
 
 }
 .onv-button12 a{
