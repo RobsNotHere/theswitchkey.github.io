@@ -509,9 +509,8 @@ button:hover {
 }
 .mobile-icon-button{
   display: flex;
-  font-size: larger;
+  font-size: large;
   padding: 18px 0px;
-  color: #9197B3;
   border: none;
   align-items: center;
 }
