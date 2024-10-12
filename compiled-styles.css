@@ -438,6 +438,10 @@ input {
   width: 16px;
   background-image: url(assets/ChevronRight1.svg);
 }
+.fix-icon{
+  height: 24px;
+  width:24px;
+}
 
 #user-details{
   display: flex;
