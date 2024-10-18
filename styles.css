@@ -425,7 +425,7 @@ button:hover {
   -webkit-appearance: button;
   border-color: #5932EA;
   color: #000000;
-  padding: 12px;
+  padding: 10px 24px;
   background-color: #0029FF; 
   color: white;
   border: none;
