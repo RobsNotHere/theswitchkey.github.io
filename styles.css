@@ -417,8 +417,17 @@ button:hover {
   background-color: #7E69FF;
   min-width: min-content;
   max-width: unset;
-  padding: 12px;
 
+}
+
+.btn-blue{
+  -webkit-appearance: button;
+  border-color: #5932EA;
+  color: #000000;
+  padding: 12px;
+  background-color: #0029FF; 
+  color: white;
+  border: none;
 }
 .btn-b244{
   -webkit-appearance: button;

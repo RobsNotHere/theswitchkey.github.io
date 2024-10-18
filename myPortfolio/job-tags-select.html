@@ -1223,305 +1223,175 @@
     </style>
   <body style="margin: 0px">
     <!-- This only removes default margins in our renderer iframe, you may remove -->
-    <div id="firejet-html-app">
-      <section class="dashboard-portfolio-flow-tags-dashboard-portfolio-flow-tags" >
-        <h1 class="dashboard-portfolio-flow-tags-welcome-back-nicolas">
-          Welcome back, Nicolas
-        </h1>
-        <h2 class="dashboard-portfolio-flow-tags-job-tags">Job Tags</h2>
-        <nav class="overview-nav12" >
-          <button class="onv-button12">
-          <a href= "../myPortfolio/user-portfolio.html">User Portfolio</a></button>
-          <button class="onv-button12">
-           <a href= "../myPortfolio/company-settings.html">Company</a></button>
-           <button class="onv-button12">
-            <a href= "#">Tags and Availability</a></button>
+    <div class="global-route-container">
+      <div class="app-route-style-container">
+      <div class= "global-page-nav-swk">
+       <div class="logo"> 
+              <button class="logo-icon" onclick="location.href='../Landing page home/landing-home.html';">
+              </button>
+          </div>
+          <div class="pnav">
+              <a class="icon-button" href="../index.html">
+                  <img src="../assets/3d-square 1.svg" class="home-icon">Home
+              </a>
+              <a class="icon-button" href="../create-a-project.html">
+                  <img src= "../assets/message-question 1.svg" class="project-icon">Create new project
+              </a>
+          </div>
+      <div class ="nav-swk-menu">
+          <div class="snav">     
+              <input type="search" placeholder="Search Projects...">            
+                  <button class="icon-button" onclick="myFunction()">
+                      <img src ="../assets/DSquare1.svg" class="menu-icon">VideoNow
+                      <i class="sub-menu-icon"></i>
+                  </button>
+                      <ul class="sub-menu-content"id= "myDropdown">
+                          <li><a href="#overview">Overview</a></li>
+                          <li><a href="#tasks">Tasks</a></li>
+                          <li><a href="#reports">Reports</a></li>
+                      </ul>
+                  <button class="icon-button" onclick="myFunction()">
+                      <img src="../assets/DSquare1.svg" class="menu-icon">Design Edge Asia
+                          <i class="sub-menu-icon"></i>
+                  </button>
+                      <ul class="sub-menu-content"id= "myDropdown">
+                          <li><a href="#overview">Overview</a></li>
+                          <li><a href="#tasks">Tasks</a></li>
+                          <li><a href="#reports">Reports</a></li>
+                      </ul>
+                  <button class="icon-button" onclick="myFunction()">
+                      <img src="../assets/DSquare1.svg" class="menu-icon">ZoomBox
+                          <i class="sub-menu-icon"></i>
+                  </button>
+                      <ul class="sub-menu-content" id= "myDropdown">
+                          <li><a href="#overview">Overview</a></li>
+                          <li><a href="#tasks">Tasks</a></li>
+                          <li><a href="#reports">Reports</a></li>
+                      </ul>
+          </div>    
+          <script src="../Js/navdropdown.js" async></script>
+      </div>
+          <div class="footer-user-info">
+              <fieldset>
+                  <div class id="user-avatar" loading="lazy"></div>
+                  <div class id="user-details"><b href= "#username">Nicolas</b>
+                      <p style= "margin:0" href="#email">swk@youremail.com</p></div>    
+                          <button class="button" style= "border:none">
+                              <a href="../Sign In/sign-in.html"><i class="sub-menu-icon"></i></a>
+                          </button> 
+                              <ul class="u-content">
+                                  <li><a href="user-profolio.html">Profile</a></li>
+                                  <li><a href="#settings">Settings</a></li>
+                                  <li><a href="#logout">Logout</a></li>
+                              </ul>
+              <fieldset>
+          </div> 
+      </div>  
+    <div class="page-content">  
+        <div class="topnav">
+            <button class="logo-icon" onclick="location.href='Landing page home/landing-home.html';">
+            </button>
+            <button class="hamburger-button" onclick="myburgerLink()"><svg focusable="false" viewBox="0 0 24px 24px" class="fix-icon">
+              <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z">
+              </path>
+            </svg>
+          </button> 
+          <div id ="hamburger-page-nav">
+            <div class="inanav">
+              <a class="mobile-icon-button" href="index.html">Home
+              </a>
+              <a class="mobile-icon-button" href="create-a-project.html">Create new project
+              </a>
+              <button class="mobile-icon-button" onclick="myFunction()">VideoNow
+                <i class="sub-menu-icon"></i>
+            </button>
+                <ul class="sub-menu-content"id="myDropdown">
+                    <li><a href="#overview">Overview</a></li>
+                    <li><a href="#tasks">Tasks</a></li>
+                    <li><a href="#reports">Reports</a></li>
+                </ul>
+            <button class="mobile-icon-button" onclick="myFunction()"">Design Edge Asia
+                    <i class="sub-menu-icon"></i>
+            </button>
+                <ul class="sub-menu-content"id= "myDropdown">
+                    <li><a href="#overview">Overview</a></li>
+                    <li><a href="#tasks">Tasks</a></li>
+                    <li><a href="#reports">Reports</a></li>
+                </ul>
+            <button class="mobile-icon-button" onclick="myFunction()"">ZoomBox
+                    <i class="sub-menu-icon"></i>
+            </button>
+                <ul class="sub-menu-content" id= "myDropdown">
+                    <li><a href="#overview">Overview</a></li>
+                    <li><a href="#tasks">Tasks</a></li>
+                    <li><a href="#reports">Reports</a></li>
+                </ul>
+                <button class="mobile-icon-button" onclick="myFunction()"">Profile
+                  <i class="sub-menu-icon"></i></a>
+                </button> 
+                  <ul class="u-content">
+                    <li><a href="user-profolio.html">Profile</a></li>
+                    <li><a href="#settings">Settings</a></li>
+                    <li><a href="#logout">Logout</a></li>
+                  </ul>
+          </div>
+              </div> 
+            <script src="Js/burgermenu.js" async></script>
+            <script src="Js/navdropdown.js" async></script>
+          </div>
+      <div class="dashboard-page-app-display">
+        <div class id="profilesettings">
+        <div class="home-display-top-header-welcome-user-id" id="#welcomeuser"><h1>Welcome back, Nicolas</h1></div>
+          <h3>My Portfolio</h3>
+          <nav class="overview-nav12" >
             <button class="onv-button12">
-              <a href= "../myPortfolio/account-settings.html">Settings</a></button>
-         </nav>
-        <object
-          data="/assets/Line2.svg"
-          class="dashboard-portfolio-flow-tags-line"
-        ></object>
-        <section class="dashboard-portfolio-flow-tags-t-industrial-engineer">
-          <h2 class="dashboard-portfolio-flow-tags-industrial-engineer">
-            Industrial Engineer
-          </h2>
-        </section>
-        <section class="dashboard-portfolio-flow-tags-tt-industry-category">
-          <section class="dashboard-portfolio-flow-tags-t-industry-category">
-            <label>Industry Category</label
-            ><span class="dashboard-portfolio-flow-tags-component">*</span>
-          </section>
-        </section>
-        <section class="dashboard-portfolio-flow-tags-t-rectangle">
-          <section class="dashboard-portfolio-flow-tags-rectangle">
-            <label class="dashboard-portfolio-flow-tags-consumer-electronics" >Consumer Electronics</label
-            ><button class="dashboard-portfolio-flow-tags-t-polygon">
-              <object
-                data="/assets/Polygon.svg"
-                class="dashboard-portfolio-flow-tags-polygon"
-              ></object>
-            </button>
-          </section>
-        </section>
-        <h2 class="dashboard-portfolio-flow-tags-sub-industry-tags">
-          Sub-industry Tags
-        </h2>
-        <section class="dashboard-portfolio-flow-tags-t-rectangle-112rectangle-131rectangle-118rectangle" >
-          <section class="dashboard-portfolio-flow-tags-rectangle-1">
-            <section class="dashboard-portfolio-flow-tags-rectangle-2">
-              <section class="dashboard-portfolio-flow-tags-rectangle-3">
-                <label class="dashboard-portfolio-flow-tags-television-and-media" >Television and Media</label
-                >
-              </section>
-            </section>
-          </section>
-          <section class="dashboard-portfolio-flow-tags-rectangle-4">
-            <label class="dashboard-portfolio-flow-tags-audio-systems" >Audio Systems</label
-            >
-          </section>
-          <section class="dashboard-portfolio-flow-tags-rectangle-5">
-            <label class="dashboard-portfolio-flow-tags-gaming-consoles" >Gaming Consoles</label
-            >
-          </section>
-          <section class="dashboard-portfolio-flow-tags-rectangle-6">
-            <label class="dashboard-portfolio-flow-tags-electronic-toys" >Electronic toys</label
-            >
-          </section>
-        </section>
-        <section class="dashboard-portfolio-flow-tags-t-rectangle-1">
-          <button class="dashboard-portfolio-flow-tags-rectangle-7">
-            <label class="dashboard-portfolio-flow-tags-others">Others +</label>
-          </button>
-        </section>
-        <h2 class="dashboard-portfolio-flow-tags-product-tags">Product Tags</h2>
-        <section class="dashboard-portfolio-flow-tags-ttt-rectangle-123rectangle-129trectangle-126rectangle-130trectangle-127rectangle" >
-          <section class="dashboard-portfolio-flow-tags-tt-rectangle-123rectangle-129trectangle-126rectangle" >
-            <section class="dashboard-portfolio-flow-tags-t-rectangle-123rectangle" >
-              <section class="dashboard-portfolio-flow-tags-rectangle-8">
-                <section class="dashboard-portfolio-flow-tags-rectangle-9">
-                  <section class="dashboard-portfolio-flow-tags-rectangle-10">
-                    <label class="dashboard-portfolio-flow-tags-handheld-consoles" >Handheld Consoles</label
-                    >
-                  </section>
-                </section>
-              </section>
-              <section class="dashboard-portfolio-flow-tags-rectangle-11">
-                <label class="dashboard-portfolio-flow-tags-graphic-design" >Graphic Design</label
-                >
-              </section>
-            </section>
-            <section class="dashboard-portfolio-flow-tags-t-rectangle-126rectangle" >
-              <section class="dashboard-portfolio-flow-tags-rectangle-12">
-                <label class="dashboard-portfolio-flow-tags-television-consoles" >Television Consoles</label
-                >
-              </section>
-              <button class="dashboard-portfolio-flow-tags-rectangle-13">
-                <label class="dashboard-portfolio-flow-tags-others-1" >Others +</label
-                >
-              </button>
-            </section>
-          </section>
-          <section class="dashboard-portfolio-flow-tags-t-rectangle-127rectangle" >
-            <section class="dashboard-portfolio-flow-tags-rectangle-14">
-              <label class="dashboard-portfolio-flow-tags-graphic-design-1" >Graphic Design</label
-              >
-            </section>
-            <section class="dashboard-portfolio-flow-tags-rectangle-15">
-              <label class="dashboard-portfolio-flow-tags-graphic-design-2" >Graphic Design</label
-              >
-            </section>
-          </section>
-        </section>
-        <h2 class="dashboard-portfolio-flow-tags-timezone-availability">
-          Timezone Availability
-        </h2>
-        <section class="dashboard-portfolio-flow-tags-ttt-rectangle-241rectangle-248rectangle" >
-          <section class="dashboard-portfolio-flow-tags-tt-rectangle-241rectangle-248rectangle" >
-            <section class="dashboard-portfolio-flow-tags-t-rectangle-241rectangle" >
-              <button class="dashboard-portfolio-flow-tags-pacific-time">
-                Pacific Time - 8:00</button
-              ><button class="dashboard-portfolio-flow-tags-add-new-timeslot">
-                Add new timeslot +
-              </button>
-            </section>
-            <button class="dashboard-portfolio-flow-tags-pacific-time-1">
-              Pacific Time - 18:00
-            </button>
-          </section>
-        </section>
-        <section class="dashboard-portfolio-flow-tags-rectangle-16">
-          <section class="dashboard-portfolio-flow-tags-t-rectangle-244ttjuly-ttbg-line-34line-35t2023ttbg-line-36line-37ttbg-rectangle-245polygon" >
-            <button class="dashboard-portfolio-flow-tags-rectangle-17">
-              <object
-                data="/assets/Polygon1.svg"
-                class="dashboard-portfolio-flow-tags-polygon-1"
-              ></object>
-            </button>
-            <section class="dashboard-portfolio-flow-tags-tt-july-ttbg-line-34line" >
-              <section class="dashboard-portfolio-flow-tags-t-july-ttbg-line-34line" >
-                <label class="dashboard-portfolio-flow-tags-july">July</label
-                ><button class="dashboard-portfolio-flow-tags-t-bg-line-34line">
-                  <object
-                    data="/assets/Line3.svg"
-                    class="dashboard-portfolio-flow-tags-line-1"
-                  ></object>
-                </button>
-              </section>
-            </section>
-            <section class="dashboard-portfolio-flow-tags-t-2023ttbg-line-36line" >
-              <label>2023</label
-              ><button class="dashboard-portfolio-flow-tags-t-bg-line-36line">
-                <object
-                  data="/assets/Line3.svg"
-                  class="dashboard-portfolio-flow-tags-line-2"
-                ></object>
-              </button>
-            </section>
-            <section class="dashboard-portfolio-flow-tags-tt-bg-rectangle-245polygon" >
-              <button class="dashboard-portfolio-flow-tags-t-bg-rectangle-245polygon" >
-                <section class="dashboard-portfolio-flow-tags-wrapper">
-                  <section class="dashboard-portfolio-flow-tags-bg-rectangle" ></section>
-                </section>
-                <object
-                  data="/assets/Polygon2.svg"
-                  class="dashboard-portfolio-flow-tags-polygon-2"
-                ></object>
-              </button>
-            </section>
-          </section>
-          <section class="dashboard-portfolio-flow-tags-ttt-sun-tmon-tue-twed-tthu-tfri-tsat" >
-            <section class="dashboard-portfolio-flow-tags-t-sun-tmon-tue-twed-tthu-tfri-tsat" >
-              <label>Sun</label>
-              <section class="dashboard-portfolio-flow-tags-t-mon">
-                <label class="dashboard-portfolio-flow-tags-mon">Mon</label>
-              </section>
-              <label>Tue</label>
-              <section class="dashboard-portfolio-flow-tags-t-wed">
-                <label>Wed</label>
-              </section>
-              <section class="dashboard-portfolio-flow-tags-t-thu">
-                <label class="dashboard-portfolio-flow-tags-thu">Thu</label>
-              </section>
-              <section class="dashboard-portfolio-flow-tags-t-fri">
-                <label class="dashboard-portfolio-flow-tags-fri">Fri</label>
-              </section>
-              <section class="dashboard-portfolio-flow-tags-t-sat">
-                <label class="dashboard-portfolio-flow-tags-sat">Sat</label>
-              </section>
-            </section>
-          </section>
-          <section class="dashboard-portfolio-flow-tags-tttt-jul-2023ttt282828282828t282828282828t282828282828ttt282828tframe-18tframe-42tframe-43tt28282828t28282828t28282828t282828282828rectangle" >
-            <section class="dashboard-portfolio-flow-tags-ttt-jul-2023ttt282828282828t282828282828t282828282828ttt282828tframe-18tframe-42tframe-43tt28282828t28282828t28282828t" >
-              <section class="dashboard-portfolio-flow-tags-tt-jul-2023ttt282828282828t282828282828t282828282828ttt282828tframe-18tframe-42tframe-43tt28282828t28282828t28282828t" >
-                <label class="dashboard-portfolio-flow-tags-jul" >Jul 2023</label
-                >
-                <section class="dashboard-portfolio-flow-tags-tt-t282828282828t282828282828t282828282828ttt282828tframe-18tframe-42tframe-43tt28282828t28282828t28282828t" >
-                  <section class="dashboard-portfolio-flow-tags-t-t282828282828t282828282828t" >
-                    <section class="dashboard-portfolio-flow-tags-t">
-                      <label class="dashboard-portfolio-flow-tags-component-2" >26</label
-                      ><label class="dashboard-portfolio-flow-tags-component-3" >2</label
-                      ><label class="dashboard-portfolio-flow-tags-component-4" >9</label
-                      ><label class="dashboard-portfolio-flow-tags-component-5" >17</label
-                      ><label class="dashboard-portfolio-flow-tags-component-6" >24</label
-                      ><label class="dashboard-portfolio-flow-tags-component-7" >31</label
-                      >
-                    </section>
-                    <section class="dashboard-portfolio-flow-tags-t-1">
-                      <label class="dashboard-portfolio-flow-tags-component-8" >27</label
-                      ><label class="dashboard-portfolio-flow-tags-component-9" >3</label
-                      ><label class="dashboard-portfolio-flow-tags-component-10" >10</label
-                      ><label class="dashboard-portfolio-flow-tags-component-11" >18</label
-                      ><label class="dashboard-portfolio-flow-tags-component-12" >25</label
-                      ><label class="dashboard-portfolio-flow-tags-component-13" >1</label
-                      >
-                    </section>
-                    <section class="dashboard-portfolio-flow-tags-t-2">
-                      <label class="dashboard-portfolio-flow-tags-component-14" >28</label
-                      ><label class="dashboard-portfolio-flow-tags-component-15" >4</label
-                      ><label class="dashboard-portfolio-flow-tags-component-16" >12</label
-                      ><label class="dashboard-portfolio-flow-tags-component-17" >19</label
-                      ><label class="dashboard-portfolio-flow-tags-component-18" >26</label
-                      ><label class="dashboard-portfolio-flow-tags-component-19" >2</label
-                      >
-                    </section>
-                  </section>
-                  <section class="dashboard-portfolio-flow-tags-tt-t282828tframe-18tframe-42tframe-43tt28282828t28282828t28282828t" >
-                    <section class="dashboard-portfolio-flow-tags-t-t282828tframe-18tframe-42tframe-43tt28282828t28282828t" >
-                      <section class="dashboard-portfolio-flow-tags-t-3">
-                        <label>29</label><label>30</label><label>31</label>
-                      </section>
-                      <section class="dashboard-portfolio-flow-tags-t-frame-18tframe-42tframe" >
-                        <button class="dashboard-portfolio-flow-tags-frame">
-                          <label class="dashboard-portfolio-flow-tags-component-23" >5</label
-                          >
-                        </button>
-                        <section class="dashboard-portfolio-flow-tags-t-frame">
-                          <label class="dashboard-portfolio-flow-tags-component-24" >6</label
-                          >
-                        </section>
-                        <section class="dashboard-portfolio-flow-tags-t-frame-1" >
-                          <button class="dashboard-portfolio-flow-tags-frame-1">
-                            <label class="dashboard-portfolio-flow-tags-component-25" >7</label
-                            >
-                          </button>
-                        </section>
-                      </section>
-                      <section class="dashboard-portfolio-flow-tags-t-t28282828t28282828t" >
-                        <section class="dashboard-portfolio-flow-tags-t-4">
-                          <label class="dashboard-portfolio-flow-tags-component-26" >13</label
-                          ><label class="dashboard-portfolio-flow-tags-component-27" >20</label
-                          ><label class="dashboard-portfolio-flow-tags-component-28" >27</label
-                          ><label class="dashboard-portfolio-flow-tags-component-29" >3</label
-                          >
-                        </section>
-                        <section class="dashboard-portfolio-flow-tags-t-5">
-                          <label class="dashboard-portfolio-flow-tags-component-30" >14</label
-                          ><label class="dashboard-portfolio-flow-tags-component-31" >21</label
-                          ><label class="dashboard-portfolio-flow-tags-component-32" >28</label
-                          ><label class="dashboard-portfolio-flow-tags-component-33" >4</label
-                          >
-                        </section>
-                        <section class="dashboard-portfolio-flow-tags-t-6">
-                          <label class="dashboard-portfolio-flow-tags-component-34" >15</label
-                          ><label class="dashboard-portfolio-flow-tags-component-35" >22</label
-                          ><label class="dashboard-portfolio-flow-tags-component-36" >29</label
-                          ><label class="dashboard-portfolio-flow-tags-component-37" >5</label
-                          >
-                        </section>
-                      </section>
-                    </section>
-                    <section class="dashboard-portfolio-flow-tags-t-7">
-                      <label class="dashboard-portfolio-flow-tags-component-38" >1</label
-                      ><label class="dashboard-portfolio-flow-tags-component-39" >8</label
-                      ><label class="dashboard-portfolio-flow-tags-component-40" >16</label
-                      ><label class="dashboard-portfolio-flow-tags-component-41" >23</label
-                      ><label class="dashboard-portfolio-flow-tags-component-42" >30</label
-                      ><label class="dashboard-portfolio-flow-tags-component-43" >6</label
-                      >
-                    </section>
-                  </section>
-                </section>
-              </section>
-            </section>
-            <section class="dashboard-portfolio-flow-tags-rectangle-18">
-              <section class="dashboard-portfolio-flow-tags-ttt-bg-line-30line">
-                <section class="dashboard-portfolio-flow-tags-tt-bg-line-30line" >
-                  <section class="dashboard-portfolio-flow-tags-t-bg-line-30line" >
-                    <object
-                      data="/assets/Line4.svg"
-                      class="dashboard-portfolio-flow-tags-line-3"
-                    ></object>
-                  </section>
-                </section>
-              </section>
-              <section class="dashboard-portfolio-flow-tags-rectangle-19" ></section>
-            </section>
-          </section>
-        </section>
-      </section>
+            <a href= "../myPortfolio/user-portfolio.html">User Portfolio</a></button>
+            <button class="onv-button12">
+             <a href= "../myPortfolio/company-settings.html">Company</a></button>
+             <button class="onv-button12">
+              <a href= "#">Tags and Availability</a></button>
+              <button class="onv-button12">
+                <a href= "../myPortfolio/account-settings.html">Settings</a></button>
+           </nav>
+           <hr></hr>
+           <div class="dashboard-design-app-sub-container>">
+            <label>Enter your preferred company(ies) contacts and info</label>
+           </div>
+           <div class="dashboard-design-app-sub-container">
+            <label>Company Name</label>
+          <p><input placeholder="Enter company name..." oninput="this.className = ''" name="companyname"></p>
+          </div>
+          <div class="dash-basic">
+            <label>Registration Number</label>
+            <p><input placeholder="Enter..." oninput="this.className = ''" name="company-resgistration-number"></p>
+          </div>
+          
+          <div class="dashboard-design-container">
+             <div class="dashboard-design-app-sub-container">
+              <label>Company Address</label>
+          <p><input placeholder="Vancouver, BC" oninput="this.className = ''" name="company-address"></p>
+          </div>
+          <div class="dashboard-design-app-sub-container">
+            <label>Phone Number</label>
+        <p><input placeholder="Vancouver, BC" oninput="this.className = ''" name="company-address"></p>
+        </div>
+        </div>
+        <div class="dashboard-design-container">
+          <div class="dash-basic">
+          <label>Company Website</label>
+          <p><input placeholder="Pacific Time - 8:00 UTC−07:00" oninput="this.className = ''" name="timezone"></p>
+          </div>
+          <div class="dash-basic">
+            <label>EIN</label>
+            <p><input placeholder="Pacific Time - 8:00 UTC−07:00" oninput="this.className = ''" name="timezone"></p>
+            </div>
+        </div>
+          <hr></hr>
+        </div>
+      </div>
     </div>
+  </div>
+</div>
   </body>
 </html>
 
