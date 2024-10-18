@@ -418,9 +418,14 @@ button:hover {
   background-color: #7E69FF;
   min-width: min-content;
   max-width: unset;
-
 }
-
+.btn-job-category-tags{
+  -webkit-appearance: button;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 18px;
+  color: #9ca3af;
+}
 .btn-blue{
   -webkit-appearance: button;
   border-color: #5932EA;
