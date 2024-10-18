@@ -309,9 +309,9 @@
 }
 .dashboard-design-input-app-container{
   display:flex;
-  padding: 10px 0px;
+  padding: 10px 0;
   justify-content: space-between;
-  align-content: space-between
+  
 }
 
 .dashboard-design-avatar-container{
@@ -368,6 +368,7 @@ input.invalid {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-content: space-between;
 }
 
 
