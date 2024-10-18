@@ -443,10 +443,17 @@ input:focus + btn-job-category-tags{
 
 .btn-blue{
   -webkit-appearance: button;
-  border-color: #5932EA;
   color: #000000;
   padding: 10px 24px;
   background-color: #0029FF; 
+  color: white;
+  border: none;
+}
+.btn-red{
+  -webkit-appearance: button;
+  color: #000000;
+  padding: 10px 24px;
+  background-color: red; 
   color: white;
   border: none;
 }

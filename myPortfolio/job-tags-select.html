@@ -1240,7 +1240,9 @@
           </div>
       <div class ="nav-swk-menu">
           <div class="snav">     
-              <input type="search" placeholder="Search Projects...">            
+              <input type="search" placeholder="Search Projects...">   
+              
+              <!-- myFunction() dropdown content onclick -->
                   <button class="icon-button" onclick="myFunction()">
                       <img src ="../assets/DSquare1.svg" class="menu-icon">VideoNow
                       <i class="sub-menu-icon"></i>
@@ -1288,6 +1290,8 @@
           </div> 
       </div>  
     <div class="page-content">  
+      
+      <!-- display hidden on desktop -->
         <div class="topnav">
             <button class="logo-icon" onclick="location.href='Landing page home/landing-home.html';">
             </button>
@@ -1360,6 +1364,8 @@
            <div class="dashboard-design-app-sub-container">
             <div class="dashboard-design-app-sub-container">
             <label>Industry Category</label>
+
+            <!-- this selection will figure out which tags to display -->
             <select id="user-Industry-Category" oninput="this.className = ''" name="userspeciality">
               <option value="Speciality1">Consumer Electronics</option>
               <option value="Speciality2">E2</option>
@@ -1368,6 +1374,8 @@
               <option value="Speciality5">E5</option>
               </select>
             </div>
+
+            <!-- fetch data from sub-industry-tags -->
            <div id="dashboard-design-sub-industry-tags">
             <label>Sub-Industry-Tag</label>
             <div class="dashboard-design-tags-container">
@@ -1375,19 +1383,38 @@
               <button class="btn-job-category-tags">Audio Systems</button>
               <button class="btn-job-category-tags">Gaming Consoles</button>
               <button class="btn-job-category-tags">Electronic toys</button>
+              
+              <!-- adds more tags -->
               <button id="btn-job-add-tags">Others +</button>
+              <!--This button current has no added function -->
             </div>
            </div>
+
+           <!-- fetch data from product-tags -->
            <div id="dashboard-design-product-tags">
             <label>Product-Tag</label>
             <div class="dashboard-design-tags-container">
               <button class="btn-job-category-tags">Handheld Consoles</button>
               <button class="btn-job-category-tags">Television Consoles</button>
               <button class="btn-job-category-tags">Graphic Design</button>
+              
+              <!-- adds more tags -->
               <button id="btn-job-add-tags">Others +</button>
+              <!--This button current has no added function -->
             </div>
            </div>
-          <hr></hr>
+           <div class="dashboard-design-app-sub-container">
+            <div class="dashboard-design-tags-container">
+              <button class="btn-blue">Pacific Time - 8:00</button>
+              <button class="btn-blue">Pacific Time - 18:00</button>
+            </div>
+
+            <!-- btn red button adds new time slot-->
+            <button class="btn-red">Add new timeslot +</button>
+            <!-- This button current has no added function-->
+           </div>
+
+            <!-- This mock-up version does not contain a calender -->
         </div>
       </div>
     </div>
@@ -1396,14 +1423,3 @@
   </body>
 </html>
 
-<!--
-  This component was generated from Figma with FireJet. 
-  Learn more at https://www.firejet.io
-  
-  README:
-  The output code may look slightly different when copied to your codebase. To fix this:
-  1. Include the necessary fonts. The required fonts are imported from index.html
-  2. Include the global styles. They can be found in styles.css
-  
-  Note: Step 2 is not required for tailwind.css output
--->
