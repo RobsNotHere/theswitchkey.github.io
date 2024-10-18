@@ -426,6 +426,12 @@ button:hover {
   border-radius: 18px;
   color: #9ca3af;
 }
+input:focus + btn-job-category-tags{
+  background-color: #7E69FF;
+  color: white;
+  border: none;
+}
+
 .btn-blue{
   -webkit-appearance: button;
   border-color: #5932EA;
