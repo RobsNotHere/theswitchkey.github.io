@@ -324,6 +324,10 @@
   display: block;
   width:100%;
 }
+.dashboard-design-space-tags-container{
+  display: flex;
+
+}
 #account-red-link{
   color: #b14e3a;
   padding: 20px 0px;
