@@ -295,12 +295,12 @@
 }
 #dashboard-design-sub-industry-tags{
   display:block;
-  width: 50%;
+  width: 70%;
   padding: 20px 0px;
 }
 #dashboard-design-product-tags{
   display:block;
-  width: 50%;
+  width: 70%;
 }
 .dashboard-design-aproject-checkbox-input-app-container{
   display:flex;
@@ -373,7 +373,7 @@ input.invalid {
   flex-direction: row;
   justify-content: space-between;
 }
-.dashboard-design-ratio-container{
+.dashboard-design-radio-container{
   display: flex;
   flex-direction: row;
   text-indent: 0.4em;
