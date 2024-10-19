@@ -342,7 +342,7 @@ input[type="checkbox"]{
   color: inherit;
   width: auto;
 }
-input[type="ratio"]{
+input[type="radio"]{
   color: inherit;
   width: auto;
 }
