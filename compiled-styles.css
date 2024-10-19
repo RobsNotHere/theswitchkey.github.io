@@ -295,12 +295,12 @@
 }
 #dashboard-design-sub-industry-tags{
   display:block;
-  width: 75%;
+  width: 50%;
   padding: 20px 0px;
 }
 #dashboard-design-product-tags{
   display:block;
-  width: 75%;
+  width: 50%;
 }
 .dashboard-design-aproject-checkbox-input-app-container{
   display:flex;
@@ -372,9 +372,13 @@ input.invalid {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-content: space-between;
 }
-
+.dashboard-design-ratio-container{
+  display: flex;
+  flex-direction: row;
+  row-gap: 8px;
+  width: auto;
+}
 
 .dashboard-design-aproject-ttttttt-project-info-dx{
   padding-top: 25px;
