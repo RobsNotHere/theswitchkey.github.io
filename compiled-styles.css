@@ -372,7 +372,6 @@ input.invalid {
   display: flex;
   flex-direction: row;
   column-gap: 12px;
-  row-gap: 12px;
 }
 .dashboard-design-radio-container{
   display: flex;
