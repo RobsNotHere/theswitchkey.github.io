@@ -342,6 +342,10 @@ input[type="checkbox"]{
   color: inherit;
   width: auto;
 }
+input[type="ratio"]{
+  color: inherit;
+  width: auto;
+}
 
   .onv-button{
     display: inherit;
