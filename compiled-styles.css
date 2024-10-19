@@ -376,9 +376,8 @@ input.invalid {
 .dashboard-design-ratio-container{
   display: flex;
   flex-direction: row;
-  column-gap: 20px;
-  width: auto;
-  margin: 0 20px;
+  text-indent: 0.4em;
+  margin: 12px 0;
 }
 
 .dashboard-design-aproject-ttttttt-project-info-dx{
