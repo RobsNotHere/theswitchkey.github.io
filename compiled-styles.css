@@ -265,6 +265,14 @@
 
 }
 
+.wide-slide{
+  flex-grow: 1;
+  width: fit-content;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url(public/assets/pexels-photo.jpeg) ;
+}
+
 .dashboard-design-container-steps-row{
   flex-direction: row;
 }
