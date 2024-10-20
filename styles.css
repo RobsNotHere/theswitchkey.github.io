@@ -416,6 +416,11 @@ button:hover {
   border-width: 2px;
   color: #000000;
 }
+.btn-0 {
+  padding:18px 14px;
+  border-radius: 20px;
+  background-color: #7E69FF;
+}
 .btn-b1{
   -webkit-appearance: button;
   color: white;
