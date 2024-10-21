@@ -276,6 +276,9 @@
   flex-direction: column;
 
 }
+.wide-header {
+  max-width: 1247px;
+ }
 
 .dashboard-design-container-steps-row{
   flex-direction: row;
