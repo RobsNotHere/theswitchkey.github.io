@@ -427,6 +427,7 @@ button:hover {
   padding:18px 14px;
   border-radius: 20px;
   background-color: #7E69FF;
+  color: white;
 }
 .btn-b1{
   -webkit-appearance: button;
