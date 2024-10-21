@@ -275,6 +275,7 @@
   display: flex;
   padding: 330px 0;
   flex-direction: column;
+  color: white;
 }
 
 .dashboard-design-container-steps-row{
