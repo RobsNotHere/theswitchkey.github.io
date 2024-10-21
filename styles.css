@@ -651,7 +651,6 @@ blockquote,
 dl,
 dd,
 h1,
-h5,
 h6{
   margin-top: 22px;
   font-size: 22px;
@@ -699,6 +698,17 @@ h3{
   font-family: inherit;
   color: rgb(0, 0, 0);
   justify-self: flex-start;
+}
+h4{
+  margin: 0;
+  font-family: inherit;
+  color: #6D6D6D;
+}
+h5{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  font-family: inherit;
 }
 
 @media (min-width:600px){
