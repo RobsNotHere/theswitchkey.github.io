@@ -271,9 +271,8 @@
   background-repeat: no-repeat;
   background-size: 100%;
   background-image: url(Landing-page-home/public/assets/pexels-photo.jpeg) ;
-  align-items: center;
   display: flex;
-  padding: 330px 0;
+  padding: 230px 0;
   flex-direction: column;
   color: white;
 }
