@@ -152,6 +152,7 @@ main{
     z-index: 1;
     justify-content: space-evenly;
     letter-spacing: -0.01em;
+    align-items: center;
   }
   .overview-nav12 {
     letter-spacing: -0.01em;
