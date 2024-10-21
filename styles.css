@@ -428,6 +428,7 @@ button:hover {
   border-radius: 20px;
   background-color: #7E69FF;
   color: white;
+  border:none;
 }
 .btn-b1{
   -webkit-appearance: button;
