@@ -705,7 +705,7 @@ h4{
   color: #6D6D6D;
 }
 h5{
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   color: white;
   font-family: inherit;
@@ -719,7 +719,7 @@ h3{
   font-family: inherit;
   color: rgb(0, 0, 0);
   justify-self: flex-start;
-}
+
 }
 
 h4{
@@ -729,7 +729,13 @@ h4{
   font-family: inherit;
   color: #6D6D6D;
 }
-
+h5{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  font-family: inherit;
+}
+}
 figure,
 p {
   margin:0;
