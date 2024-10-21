@@ -426,14 +426,14 @@ button:hover {
 .btn-0 {
   padding:14px 24px;
   border-radius: 20px;
-  background-color: #7E69FF;
+  background-color: #5932EA;
   color: white;
   border:none;
 }
 .btn-b1{
   -webkit-appearance: button;
   color: white;
-  background-color: #7E69FF;
+  background-color: #5932EA;
   min-width: min-content;
   max-width: unset;
 }
