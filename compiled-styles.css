@@ -211,11 +211,11 @@
 }
 #signInForm {
   margin: auto;
-  min-width: 350px;
+  min-width: 600px;
 }
 #signUpForm{
   margin: auto;
-  min-width: 350px;
+  min-width: 600px;
 }
 
 .dashboard-mini-portfolio-frame {
@@ -364,15 +364,15 @@ input.invalid {
   #regForm {
   margin: auto;
   padding: 0px 69px;
-  min-width: 50%;
-  max-width: 100%;
+  min-width: 600px;
+  max-width: 1200px;
   position: relative;
 }
 #profilesettings{
   margin: auto;
   padding: 0px 69px;
-  min-width: 50%;
-  max-width: 100%;;
+  min-width: 600px;
+  max-width: 1200px;;
 }
 .dashboard-design-container{
   display: flex;

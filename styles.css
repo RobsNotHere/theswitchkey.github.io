@@ -146,7 +146,7 @@ main{
   margin-top: 24px;
 }
 
-@media (min-width:420px){
+@media (min-width:600px){
   .overview-nav {
     margin-top: 3%;
     z-index: 1;
@@ -394,7 +394,7 @@ input[type="radio" i]{
   float: right;
 }
 
-@media (min-width: 760px){
+@media (min-width: 600px){
 .onv-button a{
   display: inherit;
   flex-shrink: 0;
@@ -659,7 +659,7 @@ h6{
   font-family: inherit;
   color: inherit;
 }
-@media (min-width:760px){
+@media (min-width:600px){
   blockquote,
 dl,
 dd,
@@ -682,7 +682,7 @@ h2 {
   color: white;
 }
 
-@media (min-width:760px){
+@media (min-width:600px){
 h2{
   font-size: 32px;
   font-weight: 400;
@@ -701,7 +701,7 @@ h3{
   justify-self: flex-start;
 }
 
-@media (min-width:760px){
+@media (min-width:600px){
 h3{
   font-size: 20px;
   font-weight: bold;
