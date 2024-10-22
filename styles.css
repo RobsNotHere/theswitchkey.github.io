@@ -662,9 +662,7 @@ h6{
   blockquote,
 dl,
 dd,
-h1,
-h5,
-h6{
+h1{
   margin-top: 35px;
   font-size: 24px;
   font-weight: 500;
@@ -710,6 +708,12 @@ h5{
   color: white;
   font-family: inherit;
 }
+h6{
+  font-size: 44px;
+  font-weight: bold;
+  color: white;
+  font-family: inherit;
+}
 
 @media (min-width:600px){
 h3{
@@ -731,6 +735,12 @@ h4{
 }
 h5{
   font-size: 20px;
+  font-weight: bold;
+  color: white;
+  font-family: inherit;
+}
+h6{
+  font-size: 48px;
   font-weight: bold;
   color: white;
   font-family: inherit;
