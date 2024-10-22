@@ -268,7 +268,7 @@
 .wide-slide{
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 100%;
+  background-size: cover;
   background-image: url(Landing-page-home/public/assets/pexels-photo.jpeg) ;
 
 }
