@@ -614,20 +614,18 @@ button:hover {
   line-height: 2.5;
 }
 
+ul .sub-menu-content li a{
+  display: block
+}
+
 .custom-select{
   display: flex;
-  border: none;
-  padding:0;
-  justify-content: space-between;
 }
 
 .custom-select select{
-  display: none;
-}
-
-
-ul .sub-menu-content li a{
-  display: block
+  border: none;
+  padding:0;
+  justify-content: space-between;
 }
 
 input[type="search"]{
