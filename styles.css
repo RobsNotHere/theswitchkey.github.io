@@ -621,6 +621,11 @@ button:hover {
   justify-content: space-between;
 }
 
+.custom-select select{
+  display: none;
+}
+
+
 ul .sub-menu-content li a{
   display: block
 }
