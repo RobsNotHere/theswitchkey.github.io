@@ -462,21 +462,21 @@ input:focus + btn-job-category-tags{
 
 .btn-blue{
   -webkit-appearance: button;
-  padding: 8px 20px;
+  padding: 6px 32px;
   background-color: #0029FF; 
   color: white;
   border: none;
 }
 .btn-red{
   -webkit-appearance: button;
-  padding: 8px 20px;
+  padding: 6px 32px;
   background-color: red; 
   color: white;
   border: none;
 }
 .bottom-button-border{
   overflow:auto; 
-  margin: 30px 0;
+  margin: 20px 0;
   display:flex;
   justify-content: space-between;
   float: inline-end;
