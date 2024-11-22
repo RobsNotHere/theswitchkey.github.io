@@ -475,12 +475,17 @@ input:focus + btn-job-category-tags{
   border: none;
 }
 .bottom-button-border{
-  overflow:auto; 
-  margin: 20px 0;
   display:flex;
   justify-content: space-between;
+  
+}
+
+.web-footer{
+  overflow:auto; 
+  margin: 20px 0;
   float: inline-end;
 }
+
 
 .btn-b244{
   -webkit-appearance: button;
