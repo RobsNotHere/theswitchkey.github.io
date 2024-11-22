@@ -394,12 +394,6 @@ input[type="radio" i]{
   float: right;
 }
 
-.bottom-button-border{
-  overflow:auto; 
-  margin-bottom: 30px;
-  display:flex;
-  justify-content: space-between;
-}
 
 @media (min-width: 600px){
 .onv-button a{
@@ -468,19 +462,26 @@ input:focus + btn-job-category-tags{
 
 .btn-blue{
   -webkit-appearance: button;
-  padding: 10px 24px;
+  padding: 8px 20px;
   background-color: #0029FF; 
   color: white;
   border: none;
 }
 .btn-red{
   -webkit-appearance: button;
-  color: #000000;
-  padding: 10px 24px;
+  padding: 8px 20px;
   background-color: red; 
   color: white;
   border: none;
 }
+.bottom-button-border{
+  overflow:auto; 
+  margin-bottom: 30px;
+  display:flex;
+  justify-content: space-between;
+  float: right;
+}
+
 .btn-b244{
   -webkit-appearance: button;
   border-color: black;
