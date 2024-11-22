@@ -462,14 +462,14 @@ input:focus + btn-job-category-tags{
 
 .btn-blue{
   -webkit-appearance: button;
-  padding: 6px 32px;
+  padding: 8px 32px;
   background-color: #0029FF; 
   color: white;
   border: none;
 }
 .btn-red{
   -webkit-appearance: button;
-  padding: 6px 32px;
+  padding: 8px 32px;
   background-color: red; 
   color: white;
   border: none;
