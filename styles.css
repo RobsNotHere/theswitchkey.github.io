@@ -468,7 +468,6 @@ input:focus + btn-job-category-tags{
 
 .btn-blue{
   -webkit-appearance: button;
-  color: #000000;
   padding: 10px 24px;
   background-color: #0029FF; 
   color: white;
