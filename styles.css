@@ -614,6 +614,13 @@ button:hover {
   line-height: 2.5;
 }
 
+.custom-select{
+  display: flex;
+  border: none;
+  padding:0;
+  justify-content: space-between;
+}
+
 ul .sub-menu-content li a{
   display: block
 }
