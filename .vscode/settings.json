@@ -1,4 +1,6 @@
 {
     "prettier.bracketSameLine": true,
-    "prettier.enableDebugLogs": true
+    "prettier.enableDebugLogs": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "notebook.defaultFormatter": "esbenp.prettier-vscode"
 }
