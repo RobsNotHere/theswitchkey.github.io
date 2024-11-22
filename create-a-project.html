@@ -566,9 +566,9 @@
   <div class="tab" name="vendor-form3">
     <div class="dashboard-design-container">
       <div class="dashboard-design-app-sub-container">
-        <label>What is the material involved for the main housing?</label>
+        <label>Do you have a preferred main chip?</label>
         <input list="n-industrial-designer" name="n-industrial-designer" id="n-industrial-designer">
-        <datalist id="n-industrial-designer">
+        <datalist id="n-preferred-main-chip">
             <option value="1">1
             <option value="2">2
             <option value="3">3
@@ -577,19 +577,12 @@
         </datalist>
       </div>  
       <div class="dashboard-design-app-sub-container">
-        <label>What kind of package does it need?</label>
-        <input list="n-mechanical-designer" name="n-mechanical-designer" id="n-mechanical-designer">
-        <datalist id="n-kind-of-package">
-            <option value="1">
-            <option value="2">
-            <option value="3">
-            <option value="4">
-            <option value="5">
-        </datalist>
+        <label>If yes, attach the specifications.</label>
+        <input type="file" id="main-chip-type-file">
       </div>  
       <div class="dash-basic">
         <label>
-        Describe the spec of the display screen
+        LED effect description:
         </label>
         <textarea id=
         "#data-type-project-display-screen" rows="4" cols="50" placeholder= "Tell us a little more about your project...">
@@ -598,7 +591,7 @@
     </div>
     <div class="dashboard-design-container">
       <div class="dashboard-design-app-sub-container">
-        <label>What is the material involved for the main housing?</label>
+        <label>Any sound effects?</label>
         <input list="n-industrial-designer" name="n-industrial-designer" id="n-industrial-designer">
         <datalist id="n-industrial-designer">
             <option value="1">1
@@ -609,16 +602,42 @@
         </datalist>
       </div>  
       <div class="dashboard-design-app-sub-container">
-        <label>What kind of package does it need?</label>
-        <input list="n-mechanical-designer" name="n-mechanical-designer" id="n-mechanical-designer">
-        <datalist id="n-kind-of-package">
-            <option value="1">
-            <option value="2">
-            <option value="3">
-            <option value="4">
-            <option value="5">
-        </datalist>
+        <label>If yes, attach as an mp3 file.</label>
+        <input type="file" id="mp3-project-s-e">
       </div>  
+    </div>
+    <div class="dashboard-design-app-sub-container">
+      <label>Would you like UL, CE or both approved for the adaptor?</label>
+      <div class="dashboard-design-radio-container">
+        <input type="checkbox">
+        <label>UL</label>
+      </div>
+      <div class="dashboard-design-radio-container">
+        <input type="checkbox">
+        <label>CE</label>
+      </div>
+      <div class="dashboard-design-radio-container">
+        <input type="checkbox">
+        <label>Both</label>
+      </div>
+      <div class="dashboard-design-radio-container">
+        <label>Other</label>
+        <input list="n-other-adaptor" name="n-other-adaptor" id="n-other-adaptor">
+        <datalist id="n-other-adaptor">
+            <option value="1">1
+            <option value="2">2
+            <option value="3">3
+            <option value="4">4
+            <option value="5">5
+        </datalist>
+    </div> 
+    <div class="dash-basic">
+      <label>
+      LED effect description:
+      </label>
+      <textarea id=
+      "#data-type-project-display-screen" rows="4" cols="50" placeholder= "Tell us a little more about your project...">
+      </textarea>
     </div>
   </div>
   <div class="web-footer">
