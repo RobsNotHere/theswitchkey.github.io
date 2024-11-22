@@ -484,6 +484,7 @@ input:focus + btn-job-category-tags{
   overflow:auto; 
   margin: 20px 0;
   float: inline-end;
+  width: -webkit-fill-avaliable;
 }
 
 
