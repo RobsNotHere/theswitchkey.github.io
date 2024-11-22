@@ -394,6 +394,13 @@ input[type="radio" i]{
   float: right;
 }
 
+.bottom-button-border{
+  overflow:auto; 
+  margin-bottom: 30px;
+  display:flex;
+  justify-content: space-between;
+}
+
 @media (min-width: 600px){
 .onv-button a{
   display: inherit;
