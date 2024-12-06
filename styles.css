@@ -568,6 +568,12 @@ input:checked + .btn-slider:before {
 button:hover {
   opacity: 0.8;
 }
+.vert-card-view-details {
+  color: blueviolet;
+  background-color: lavender;
+  border-radius:12px;
+  padding: 16px;
+
 
 .icon-button {
   display: flex;
