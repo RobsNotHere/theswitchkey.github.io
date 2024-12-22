@@ -1,0 +1,80 @@
+<DOCTYPE html>
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@500">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>HTML Preview</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="compiled-styles.css">
+  </head>
+  <body>
+    <div class="global-route-container">
+    <div class="app-route-style-container">
+    <div class= "global-page-nav-swk">
+        <div class="logo"> 
+               <button class="logo-icon" onclick="location.href='Landing-page-home/landing-home.html';">
+               </button>
+           </div>
+           <div class="pnav">
+               <a class="icon-button" href="index.html">
+                   <img src="assets/3d-square 1.svg" class="home-icon">Home
+               </a>
+               <a class="icon-button" href="create-a-project.html">
+                   <img src= "assets/message-question 1.svg" class="project-icon">Create new project
+               </a>
+           </div>
+       <div class ="nav-swk-menu">
+           <div class="snav">     
+               <input type="search" placeholder="Search Projects...">            
+                   <button class="icon-button" onclick="myFunction()"">
+                       <img src ="assets/DSquare1.svg" class="menu-icon">VideoNow
+                       <i class="sub-menu-icon"></i>
+                   </button>
+                       <ul class="sub-menu-content"id= "myDropdown">
+                           <li><a href="#overview">Overview</a></li>
+                           <li><a href="#tasks">Tasks</a></li>
+                           <li><a href="#reports">Reports</a></li>
+                       </ul>
+                   <button class="icon-button" onclick="myFunction()"">
+                       <img src="assets/DSquare1.svg" class="menu-icon">Design Edge Asia
+                           <i class="sub-menu-icon"></i>
+                   </button>
+                       <ul class="sub-menu-content"id= "myDropdown">
+                           <li><a href="#overview">Overview</a></li>
+                           <li><a href="#tasks">Tasks</a></li>
+                           <li><a href="#reports">Reports</a></li>
+                       </ul>
+                   <button class="icon-button" onclick="myFunction()"">
+                       <img src="assets/DSquare1.svg" class="menu-icon">ZoomBox
+                           <i class="sub-menu-icon"></i>
+                   </button>
+                       <ul class="sub-menu-content" id= "myDropdown">
+                           <li><a href="#overview">Overview</a></li>
+                           <li><a href="#tasks">Tasks</a></li>
+                           <li><a href="#reports">Reports</a></li>
+                       </ul>
+           </div>    
+            <script src="Js/navdropdown.js" async></script>
+       </div>
+           <div class="footer-user-info">
+               <fieldset>
+                   <div class id="user-avatar" loading="lazy"></div>
+                   <div class id="user-details"><b href= "#username">Nicolas</b>
+                       <p style= "margin:0" href="#email">swk@youremail.com</p></div>    
+                           <button class="button" style= "border:none">
+                               <a href="Sign In/sign-in.html"><i class="sub-menu-icon"></i></a>
+                           </button> 
+                               <ul class="u-content">
+                                   <li><a href="user-profolio.html">Profile</a></li>
+                                   <li><a href="#settings">Settings</a></li>
+                                   <li><a href="#logout">Logout</a></li>
+                               </ul>
+               <fieldset>
+           </div> 
+       </div>
+    </div>
+    </div>
+    </body>
