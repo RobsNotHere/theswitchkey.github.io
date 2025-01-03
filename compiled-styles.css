@@ -103,6 +103,13 @@
   box-shadow:2px 2px 4px 0px #AAAAAA;
 }
 
+.smart-scheduling-smart-block{
+display: grid;
+padding: 24px 0px;
+background-color: rgb(251, 251, 251);
+border-radius: 12px;
+box-shadow:2px 2px 4px 0px #AAAAAA;
+}
 .dashboard-new-user-to-do-list {
   display: grid;
   z-index: 1;
