@@ -114,11 +114,11 @@ box-shadow:2px 2px 4px 0px #AAAAAA;
 #user-smart-scheduling-list-to-do{
   display: contents;
   z-index: 0;
-  align-content: space-between;
 }
 
 .task-board{
   display: flex;
+  margin: 24px 0px;
 }
 
 .task-list-column{
