@@ -110,6 +110,27 @@ background-color: rgb(251, 251, 251);
 border-radius: 12px;
 box-shadow:2px 2px 4px 0px #AAAAAA;
 }
+
+#user-smart-scheduling-list-to-do{
+  display: contents;
+  z-index: 0;
+  }
+
+.task-board{
+  display: flex;
+}
+
+.task-list-row{
+display: flex;
+flex-direction: column;
+column-gap: 16px;
+}
+
+#task-due-date{
+  font: lighter;
+  color: grey;
+}
+
 .dashboard-new-user-to-do-list {
   display: grid;
   z-index: 1;
