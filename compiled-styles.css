@@ -58,14 +58,18 @@
   row-gap: 14px;
   letter-spacing: 0em;
 }
+.column-smart-block{
+  display: inherit;
+  z-index: 0;
 }
-
+}
 .dashboard-home-screen-item-contents-recent-projects-filter{
   display: flex;
   z-index: 1;
   justify-content: flex-start;
   letter-spacing: -0.01em;
 }
+
 .dashboard-new-user-new-project-no-projects-has-been-made {
   display: grid;
   margin: 70px 0px;
