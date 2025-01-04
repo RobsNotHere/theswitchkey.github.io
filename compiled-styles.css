@@ -83,7 +83,6 @@ box-shadow:2px 2px 4px 0px #AAAAAA;
 }
 
 #user-smart-scheduling-list-to-do{
-  display: flex;
   z-index: 0;
   justify-items: center;
 }
