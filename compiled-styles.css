@@ -97,6 +97,14 @@ max-width: 1064px;
   display: flex;
   margin: 24px 0px;
 }
+.task-schuedling-block{
+  border-color: blueviolet;
+  background-color: white;
+  flex-direction: column;
+  padding: 10px 8px;
+  border-radius: 4px;
+  
+}
 
 .task-list-column{
 display: flex;
