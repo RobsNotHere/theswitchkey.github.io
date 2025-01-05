@@ -85,6 +85,7 @@ padding: 24px;
 background-color: rgb(251, 251, 251);
 border-radius: 12px;
 box-shadow:2px 2px 4px 0px #AAAAAA;
+max-width: 1064px;
 }
 
 #user-smart-scheduling-list-to-do{
