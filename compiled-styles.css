@@ -383,6 +383,14 @@ input.invalid {
   max-width: 1200px;
   position: relative;
 }
+
+  #lookingformatch {
+  margin: auto;
+  padding: 0px 69px;
+  min-width: 600px;
+  max-width: 1200px;
+}
+
 #profilesettings{
   margin: auto;
   padding: 0px 69px;
