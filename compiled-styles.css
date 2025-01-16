@@ -384,6 +384,13 @@ input.invalid {
   position: relative;
 }
 
+  #vendorForm {
+  margin: auto;
+  padding: 0px 69px;
+  min-width: 600px;
+  max-width: 1200px;
+}
+
   #lookingformatch {
   margin: auto;
   padding: 0px 69px;
