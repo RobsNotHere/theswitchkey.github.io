@@ -79,7 +79,8 @@
 }
 
 .column-smart-block{
-display: block;
+display: flex;
+flex-direction: column;
 padding: 24px;
 background-color: rgb(251, 251, 251);
 border-radius: 12px;
@@ -97,10 +98,7 @@ max-width: 1064px;
   margin: 24px 0px;
 }
 .task-schuedling-block{
-  display: flex;
-  border-color: blueviolet;
-  background-color: white;
-  flex-direction: column;
+  display: block;
   padding: 10px 8px;
   
 }
