@@ -80,6 +80,7 @@
 
 .column-smart-block{
 display: flex;
+flex-direction: column;
 padding: 24px;
 background-color: rgb(251, 251, 251);
 border-radius: 12px;
