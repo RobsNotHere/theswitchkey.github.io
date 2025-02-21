@@ -90,7 +90,6 @@ max-width: 1064px;
 
 .spec-header{
   display:flex;
-  float: left;
   justify-content: space-between;
 }
 
