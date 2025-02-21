@@ -88,6 +88,12 @@ box-shadow:2px 2px 4px 0px #AAAAAA;
 max-width: 1064px;
 }
 
+.spec-header{
+  display:flex;
+  float: left;
+  justify-content: space-between;
+}
+
 .int-block1{
   display: inherit;
   border: 2px;
@@ -111,7 +117,7 @@ max-width: 1064px;
   
 }
 
-.task-list-column{
+.text-column{
 display: flex;
 flex-direction: column;
 column-gap: 16px;
