@@ -16,80 +16,177 @@
     <div class="global-route-container">
       <div class="app-route-style-container">
         <div class="global-start-page-steps-swk">
-          <div class="logo-b"> 
-          <button class="logo-icon">
-          </button>
-          <div class="steps-container-column">
-            <div class="dashboard-design-container-steps-row"><span class="step"></span><div class="dashboard-design-app-sub-container-text-steps"><h4>Your Details</h4><p>Provide your name and email</p></div></div>
-            <div class="dashboard-design-container-steps-row"><span class="step"></span><div class="dashboard-design-app-sub-container-text-steps"><h4>Email Confirmation</h4><p>Provide a confirmation code</p></div></div>
-            <div class="dashboard-design-container-steps-row"><span class="step"></span><div class="dashboard-design-app-sub-container-text-steps"><h4>Choose a Password</h4><p>At least 8 characters</p></div></div>
+          <div class="logo-b">
+            <button class="logo-icon" onclick="location.href='../Landing-page-home/landing-home.html';"></button>
+            <div class="steps-container-column">
+              <div class="dashboard-design-container-steps-row">
+                <span class="step"></span>
+                <div class="dashboard-design-app-sub-container-text-steps">
+                  <h4>Your Details</h4>
+                  <p>Provide your name and email</p>
+                </div>
+              </div>
+              <div class="dashboard-design-container-steps-row">
+                <span class="step"></span>
+                <div class="dashboard-design-app-sub-container-text-steps">
+                  <h4>Email Confirmation</h4>
+                  <p>Provide a confirmation code</p>
+                </div>
+              </div>
+              <div class="dashboard-design-container-steps-row">
+                <span class="step"></span>
+                <div class="dashboard-design-app-sub-container-text-steps">
+                  <h4>Choose a Password</h4>
+                  <p>At least 8 characters</p>
+                </div>
+              </div>
+            </div>
           </div>
-         </div>
-         <div class="footer-swk">
-          <p>©SwitchLink 2024</p>
-         </div>
-      </div>
-    <div class="page-content" style="display: flex;">
+          <div class="footer-swk">
+            <p>©SwitchLink 2024</p>
+          </div>
+        </div>
+        <div class="page-content" style="display: flex">
           <div class="dashboard-page-app-display">
-          <div class="login-flow-sign-in-page-tt-sign-in-new-to-switchkey-join-now-temail-trectangle-112tpassword-trectangle-113tttrectangle-114tremember-me-tforgot-password-trectangle-36ttline-69or-line-68trectangle" >
-          <form id ="signUpForm" action="../action_page.php">
-          <div class="tab" name="your-detail">
-            <h1 style="font-size:34px; font-weight:bold; margin:0">Your Details</h1>
-            <p>Already have an account?<a href="sign-in.html" style="font-weight:bold;color: #008FFF;"> Login</a></p>
-            <div class="dashboard-design-app-sub-container">
-              <label >First Name</label>
-          <p><input placeholder="Enter your first name" oninput="this.className = ''" name="name"></p>
-          </div>
-          <div >
-            <label >Last Name</label>
-            <p><input placeholder="Enter your last name" oninput="this.className = ''" name="swkaccpassword"></p>
-          </div>
-              <div class="dashboard-design-app-sub-container">
-                <label >Email</label>
-            <p><input placeholder="Enter your email" oninput="this.className = ''" name="useremail"></p>
+            <div
+              class="login-flow-sign-in-page-tt-sign-in-new-to-switchkey-join-now-temail-trectangle-112tpassword-trectangle-113tttrectangle-114tremember-me-tforgot-password-trectangle-36ttline-69or-line-68trectangle"
+            >
+              <form id="signUpForm" action="/register" method="post">
+                <div class="tab" name="your-detail">
+                  <h1 style="font-size: 34px; font-weight: bold; margin: 0">
+                    Your Details
+                  </h1>
+                  <p>
+                    Already have an account?<a
+                      href="/signin"
+                      style="font-weight: bold; color: #008fff"
+                    >
+                      Login</a
+                    >
+                  </p>
+                  <div class="dashboard-design-app-sub-container">
+                    <label>First Name</label>
+                    <p>
+                      <input
+                        placeholder="Enter your first name"
+                        oninput="this.className = ''"
+                        name="firstName"
+                      />
+                    </p>
+                  </div>
+                  <div>
+                    <label>Last Name</label>
+                    <p>
+                      <input
+                        placeholder="Enter your last name"
+                        oninput="this.className = ''"
+                        name="lastName"
+                      />
+                    </p>
+                  </div>
+                  <div class="dashboard-design-app-sub-container">
+                    <label>Email</label>
+                    <p>
+                      <input
+                        placeholder="Enter your email"
+                        oninput="this.className = ''"
+                        name="email"
+                      />
+                    </p>
+                  </div>
+                  <div class="dash-basic">
+                    <label>Location</label>
+                    <select
+                      id="userlocation"
+                      placeholder=""
+                      oninput="this.className = ''"
+                      name="location"
+                    >
+                      <option value="canada">Canada</option>
+                      <option value="taiwan">Taiwan</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="tab" name="your-email-address">
+                  <h1 style="font-size: 34px; font-weight: bold; margin: 0">
+                    Email Confirmation
+                  </h1>
+                  <p>Provide the 6 digit passkey provided to your email</p>
+                  <input
+                    type="text"
+                    autocomplete="verticode"
+                    inputmode="numeric"
+                    maxlength="6"
+                    pattern="\d{6}"
+                  />
+                  <a href="#">Resend Vertification Code</a>
+                  <div class="dash-basic"></div>
+                </div>
+                <div class="tab" name="confirm-your-email">
+                  <h1 style="font-size: 34px; font-weight: bold; margin: 0">
+                    Email Confirmation
+                  </h1>
+                  <p>Provide the 6 digit passkey provided to your email</p>
+                  <input
+                    type="text"
+                    autocomplete="verticode"
+                    inputmode="numeric"
+                    maxlength="6"
+                    pattern="\d{6}"
+                  />
+                  <a href="#">Resend Vertification Code</a>
+                </div>
+                <div class="tab" name="confirm-your-password">
+                  <h1 style="font-size: 34px; font-weight: bold; margin: 0">
+                    Choose a Password
+                  </h1>
+                  <p>At least 8 characters</p>
+                  <div class="dashboard-design-app-sub-container">
+                    <label>Enter Password</label>
+                    <p>
+                      <input
+                        placeholder="Enter your password"
+                        oninput="this.className = ''"
+                        name="password"
+                      />
+                    </p>
+                  </div>
+                  <div class="dash-basic">
+                    <label>Confirm Password</label>
+                    <p>
+                      <input
+                        placeholder="Confirm your password"
+                        oninput="this.className = ''"
+                        name="confirmPassword"
+                      />
+                    </p>
+                  </div>
+                </div>
+                <div style="margin-top: 10%">
+                  <button
+                    class="btn-b1"
+                    type="button"
+                    id="prevBtn"
+                    onclick="nextPrev(-1)"
+                  >
+                    Prev
+                  </button>
+                  <hr />
+                  <button
+                    class="btn-b1"
+                    type="button"
+                    id="nextBtn"
+                    onclick="nextPrev(1)"
+                  >
+                    Next
+                  </button>
+                </div>
+              </form>
             </div>
-            <div class="dash-basic">
-              <label >Location</label>
-              <select id="userlocation" placeholder="" oninput="this.className = ''" name="userlocation">
-              <option value="place1">place1</option>
-              <option value="place2">place2</option>
-              <option value="place3">place3</option>
-              <option value="place4">place4</option>
-              </select>
-            </div>
-            </div>
-          <div class="tab" name="your-email-address">
-            <h1 style="font-size:34px; font-weight:bold; margin:0">Email Confirmation</h1>
-            <p>Provide the 6 digit passkey provided to your email</p>
-            <input type="text" autocomplete="verticode" inputmode="numeric" maxlength="6" pattern="\d{6}">
-            <a href="#">Resend Vertification Code</a>
-            <div class="dash-basic">
-           </div>
-        </div> 
-            <div class="tab" name="confirm-your-password">
-              <h1 style="font-size:34px; font-weight:bold; margin:0">Choose a Password</h1>
-              <p>At least 8 characters></p>
-            <div class="dashboard-design-app-sub-container">
-              <label >Enter Password</label>
-          <p><input placeholder="Enter your password" oninput="this.className = ''" name="password1"></p>
           </div>
-          <div class="dash-basic">
-          <label >Confirm Password</label>
-          <p><input placeholder="Confirm your password" oninput="this.className = ''" name="password1-confirm"></p>
         </div>
       </div>
-          <div style="margin-top: 10%;">
-            <button class="btn-blue"type="button" id="prevBtn" onclick="nextPrev(-1)">Prev</button>
-            <hr></hr>
-          <button class="btn-blue"type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
-        </div>
-          </form>
-          </div>
-        </div>   
-      </div>    
-      </div> 
-  </div>
-  <script src="../Js/formfield.js" async></script>
-  
+    </div>
+    <script src="../Js/formfield.js" async></script>
   </body>
 </html>

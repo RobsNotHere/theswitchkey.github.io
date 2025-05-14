@@ -16,48 +16,85 @@
     <div class="global-route-container">
       <div class="app-route-style-container">
         <div class="global-start-page-steps-swk">
-          <div class="logo-a"> 
-          <button class="logo-icon1"onclick="location.href='../Landing-page-home/landing-home.html';">
-          </button>
-         </div>
-         <div class="footer-swk">
-          <p>©SwitchLink 2024</p>
-         </div>
-      </div>
-    <div class="page-content" style="display: flex;">
+          <div class="logo-a">
+            <button
+              class="logo-icon1"
+              onclick="location.href='../Landing-page-home/landing-home.html';"
+            ></button>
+          </div>
+          <div class="footer-swk">
+            <p>©SwitchLink 2024</p>
+          </div>
+        </div>
+        <div class="page-content" style="display: flex">
           <div class="dashboard-page-app-display">
-          <div class="login-flow-sign-in-page-tt-sign-in-new-to-switchkey-join-now-temail-trectangle-112tpassword-trectangle-113tttrectangle-114tremember-me-tforgot-password-trectangle-36ttline-69or-line-68trectangle" >
-          <form id ="signInForm" action="../action_page.php">
-          <div class="tab" name="sign-in">
-            <h1 style="font-size:34px; font-weight:bold; margin:0">Sign In:</h1>
-            <p>New to SwitchKey?<a href="login-flow.html" style="font-weight:bold;color: #008FFF;opacity: 75%;">Join Now</a></p>
-            <div class="dashboard-design-app-sub-container">
-              <label >Email</label>
-          <p><input placeholder="Email..." oninput="this.className = ''" name="name"></p>
+            <div
+              class="login-flow-sign-in-page-tt-sign-in-new-to-switchkey-join-now-temail-trectangle-112tpassword-trectangle-113tttrectangle-114tremember-me-tforgot-password-trectangle-36ttline-69or-line-68trectangle"
+            >
+              <form id="signInForm" action="/login" method="post">
+                <div class="tab" name="sign-in">
+                  <h1 style="font-size: 34px; font-weight: bold; margin: 0">
+                    Sign In:
+                  </h1>
+                  <p>
+                    New to SwitchKey?<a
+                      href="/loginflow"
+                      style="font-weight: bold; color: #008fff; opacity: 75%"
+                      >Join Now</a
+                    >
+                  </p>
+                  <div class="dashboard-design-app-sub-container">
+                    <label>Email</label>
+                    <p>
+                      <input
+                        placeholder="Email..."
+                        oninput="this.className = ''"
+                        name="email"
+                      />
+                    </p>
+                  </div>
+                  <div class="dash-basic">
+                    <label>Password</label>
+                    <p>
+                      <input
+                        placeholder="Password..."
+                        oninput="this.className = ''"
+                        name="password"
+                      />
+                    </p>
+                  </div>
+                  <div class="dashboard-design-container">
+                    <div
+                      class="dashboard-design-aproject-checkbox-input-box-sup-app-container"
+                    >
+                      <input
+                        type="checkbox"
+                        oninput="this.className = ''"
+                        name="#"
+                      /><label>RememberMe</label>
+                    </div>
+                    <a
+                      href="#"
+                      style="
+                        font-weight: bold;
+                        color: #008fff;
+                        text-align: left;
+                      "
+                      >Forgot Password</a
+                    >
+                  </div>
+                </div>
+                <div style="margin-top: 10%">
+                  <button class="btn-b1" type="submit">Sign In</button>
+                  <a class="btn-b244" href="/loginflow">Login with LinkedIn</a>
+                </div>
+              </form>
+            </div>
           </div>
-          <div class="dash-basic">
-          <label >Password</label>
-          <p><input placeholder="Password..." oninput="this.className = ''" name="swkaccpassword"></p>
         </div>
-        <div class="dashboard-design-container">
-        <div class="dashboard-design-aproject-checkbox-input-box-sup-app-container">
-          <input type="checkbox" oninput="this.className = ''" name="#"><label>RememberMe</label>
-        </div>
-        <a href="#" style="font-weight:bold;color: #008FFF; text-align: left;">Forgot Password</a>
-        </div>
-          </div>
-          <div style="margin-top: 10%;">
-          <button class="btn-b1"type="button"><a href="../index.html">Sign In</a></button>
-          <hr></hr>
-         <button class="btn-b244"type="button"><a href="https://www.linkedin.com/login">Login with Linkedln</a></button>
-        </div>
-          </form>
-          </div>
-        </div>   
-      </div>    
-      </div> 
-  </div>
-  <script src="../Js/formfield.js" async></script>
+      </div>
+    </div>
+    <script src="../Js/formfield.js" async></script>
   </body>
 </html>
 
